@@ -73,11 +73,11 @@ class AuthConfig:
 
     MAX_TOTP_ATTEMPTS_THRESHOLD = settings.MAX_TOTP_ATTEMPTS_THRESHOLD
     TOTP_ATTEMPT_WINDOW_LIFETIME = settings.TOTP_ATTEMPT_WINDOW_LIFETIME
-    LOCKING_ACCOUNT_LIFETIME_TOTP = settings.LOCKING_ACCOUNT_LIFETIME_TOTP
 
     OTP_EXPIRES_LIFETIME = settings.OTP_EXPIRES_LIFETIME
     OTP_RENEW_WINDOW_LIFETIME = settings.OTP_RENEW_WINDOW_LIFETIME
     OTP_LENGTH = settings.OTP_LENGTH
+    TOTP_DIGITS = settings.TOTP_DIGITS
     OTP_MIXED_CASE = settings.OTP_MIXED_CASE
 
     def get_auth_config(self):
@@ -97,6 +97,7 @@ class AuthConfig:
             'OTP_EXPIRES_LIFETIME': int(string_to_timedelta(self.OTP_EXPIRES_LIFETIME).total_seconds()),
             'OTP_RENEW_WINDOW_LIFETIME': int(string_to_timedelta(self.OTP_RENEW_WINDOW_LIFETIME).total_seconds()),
             'OTP_LENGTH': self.OTP_LENGTH,
+            'TOTP_DIGITS':self.TOTP_DIGITS,
             'OTP_MIXED_CASE': self.OTP_MIXED_CASE,
         }
 

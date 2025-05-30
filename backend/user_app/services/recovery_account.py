@@ -18,7 +18,8 @@ from ..cache_key import (
 
 from ..utils import generate_code,hash_email,convert_seconds_to_minutes
 from ..tasks import send_mail_otp_forgot_password
-from rest_framework.exceptions import AuthenticationFailed
+
+from base.exceptions import AuthenticationFailed
 
 User = get_user_model()
 con = get_redis_connection("user_app")
@@ -31,7 +32,7 @@ OTP_RENEW_WINDOW_LIFETIME = auth_config['OTP_RENEW_WINDOW_LIFETIME']
 email_config = EmailConfig().get_email_service_config()
 
 
-class UserForgotPasswordService:
+class RecoveryAccountService:
     @staticmethod
     def validate_user_email(email):
         try:
@@ -44,35 +45,35 @@ class UserForgotPasswordService:
             raise AuthenticationFailed(_('An error occurred, please try again.'))
 
     @staticmethod
-    def set_email_otp_forgot_password(hashed_email, otp_code, ex=OTP_EXPIRES_LIFETIME):
+    def store_otp_code(hashed_email, otp_code, ex=OTP_EXPIRES_LIFETIME):
         key = f'{REDIS_ACCOUNT_FORGOT_PASSWORD_PREFIX}:{hashed_email}'
         con.set(key, otp_code, ex=ex)
 
     @staticmethod
-    def get_email_otp_forgot_password(hashed_email):
+    def retrieve_otp_code(hashed_email):
         key = f'{REDIS_ACCOUNT_FORGOT_PASSWORD_PREFIX}:{hashed_email}'
         return con.get(key)
 
     @staticmethod
-    def lock_email_otp_forgot_password(hashed_email, ex=OTP_RENEW_WINDOW_LIFETIME):
+    def lock_user_account(hashed_email, ex=OTP_RENEW_WINDOW_LIFETIME):
         key = f'{REDIS_ACCOUNT_FORGOT_PASSWORD_LOCK_PREFIX}:{hashed_email}'
         con.setbit(key, 0, 1)
         if ex is not None:
             con.expire(key, ex)
 
     @staticmethod
-    def get_lock_email_otp_forgot_password_ttl(hashed_email):
+    def get_account_lock_remaining_time(hashed_email):
         key = f'{REDIS_ACCOUNT_FORGOT_PASSWORD_LOCK_PREFIX}:{hashed_email}'
         return con.ttl(key)
 
     @staticmethod
-    def check_email_otp_forgot_password_is_locked(hashed_email):
+    def is_account_locked(hashed_email):
         key = f'{REDIS_ACCOUNT_FORGOT_PASSWORD_LOCK_PREFIX}:{hashed_email}'
         return con.exists(key)
 
     @staticmethod
     def set_email_forgot_password_key_encrypt(hashed_email, secret_key,
-                                              ex=OTP_EXPIRES_LIFETIME):  # ex same as func set_email_otp_forgot_password
+                                              ex=OTP_EXPIRES_LIFETIME):  # ex same as func store_otp_code
         key = f'{REDIS_ACCOUNT_FORGOT_PASSWORD_ENCRYPT_KEY_PREFIX}:{hashed_email}'
         con.set(key, secret_key, ex=ex)
 
@@ -102,15 +103,15 @@ class UserForgotPasswordService:
     @staticmethod
     def check_status_lock_email_forgot_password_otp(email) -> None:
         hashed_email = hash_email(email)
-        if UserForgotPasswordService.check_email_otp_forgot_password_is_locked(hash_email):
+        if RecoveryAccountService.is_account_locked(hash_email):
             raise AuthenticationFailed(
-                _(f'Cannot get new OTP. Please try again after {UserForgotPasswordService.get_lock_email_otp_forgot_password_ttl(hashed_email)} seconds.'))
+                _(f'Cannot get new OTP. Please try again after {RecoveryAccountService.get_account_lock_remaining_time(hashed_email)} seconds.'))
 
     @staticmethod
     def create_email_secret_key(email):
         hashed_email = hash_email(email)
         secret_key = Fernet.generate_key().decode('utf-8')
-        UserForgotPasswordService.set_email_forgot_password_key_encrypt(hashed_email, secret_key)
+        RecoveryAccountService.set_email_forgot_password_key_encrypt(hashed_email, secret_key)
         return secret_key
 
     @staticmethod
@@ -127,10 +128,10 @@ class UserForgotPasswordService:
 
     @staticmethod
     def create_email_otp_forgot_password(email, user_id, current_language_code):
-        UserForgotPasswordService.check_status_lock_email_forgot_password_otp(email)
+        RecoveryAccountService.check_status_lock_email_forgot_password_otp(email)
         hashed_email = hash_email(email)
         otp = generate_code()
-        UserForgotPasswordService.set_email_otp_forgot_password(hashed_email, otp)
+        RecoveryAccountService.store_otp_code(hashed_email, otp)
         send_mail_otp_forgot_password.delay(
             subject=_("Your Password Reset Code"),
             user_id=user_id,

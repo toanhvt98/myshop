@@ -2213,3 +2213,1382 @@ INFO 2025-05-30 09:30:55,757 autoreload 31 140361943026560 Watching for file cha
 INFO 2025-05-30 09:36:59,228 autoreload 31 140361943026560 /app/user_app/cache_key.py changed, reloading.
 INFO 2025-05-30 09:36:59,905 autoreload 33 139742828518272 Watching for file changes with StatReloader
 INFO 2025-05-30 19:46:50,682 autoreload 9 140098784811904 Watching for file changes with StatReloader
+INFO 2025-05-30 20:32:19,084 autoreload 9 140098784811904 /app/backend/settings.py changed, reloading.
+INFO 2025-05-30 20:32:19,699 autoreload 11 139952046050176 Watching for file changes with StatReloader
+INFO 2025-05-30 21:26:08,352 autoreload 9 139906138946432 Watching for file changes with StatReloader
+INFO 2025-05-30 21:26:27,292 autoreload 9 139906138946432 /app/backend/settings.py changed, reloading.
+INFO 2025-05-30 21:26:27,764 autoreload 11 140617193143168 Watching for file changes with StatReloader
+INFO 2025-05-30 21:26:35,942 autoreload 9 139769324030848 Watching for file changes with StatReloader
+INFO 2025-05-30 21:26:42,863 autoreload 9 139769324030848 /app/backend/settings.py changed, reloading.
+INFO 2025-05-30 21:26:43,429 autoreload 11 140650688543616 Watching for file changes with StatReloader
+INFO 2025-05-30 21:26:50,110 basehttp 11 140650515265216 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-30 21:26:54,392 basehttp 11 140650515265216 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-30 21:26:56,071 basehttp 11 140650515265216 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-30 21:26:57,395 log 11 140650515265216 Too Many Requests: /auth/login/
+WARNING 2025-05-30 21:26:57,396 basehttp 11 140650515265216 "POST /auth/login/ HTTP/1.1" 429 147
+WARNING 2025-05-30 21:27:15,751 log 11 140650515265216 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-30 21:27:15,752 basehttp 11 140650515265216 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+INFO 2025-05-30 21:27:38,529 basehttp 11 140650515265216 "POST /auth/verify-otp-login/ HTTP/1.1" 200 504
+WARNING 2025-05-30 21:27:42,475 log 11 140650515265216 Bad Request: /auth/verify-otp-login/
+WARNING 2025-05-30 21:27:42,475 basehttp 11 140650515265216 "POST /auth/verify-otp-login/ HTTP/1.1" 400 107
+INFO 2025-05-30 21:27:49,729 basehttp 11 140650515265216 "GET /auth/me/ HTTP/1.1" 200 504
+INFO 2025-05-30 21:27:50,850 basehttp 11 140650515265216 "GET /auth/me/ HTTP/1.1" 200 504
+INFO 2025-05-30 21:27:51,487 basehttp 11 140650515265216 "GET /auth/me/ HTTP/1.1" 200 504
+INFO 2025-05-30 21:27:52,118 basehttp 11 140650515265216 "GET /auth/me/ HTTP/1.1" 200 504
+INFO 2025-05-30 21:27:52,755 basehttp 11 140650515265216 "GET /auth/me/ HTTP/1.1" 200 504
+INFO 2025-05-30 21:28:41,493 autoreload 11 140650688543616 /app/user_app/admin.py changed, reloading.
+INFO 2025-05-30 21:28:42,437 autoreload 15 140094295280512 Watching for file changes with StatReloader
+INFO 2025-05-30 21:29:01,110 basehttp 15 140094196364992 "GET /admin/ HTTP/1.1" 200 14478
+INFO 2025-05-30 21:29:01,129 basehttp 15 140094196364992 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-05-30 21:29:01,135 basehttp 15 140094115673792 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-05-30 21:29:01,136 basehttp 15 140094098888384 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-05-30 21:29:01,136 basehttp 15 140094107281088 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-05-30 21:29:01,137 basehttp 15 140094090495680 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-05-30 21:29:01,138 basehttp 15 140094082102976 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-05-30 21:29:01,143 basehttp 15 140094082102976 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-05-30 21:29:01,180 basehttp 15 140094196364992 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-05-30 21:29:01,181 basehttp 15 140094090495680 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+WARNING 2025-05-30 21:29:01,276 log 15 140094196364992 Not Found: /favicon.ico
+WARNING 2025-05-30 21:29:01,276 basehttp 15 140094196364992 "GET /favicon.ico HTTP/1.1" 404 2447
+INFO 2025-05-30 21:29:05,532 basehttp 15 140094196364992 "GET /admin/user_app/totp/ HTTP/1.1" 200 13933
+INFO 2025-05-30 21:29:05,567 basehttp 15 140094090495680 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-05-30 21:29:05,568 basehttp 15 140094098888384 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-05-30 21:29:05,568 basehttp 15 140094107281088 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-05-30 21:29:05,568 basehttp 15 140094196364992 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-05-30 21:29:05,572 basehttp 15 140094115673792 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-30 21:29:05,574 basehttp 15 140094098888384 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-05-30 21:29:05,574 basehttp 15 140094090495680 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-05-30 21:29:05,576 basehttp 15 140094107281088 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-05-30 21:29:05,579 basehttp 15 140094082102976 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-05-30 21:29:05,580 basehttp 15 140094196364992 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-05-30 21:29:05,585 basehttp 15 140094196364992 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-05-30 21:29:05,595 basehttp 15 140094082102976 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-05-30 21:29:07,169 basehttp 15 140094082102976 "GET /admin/user_app/totp/add/ HTTP/1.1" 200 16955
+INFO 2025-05-30 21:29:07,184 basehttp 15 140094196364992 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-05-30 21:29:07,185 basehttp 15 140094082102976 "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+INFO 2025-05-30 21:29:07,188 basehttp 15 140094082102976 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-05-30 21:29:07,188 basehttp 15 140094196364992 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+INFO 2025-05-30 21:29:07,191 basehttp 15 140094107281088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-30 21:29:37,843 basehttp 15 140094082102976 "POST /admin/user_app/totp/add/ HTTP/1.1" 302 0
+INFO 2025-05-30 21:29:37,863 basehttp 15 140094082102976 "GET /admin/user_app/totp/ HTTP/1.1" 200 15679
+INFO 2025-05-30 21:29:37,881 basehttp 15 140094082102976 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-30 21:29:37,890 basehttp 15 140094082102976 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-05-30 21:30:35,372 autoreload 15 140094295280512 /app/user_app/urls.py changed, reloading.
+INFO 2025-05-30 21:30:35,898 autoreload 23 139819512822656 Watching for file changes with StatReloader
+WARNING 2025-05-30 21:31:17,135 log 23 139819413878464 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-30 21:31:17,136 basehttp 23 139819413878464 "POST /auth/verify-totp-login/?otp_code HTTP/1.1" 400 107
+INFO 2025-05-30 21:31:34,022 basehttp 23 139819413878464 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-30 21:31:56,009 log 23 139819413878464 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-30 21:31:56,010 basehttp 23 139819413878464 "POST /auth/verify-totp-login/?otp_code HTTP/1.1" 400 134
+INFO 2025-05-30 21:32:13,283 basehttp 23 139819413878464 "POST /auth/verify-totp-login/?otp_code HTTP/1.1" 200 504
+INFO 2025-05-30 21:32:21,748 basehttp 23 139819413878464 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-30 21:32:22,945 basehttp 23 139819413878464 "POST /auth/login/ HTTP/1.1" 200 89
+ERROR 2025-05-30 21:32:37,299 log 23 139819413878464 Internal Server Error: /auth/verify-totp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 158, in post
+    user = AuthenticationService.verify_totp(email=email, current_language_code=current_language_code,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 258, in verify_totp
+    current_attempts = AuthenticationService.increment_totp_attempts(hashed_email)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 124, in increment_totp_attempts
+    con.expire(key,ex)
+  File "/usr/local/lib/python3.12/site-packages/redis/commands/core.py", line 1768, in expire
+    return self.execute_command("EXPIRE", name, time, *exp_option)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/client.py", line 605, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/client.py", line 616, in _execute_command
+    return conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/client.py", line 617, in <lambda>
+    lambda: self._send_command_parse_response(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/client.py", line 588, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/client.py", line 635, in parse_response
+    response = connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/connection.py", line 637, in read_response
+    raise response
+redis.exceptions.ResponseError: value is not an integer or out of range
+ERROR 2025-05-30 21:32:37,307 basehttp 23 139819413878464 "POST /auth/verify-totp-login/?otp_code HTTP/1.1" 500 147168
+ERROR 2025-05-30 21:33:07,682 log 23 139819413878464 Internal Server Error: /auth/verify-totp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 158, in post
+    user = AuthenticationService.verify_totp(email=email, current_language_code=current_language_code,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 258, in verify_totp
+    current_attempts = AuthenticationService.increment_totp_attempts(hashed_email)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 124, in increment_totp_attempts
+    con.expire(key,ex)
+  File "/usr/local/lib/python3.12/site-packages/redis/commands/core.py", line 1768, in expire
+    return self.execute_command("EXPIRE", name, time, *exp_option)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/client.py", line 605, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/client.py", line 616, in _execute_command
+    return conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/client.py", line 617, in <lambda>
+    lambda: self._send_command_parse_response(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/client.py", line 588, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/client.py", line 635, in parse_response
+    response = connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/redis/connection.py", line 637, in read_response
+    raise response
+redis.exceptions.ResponseError: value is not an integer or out of range
+ERROR 2025-05-30 21:33:07,684 basehttp 23 139819413878464 "POST /auth/verify-totp-login/ HTTP/1.1" 500 146748
+INFO 2025-05-30 21:34:24,255 autoreload 23 139819512822656 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-30 21:34:24,858 autoreload 27 139722665794432 Watching for file changes with StatReloader
+WARNING 2025-05-30 21:34:26,735 log 27 139722557957824 Forbidden: /auth/verify-totp-login/
+WARNING 2025-05-30 21:34:26,736 basehttp 27 139722557957824 "POST /auth/verify-totp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-30 21:34:29,809 log 27 139722557957824 Forbidden: /auth/verify-totp-login/
+WARNING 2025-05-30 21:34:29,809 basehttp 27 139722557957824 "POST /auth/verify-totp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-30 21:34:33,864 log 27 139722557957824 Forbidden: /auth/verify-totp-login/
+WARNING 2025-05-30 21:34:33,865 basehttp 27 139722557957824 "POST /auth/verify-totp-login/ HTTP/1.1" 403 150
+ERROR 2025-05-30 21:34:36,498 log 27 139722557957824 Internal Server Error: /auth/verify-totp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 158, in post
+    user = AuthenticationService.verify_totp(email=email, current_language_code=current_language_code,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 244, in verify_totp
+    hashed_email = AuthenticationService.verify_account_status(email)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 317, in verify_account_status
+    raise Throttled(
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/exceptions.py", line 238, in __init__
+    detail = ' '.join((
+             ^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, __proxy__ found
+ERROR 2025-05-30 21:34:36,506 basehttp 27 139722557957824 "POST /auth/verify-totp-login/ HTTP/1.1" 500 113730
+ERROR 2025-05-30 21:34:51,788 log 27 139722557957824 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 39, in post
+    user = AuthenticationService.authenticate_with_password(**serializer.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 227, in authenticate_with_password
+    hashed_email = AuthenticationService.verify_account_status(email)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 317, in verify_account_status
+    raise Throttled(
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/exceptions.py", line 238, in __init__
+    detail = ' '.join((
+             ^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, __proxy__ found
+ERROR 2025-05-30 21:34:51,793 basehttp 27 139722557957824 "POST /auth/login/ HTTP/1.1" 500 112325
+INFO 2025-05-30 21:38:03,124 autoreload 27 139722665794432 /app/user_app/urls.py changed, reloading.
+INFO 2025-05-30 21:38:03,652 autoreload 31 140375283166080 Watching for file changes with StatReloader
+INFO 2025-05-30 21:38:16,339 autoreload 31 140375283166080 /app/user_app/urls.py changed, reloading.
+INFO 2025-05-30 21:38:16,821 autoreload 33 140108068887424 Watching for file changes with StatReloader
+INFO 2025-05-30 21:40:46,818 autoreload 33 140108068887424 /app/user_app/urls.py changed, reloading.
+INFO 2025-05-30 21:40:47,396 autoreload 35 139820485553024 Watching for file changes with StatReloader
+INFO 2025-05-30 21:51:59,033 autoreload 35 139820485553024 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-30 21:51:59,571 autoreload 38 139772241513344 Watching for file changes with StatReloader
+INFO 2025-05-30 21:52:06,833 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:09,513 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:10,504 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:11,380 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:12,244 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:13,073 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:13,749 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:14,592 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:15,379 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:16,174 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:16,832 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:17,690 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:18,603 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-30 21:52:32,993 basehttp 38 139772141975232 "GET /admin/ HTTP/1.1" 200 14946
+INFO 2025-05-30 21:52:40,942 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-30 21:52:41,998 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-30 21:52:42,889 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-30 21:52:43,792 log 38 139772060235456 Too Many Requests: /auth/login/
+WARNING 2025-05-30 21:52:43,792 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 429 147
+WARNING 2025-05-30 21:52:48,398 log 38 139772060235456 Too Many Requests: /auth/login/
+WARNING 2025-05-30 21:52:48,399 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 429 147
+WARNING 2025-05-30 21:52:49,369 log 38 139772060235456 Too Many Requests: /auth/login/
+WARNING 2025-05-30 21:52:49,370 basehttp 38 139772060235456 "POST /auth/login/ HTTP/1.1" 429 147
+INFO 2025-05-30 21:53:34,583 autoreload 38 139772241513344 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-30 21:53:35,492 autoreload 44 140436705921920 Watching for file changes with StatReloader
+WARNING 2025-05-30 21:53:40,226 log 44 140436598367936 Too Many Requests: /auth/login/
+WARNING 2025-05-30 21:53:40,227 basehttp 44 140436598367936 "POST /auth/login/ HTTP/1.1" 429 150
+WARNING 2025-05-30 21:53:41,725 log 44 140436598367936 Too Many Requests: /auth/login/
+WARNING 2025-05-30 21:53:41,726 basehttp 44 140436598367936 "POST /auth/login/ HTTP/1.1" 429 150
+WARNING 2025-05-30 21:53:42,697 log 44 140436598367936 Too Many Requests: /auth/login/
+WARNING 2025-05-30 21:53:42,698 basehttp 44 140436598367936 "POST /auth/login/ HTTP/1.1" 429 150
+WARNING 2025-05-30 21:53:44,138 log 44 140436598367936 Too Many Requests: /auth/login/
+WARNING 2025-05-30 21:53:44,139 basehttp 44 140436598367936 "POST /auth/login/ HTTP/1.1" 429 150
+WARNING 2025-05-30 21:53:45,034 log 44 140436598367936 Too Many Requests: /auth/login/
+WARNING 2025-05-30 21:53:45,034 basehttp 44 140436598367936 "POST /auth/login/ HTTP/1.1" 429 150
+INFO 2025-05-30 22:48:33,594 autoreload 44 140436705921920 /app/user_app/services/__init__.py changed, reloading.
+INFO 2025-05-30 22:48:34,341 autoreload 48 139758747888512 Watching for file changes with StatReloader
+INFO 2025-05-30 22:49:12,364 autoreload 48 139758747888512 /app/user_app/urls.py changed, reloading.
+INFO 2025-05-30 22:49:13,069 autoreload 50 139719874554752 Watching for file changes with StatReloader
+INFO 2025-05-30 22:50:45,780 autoreload 50 139719874554752 /app/user_app/services/registration_service.py changed, reloading.
+INFO 2025-05-30 22:50:46,366 autoreload 52 139852199365504 Watching for file changes with StatReloader
+INFO 2025-05-30 22:51:52,451 autoreload 52 139852199365504 /app/user_app/urls.py changed, reloading.
+INFO 2025-05-30 22:51:52,996 autoreload 54 139890049919872 Watching for file changes with StatReloader
+INFO 2025-05-30 22:53:38,526 autoreload 54 139890049919872 /app/user_app/urls.py changed, reloading.
+INFO 2025-05-30 22:53:39,120 autoreload 56 139724063419264 Watching for file changes with StatReloader
+INFO 2025-05-30 22:55:16,606 autoreload 56 139724063419264 /app/user_app/urls.py changed, reloading.
+INFO 2025-05-30 22:55:17,106 autoreload 58 140433957780352 Watching for file changes with StatReloader
+INFO 2025-05-30 22:55:29,452 autoreload 58 140433957780352 /app/backend/urls.py changed, reloading.
+INFO 2025-05-30 22:55:29,934 autoreload 60 140141607181184 Watching for file changes with StatReloader
+INFO 2025-05-30 22:55:37,957 basehttp 60 140141508114112 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-30 22:55:42,952 basehttp 60 140141508114112 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-30 22:55:44,109 basehttp 60 140141508114112 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-30 22:58:25,541 autoreload 60 140141607181184 /app/user_app/serializers/auth.py changed, reloading.
+INFO 2025-05-30 22:58:26,093 autoreload 64 139789265156992 Watching for file changes with StatReloader
+INFO 2025-05-30 23:00:40,426 autoreload 64 139789265156992 /app/user_app/serializers/__init__.py changed, reloading.
+INFO 2025-05-30 23:00:40,849 autoreload 66 140692206398336 Watching for file changes with StatReloader
+INFO 2025-05-30 23:03:53,555 autoreload 66 140692206398336 /app/user_app/serializers/auth.py changed, reloading.
+INFO 2025-05-30 23:03:54,012 autoreload 68 139802663996288 Watching for file changes with StatReloader
+INFO 2025-05-30 23:04:34,403 autoreload 68 139802663996288 /app/user_app/serializers/__init__.py changed, reloading.
+INFO 2025-05-30 23:04:34,914 autoreload 70 140114661313408 Watching for file changes with StatReloader
+INFO 2025-05-30 23:04:47,061 autoreload 70 140114661313408 /app/user_app/serializers/recovery_account.py changed, reloading.
+INFO 2025-05-30 23:04:47,646 autoreload 72 139999183973248 Watching for file changes with StatReloader
+INFO 2025-05-30 23:05:19,861 autoreload 72 139999183973248 /app/user_app/serializers/auth.py changed, reloading.
+INFO 2025-05-30 23:05:20,345 autoreload 74 140024253307776 Watching for file changes with StatReloader
+INFO 2025-05-30 23:05:23,893 autoreload 74 140024253307776 /app/user_app/serializers/auth.py changed, reloading.
+INFO 2025-05-30 23:05:24,447 autoreload 76 140515859049344 Watching for file changes with StatReloader
+INFO 2025-05-30 23:06:52,998 autoreload 76 140515859049344 /app/user_app/views/authentication.py changed, reloading.
+INFO 2025-05-30 23:06:53,479 autoreload 78 140188193618816 Watching for file changes with StatReloader
+INFO 2025-05-30 23:08:28,931 autoreload 78 140188193618816 /app/user_app/views/authentication.py changed, reloading.
+INFO 2025-05-30 23:08:29,404 autoreload 80 140594476223360 Watching for file changes with StatReloader
+INFO 2025-05-30 23:10:45,795 autoreload 80 140594476223360 /app/user_app/views/authentication.py changed, reloading.
+INFO 2025-05-30 23:10:46,289 autoreload 82 140241729878912 Watching for file changes with StatReloader
+INFO 2025-05-30 23:11:24,917 autoreload 82 140241729878912 /app/user_app/serializers/authentication.py changed, reloading.
+INFO 2025-05-30 23:11:25,424 autoreload 84 140625557486464 Watching for file changes with StatReloader
+INFO 2025-05-30 23:11:54,642 autoreload 84 140625557486464 /app/user_app/serializers/recovery_account.py changed, reloading.
+INFO 2025-05-30 23:11:55,109 autoreload 86 140006239890304 Watching for file changes with StatReloader
+INFO 2025-05-30 23:12:18,623 autoreload 86 140006239890304 /app/user_app/serializers/registration.py changed, reloading.
+INFO 2025-05-30 23:12:19,158 autoreload 88 140267482344320 Watching for file changes with StatReloader
+INFO 2025-05-30 23:51:52,326 autoreload 88 140267482344320 /app/user_app/serializers/__init__.py changed, reloading.
+INFO 2025-05-30 23:51:52,872 autoreload 90 140457827748736 Watching for file changes with StatReloader
+INFO 2025-05-30 23:52:58,780 autoreload 90 140457827748736 /app/user_app/urls.py changed, reloading.
+INFO 2025-05-30 23:52:59,300 autoreload 92 139847436237696 Watching for file changes with StatReloader
+INFO 2025-05-30 23:53:07,112 basehttp 92 139847329064640 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-30 23:53:09,031 basehttp 92 139847329064640 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-30 23:53:09,915 basehttp 92 139847329064640 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-30 23:53:11,315 log 92 139847329064640 Too Many Requests: /auth/login/
+WARNING 2025-05-30 23:53:11,316 basehttp 92 139847329064640 "POST /auth/login/ HTTP/1.1" 429 151
+WARNING 2025-05-30 23:53:13,808 log 92 139847329064640 Too Many Requests: /auth/login/
+WARNING 2025-05-30 23:53:13,809 basehttp 92 139847329064640 "POST /auth/login/ HTTP/1.1" 429 151
+WARNING 2025-05-30 23:53:15,126 log 92 139847329064640 Too Many Requests: /auth/login/
+WARNING 2025-05-30 23:53:15,127 basehttp 92 139847329064640 "POST /auth/login/ HTTP/1.1" 429 151
+WARNING 2025-05-30 23:53:15,924 log 92 139847329064640 Too Many Requests: /auth/login/
+WARNING 2025-05-30 23:53:15,925 basehttp 92 139847329064640 "POST /auth/login/ HTTP/1.1" 429 151
+WARNING 2025-05-30 23:53:26,765 log 92 139847329064640 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-30 23:53:26,766 basehttp 92 139847329064640 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-30 23:53:29,250 log 92 139847329064640 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-30 23:53:29,251 basehttp 92 139847329064640 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-30 23:53:29,939 log 92 139847329064640 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-30 23:53:29,940 basehttp 92 139847329064640 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-30 23:53:30,938 log 92 139847329064640 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-30 23:53:30,938 basehttp 92 139847329064640 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-30 23:53:34,399 log 92 139847329064640 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-30 23:53:34,400 basehttp 92 139847329064640 "POST /auth/verify-totp-login/ HTTP/1.1" 401 150
+INFO 2025-05-30 23:56:17,069 autoreload 92 139847436237696 /app/backend/settings.py changed, reloading.
+INFO 2025-05-30 23:56:17,700 autoreload 96 140540610026368 Watching for file changes with StatReloader
+INFO 2025-05-30 23:58:03,273 autoreload 96 140540610026368 /app/user_app/serializers/__init__.py changed, reloading.
+INFO 2025-05-30 23:58:03,764 autoreload 98 139699143646080 Watching for file changes with StatReloader
+INFO 2025-05-30 23:58:25,253 autoreload 98 139699143646080 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-30 23:58:25,784 autoreload 100 140399622060928 Watching for file changes with StatReloader
+INFO 2025-05-30 23:58:42,138 autoreload 100 140399622060928 /app/user_app/models.py changed, reloading.
+INFO 2025-05-30 23:58:42,715 autoreload 102 140479116639104 Watching for file changes with StatReloader
+INFO 2025-05-30 23:58:57,053 autoreload 102 140479116639104 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-30 23:58:57,584 autoreload 104 140626675886976 Watching for file changes with StatReloader
+INFO 2025-05-30 23:59:23,712 autoreload 104 140626675886976 /app/backend/settings.py changed, reloading.
+INFO 2025-05-30 23:59:24,254 autoreload 106 139946842057600 Watching for file changes with StatReloader
+INFO 2025-05-31 00:00:35,412 autoreload 9 140626489199488 Watching for file changes with StatReloader
+INFO 2025-05-31 00:01:23,868 autoreload 9 139960149392256 Watching for file changes with StatReloader
+INFO 2025-05-31 00:01:33,437 basehttp 9 139960049940160 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 00:01:36,103 basehttp 9 139960049940160 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 00:01:36,987 basehttp 9 139960049940160 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 00:01:37,860 log 9 139960049940160 Too Many Requests: /auth/login/
+WARNING 2025-05-31 00:01:37,860 basehttp 9 139960049940160 "POST /auth/login/ HTTP/1.1" 429 151
+WARNING 2025-05-31 00:01:45,277 log 9 139960049940160 Too Many Requests: /auth/login/
+WARNING 2025-05-31 00:01:45,277 basehttp 9 139960049940160 "POST /auth/login/ HTTP/1.1" 429 151
+WARNING 2025-05-31 00:01:51,268 log 9 139960049940160 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:01:51,268 basehttp 9 139960049940160 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:01:53,636 log 9 139960049940160 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:01:53,637 basehttp 9 139960049940160 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:01:55,252 log 9 139960049940160 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:01:55,252 basehttp 9 139960049940160 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:01:58,091 log 9 139960049940160 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:01:58,092 basehttp 9 139960049940160 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+INFO 2025-05-31 00:03:12,206 autoreload 9 139960149392256 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:03:13,055 autoreload 13 140312956754816 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:03:18,403 log 13 140312858015424 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:18,403 basehttp 13 140312858015424 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:03:19,512 log 13 140312858015424 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:19,513 basehttp 13 140312858015424 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:03:20,154 log 13 140312858015424 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:20,155 basehttp 13 140312858015424 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:03:20,717 log 13 140312858015424 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:20,717 basehttp 13 140312858015424 "POST /auth/verify-totp-login/ HTTP/1.1" 401 150
+INFO 2025-05-31 00:03:34,355 autoreload 13 140312956754816 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:03:34,907 autoreload 17 139623088700288 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:03:42,518 log 17 139622989379264 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:42,519 basehttp 17 139622989379264 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:03:43,649 log 17 139622989379264 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:43,650 basehttp 17 139622989379264 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:03:44,524 log 17 139622989379264 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:44,525 basehttp 17 139622989379264 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:03:45,230 log 17 139622989379264 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:45,231 basehttp 17 139622989379264 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:03:46,281 log 17 139622989379264 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:46,282 basehttp 17 139622989379264 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:03:48,721 log 17 139622989379264 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:48,722 basehttp 17 139622989379264 "POST /auth/verify-totp-login/ HTTP/1.1" 401 150
+INFO 2025-05-31 00:03:51,875 autoreload 17 139623088700288 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:03:52,503 autoreload 21 140051839753088 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:03:56,277 log 21 140051740571328 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:56,277 basehttp 21 140051740571328 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:03:57,146 log 21 140051740571328 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:57,147 basehttp 21 140051740571328 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:03:57,732 log 21 140051740571328 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:57,732 basehttp 21 140051740571328 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:03:58,407 log 21 140051740571328 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:03:58,407 basehttp 21 140051740571328 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+INFO 2025-05-31 00:04:21,784 autoreload 21 140051839753088 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:04:22,315 autoreload 25 140337030503296 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:04:26,744 log 25 140336848434880 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:04:26,744 basehttp 25 140336848434880 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:04:27,640 log 25 140336848434880 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:04:27,641 basehttp 25 140336848434880 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:04:28,705 log 25 140336848434880 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:04:28,705 basehttp 25 140336848434880 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:04:32,137 log 25 140336848434880 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:04:32,137 basehttp 25 140336848434880 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:04:33,134 log 25 140336848434880 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:04:33,135 basehttp 25 140336848434880 "POST /auth/verify-totp-login/ HTTP/1.1" 401 150
+INFO 2025-05-31 00:04:39,253 autoreload 25 140337030503296 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:04:39,783 autoreload 29 140000328563584 Watching for file changes with StatReloader
+INFO 2025-05-31 00:05:49,831 autoreload 29 140000328563584 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:05:50,420 autoreload 31 140464488225664 Watching for file changes with StatReloader
+INFO 2025-05-31 00:06:36,699 autoreload 31 140464488225664 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:06:37,400 autoreload 33 140381478747008 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:06:44,210 log 33 140381379311296 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:06:44,210 basehttp 33 140381379311296 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:06:45,358 log 33 140381379311296 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:06:45,359 basehttp 33 140381379311296 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:06:45,967 log 33 140381379311296 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:06:45,968 basehttp 33 140381379311296 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:06:46,620 log 33 140381379311296 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:06:46,621 basehttp 33 140381379311296 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+INFO 2025-05-31 00:06:55,049 basehttp 33 140381379311296 "POST /auth/verify-totp-login/ HTTP/1.1" 200 504
+INFO 2025-05-31 00:07:19,485 autoreload 33 140381478747008 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:07:19,998 autoreload 37 139727459998592 Watching for file changes with StatReloader
+INFO 2025-05-31 00:07:35,835 autoreload 37 139727459998592 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:07:36,345 autoreload 39 139990466112384 Watching for file changes with StatReloader
+INFO 2025-05-31 00:07:43,584 basehttp 39 139990289868480 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 00:07:48,584 log 39 139990289868480 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:07:48,585 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:07:49,910 log 39 139990289868480 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:07:49,911 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:07:50,479 log 39 139990289868480 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:07:50,480 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:07:51,779 log 39 139990289868480 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:07:51,780 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:08:02,358 log 39 139990289868480 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:08:02,358 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 401 150
+WARNING 2025-05-31 00:08:20,791 log 39 139990289868480 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:08:20,792 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 400 133
+INFO 2025-05-31 00:08:23,780 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 200 504
+INFO 2025-05-31 00:08:26,486 basehttp 39 139990289868480 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 00:08:32,376 log 39 139990289868480 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:08:32,376 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:08:33,063 log 39 139990289868480 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:08:33,064 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:08:33,688 log 39 139990289868480 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:08:33,689 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:08:34,379 log 39 139990289868480 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 00:08:34,379 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+INFO 2025-05-31 00:08:39,066 basehttp 39 139990289868480 "POST /auth/verify-totp-login/ HTTP/1.1" 200 504
+INFO 2025-05-31 00:10:11,972 autoreload 39 139990466112384 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 00:10:12,540 autoreload 43 140336430799744 Watching for file changes with StatReloader
+INFO 2025-05-31 00:11:06,072 autoreload 43 140336430799744 /app/user_app/serializers/authentication.py changed, reloading.
+INFO 2025-05-31 00:11:06,559 autoreload 45 139873261484928 Watching for file changes with StatReloader
+INFO 2025-05-31 00:11:51,977 autoreload 45 139873261484928 /app/user_app/serializers/authentication.py changed, reloading.
+INFO 2025-05-31 00:11:52,508 autoreload 47 139719410871168 Watching for file changes with StatReloader
+INFO 2025-05-31 00:12:21,438 basehttp 47 139719235069632 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 00:12:26,411 log 47 139719235069632 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:12:26,412 basehttp 47 139719235069632 "POST /auth/verify-totp-login/ HTTP/1.1" 400 133
+WARNING 2025-05-31 00:12:27,733 log 47 139719235069632 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:12:27,733 basehttp 47 139719235069632 "POST /auth/verify-totp-login/ HTTP/1.1" 400 133
+WARNING 2025-05-31 00:12:28,444 log 47 139719235069632 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:12:28,445 basehttp 47 139719235069632 "POST /auth/verify-totp-login/ HTTP/1.1" 400 133
+WARNING 2025-05-31 00:12:29,109 log 47 139719235069632 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:12:29,110 basehttp 47 139719235069632 "POST /auth/verify-totp-login/ HTTP/1.1" 400 133
+WARNING 2025-05-31 00:12:29,921 log 47 139719235069632 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:12:29,922 basehttp 47 139719235069632 "POST /auth/verify-totp-login/ HTTP/1.1" 400 133
+INFO 2025-05-31 00:13:35,485 autoreload 47 139719410871168 /app/user_app/views/authentication.py changed, reloading.
+INFO 2025-05-31 00:13:36,046 autoreload 51 140636318874496 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:13:37,308 log 51 140636144527040 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:13:37,308 basehttp 51 140636144527040 "POST /auth/verify-totp-login/ HTTP/1.1" 400 110
+WARNING 2025-05-31 00:13:38,650 log 51 140636144527040 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:13:38,651 basehttp 51 140636144527040 "POST /auth/verify-totp-login/ HTTP/1.1" 400 110
+INFO 2025-05-31 00:14:02,679 autoreload 51 140636318874496 /app/user_app/serializers/authentication.py changed, reloading.
+INFO 2025-05-31 00:14:03,154 autoreload 55 140299665070976 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:14:06,194 log 55 140299557873344 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:14:06,195 basehttp 55 140299557873344 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:14:07,801 log 55 140299557873344 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:14:07,802 basehttp 55 140299557873344 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:14:09,950 log 55 140299557873344 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:14:09,950 basehttp 55 140299557873344 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:14:11,750 log 55 140299557873344 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:14:11,751 basehttp 55 140299557873344 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:15:46,971 log 55 140299566266048 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:15:46,972 basehttp 55 140299566266048 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:15:47,805 log 55 140299566266048 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:15:47,806 basehttp 55 140299566266048 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:15:48,953 log 55 140299566266048 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:15:48,955 basehttp 55 140299566266048 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:15:49,495 log 55 140299566266048 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:15:49,496 basehttp 55 140299566266048 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+INFO 2025-05-31 00:16:13,409 autoreload 55 140299665070976 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 00:16:13,976 autoreload 61 140701390470016 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:16:15,316 log 61 140701292508864 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:16:15,316 basehttp 61 140701292508864 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+INFO 2025-05-31 00:17:14,990 autoreload 61 140701390470016 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 00:17:15,591 autoreload 65 139805389835136 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:17:17,911 log 65 139805290608320 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:17:17,912 basehttp 65 139805290608320 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+INFO 2025-05-31 00:18:49,833 autoreload 65 139805389835136 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 00:18:50,339 autoreload 69 139695760677760 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:20:29,905 log 69 139695661987520 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:20:29,906 basehttp 69 139695661987520 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:42:30,705 log 69 139695652546240 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:42:30,707 basehttp 69 139695652546240 "POST /auth/verify-totp-login/ HTTP/1.1" 400 107
+WARNING 2025-05-31 00:42:32,162 log 69 139695652546240 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:42:32,163 basehttp 69 139695652546240 "POST /auth/verify-totp-login/ HTTP/1.1" 400 107
+INFO 2025-05-31 00:43:49,791 basehttp 69 139695644153536 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 00:43:53,073 log 69 139695644153536 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:43:53,074 basehttp 69 139695644153536 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:43:54,215 log 69 139695644153536 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:43:54,216 basehttp 69 139695644153536 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:43:54,852 log 69 139695644153536 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:43:54,852 basehttp 69 139695644153536 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:43:55,346 log 69 139695644153536 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:43:55,347 basehttp 69 139695644153536 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:43:55,910 log 69 139695644153536 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:43:55,910 basehttp 69 139695644153536 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:45:05,119 log 69 139695287695040 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:45:05,119 basehttp 69 139695287695040 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:45:08,601 log 69 139695287695040 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:45:08,601 basehttp 69 139695287695040 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:45:09,981 log 69 139695287695040 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:45:09,982 basehttp 69 139695287695040 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:45:10,561 log 69 139695287695040 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:45:10,561 basehttp 69 139695287695040 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:45:11,020 log 69 139695287695040 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:45:11,021 basehttp 69 139695287695040 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:45:11,519 log 69 139695287695040 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:45:11,519 basehttp 69 139695287695040 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 00:45:12,502 log 69 139695287695040 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 00:45:12,503 basehttp 69 139695287695040 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+ERROR 2025-05-31 00:45:20,811 log 69 139695287695040 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 88, in post
+    user = AuthenticationService.verify_otp(email=email,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 181, in verify_otp
+    if current_attempts >= MAX_OTP_ATTEMPTS_THRESHOLD:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'NoneType' and 'int'
+ERROR 2025-05-31 00:45:20,816 basehttp 69 139695287695040 "POST /auth/verify-otp-login/ HTTP/1.1" 500 105984
+INFO 2025-05-31 00:46:27,097 autoreload 69 139695760677760 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:46:27,634 autoreload 79 140522237246336 Watching for file changes with StatReloader
+ERROR 2025-05-31 00:46:29,670 log 79 140522060506816 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 88, in post
+    user = AuthenticationService.verify_otp(email=email,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 181, in verify_otp
+    if current_attempts >= MAX_OTP_ATTEMPTS_THRESHOLD:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'bytes' and 'int'
+ERROR 2025-05-31 00:46:29,751 basehttp 79 140522060506816 "POST /auth/verify-otp-login/ HTTP/1.1" 500 105982
+INFO 2025-05-31 00:46:41,369 autoreload 9 140577759357824 Watching for file changes with StatReloader
+ERROR 2025-05-31 00:46:44,196 log 9 140577651762880 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 88, in post
+    user = AuthenticationService.verify_otp(email=email,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 181, in verify_otp
+    if current_attempts >= MAX_OTP_ATTEMPTS_THRESHOLD:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'bytes' and 'int'
+ERROR 2025-05-31 00:46:44,205 basehttp 9 140577651762880 "POST /auth/verify-otp-login/ HTTP/1.1" 500 105982
+INFO 2025-05-31 00:47:51,877 autoreload 9 140577759357824 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:47:52,843 autoreload 13 139746955901824 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:47:55,234 log 13 139746848220864 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:47:55,235 basehttp 13 139746848220864 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:47:57,086 log 13 139746848220864 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:47:57,087 basehttp 13 139746848220864 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:47:57,875 log 13 139746848220864 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:47:57,876 basehttp 13 139746848220864 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:47:58,810 log 13 139746848220864 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:47:58,810 basehttp 13 139746848220864 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:48:11,795 log 13 139746848220864 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:48:11,796 basehttp 13 139746848220864 "POST /auth/verify-otp-login/ HTTP/1.1" 401 150
+INFO 2025-05-31 00:50:17,757 autoreload 13 139746955901824 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:50:18,338 autoreload 17 140216434326400 Watching for file changes with StatReloader
+INFO 2025-05-31 00:50:35,425 autoreload 17 140216434326400 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:50:35,953 autoreload 19 139885260852096 Watching for file changes with StatReloader
+INFO 2025-05-31 00:50:48,574 basehttp 19 139885161690816 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 00:50:50,442 basehttp 19 139885161690816 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 00:50:51,181 basehttp 19 139885161690816 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 00:50:52,264 log 19 139885161690816 Too Many Requests: /auth/login/
+WARNING 2025-05-31 00:50:52,264 basehttp 19 139885161690816 "POST /auth/login/ HTTP/1.1" 429 151
+WARNING 2025-05-31 00:52:20,118 log 19 139885151200960 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:52:20,118 basehttp 19 139885151200960 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+ERROR 2025-05-31 00:52:21,110 log 19 139885151200960 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 88, in post
+    user = AuthenticationService.verify_otp(email=email,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 188, in verify_otp
+    if current_attempts >= MAX_OTP_ATTEMPTS_THRESHOLD:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'bytes' and 'int'
+ERROR 2025-05-31 00:52:21,116 basehttp 19 139885151200960 "POST /auth/verify-otp-login/ HTTP/1.1" 500 106039
+ERROR 2025-05-31 00:52:21,712 log 19 139885151200960 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 88, in post
+    user = AuthenticationService.verify_otp(email=email,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 188, in verify_otp
+    if current_attempts >= MAX_OTP_ATTEMPTS_THRESHOLD:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'bytes' and 'int'
+ERROR 2025-05-31 00:52:21,714 basehttp 19 139885151200960 "POST /auth/verify-otp-login/ HTTP/1.1" 500 106039
+INFO 2025-05-31 00:53:10,985 autoreload 19 139885260852096 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:53:11,560 autoreload 25 140594678500224 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:53:25,490 log 25 140594578929344 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:53:25,491 basehttp 25 140594578929344 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:53:26,729 log 25 140594578929344 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:53:26,729 basehttp 25 140594578929344 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:53:27,772 log 25 140594578929344 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:53:27,772 basehttp 25 140594578929344 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+INFO 2025-05-31 00:54:56,542 autoreload 25 140594678500224 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:54:57,161 autoreload 29 140024423156608 Watching for file changes with StatReloader
+INFO 2025-05-31 00:57:17,016 autoreload 29 140024423156608 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 00:57:17,546 autoreload 31 139693149666176 Watching for file changes with StatReloader
+WARNING 2025-05-31 00:57:18,431 log 31 139693051033280 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:57:18,432 basehttp 31 139693051033280 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:57:19,292 log 31 139693051033280 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:57:19,292 basehttp 31 139693051033280 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:57:19,993 log 31 139693051033280 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:57:19,994 basehttp 31 139693051033280 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 00:57:28,024 log 31 139693051033280 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 00:57:28,025 basehttp 31 139693051033280 "POST /auth/verify-otp-login/ HTTP/1.1" 401 150
+INFO 2025-05-31 01:02:16,761 autoreload 31 139693149666176 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 01:02:17,355 autoreload 35 139870020225920 Watching for file changes with StatReloader
+INFO 2025-05-31 01:02:25,032 basehttp 35 139869920638656 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:02:25,973 basehttp 35 139869920638656 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:02:26,736 basehttp 35 139869920638656 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 01:02:27,534 log 35 139869920638656 Too Many Requests: /auth/login/
+WARNING 2025-05-31 01:02:27,534 basehttp 35 139869920638656 "POST /auth/login/ HTTP/1.1" 429 151
+WARNING 2025-05-31 01:02:49,400 log 35 139869920638656 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 01:02:49,401 basehttp 35 139869920638656 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 01:02:50,317 log 35 139869920638656 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 01:02:50,317 basehttp 35 139869920638656 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 01:02:50,996 log 35 139869920638656 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 01:02:50,997 basehttp 35 139869920638656 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 01:02:51,688 log 35 139869920638656 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 01:02:51,688 basehttp 35 139869920638656 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+INFO 2025-05-31 01:02:54,021 basehttp 35 139869920638656 "POST /auth/verify-otp-login/ HTTP/1.1" 200 504
+INFO 2025-05-31 01:03:15,833 autoreload 35 139870020225920 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 01:03:16,386 autoreload 39 140468408675200 Watching for file changes with StatReloader
+WARNING 2025-05-31 01:03:23,768 log 39 140468232906432 Too Many Requests: /auth/login/
+WARNING 2025-05-31 01:03:23,769 basehttp 39 140468232906432 "POST /auth/login/ HTTP/1.1" 429 150
+INFO 2025-05-31 01:07:14,107 autoreload 39 140468408675200 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 01:07:14,645 autoreload 43 140230420806528 Watching for file changes with StatReloader
+INFO 2025-05-31 01:07:36,414 autoreload 43 140230420806528 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 01:07:36,938 autoreload 45 139839541656448 Watching for file changes with StatReloader
+INFO 2025-05-31 01:10:10,999 basehttp 45 139839370426048 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:10:12,375 basehttp 45 139839370426048 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:10:13,150 basehttp 45 139839370426048 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:10:13,828 basehttp 45 139839370426048 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:10:14,687 basehttp 45 139839370426048 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:10:15,724 basehttp 45 139839370426048 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:10:16,598 basehttp 45 139839370426048 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:10:17,366 basehttp 45 139839370426048 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:12:49,652 autoreload 45 139839541656448 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 01:12:50,173 autoreload 49 140676889648000 Watching for file changes with StatReloader
+INFO 2025-05-31 01:14:56,383 autoreload 49 140676889648000 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 01:14:56,921 autoreload 51 139855467625344 Watching for file changes with StatReloader
+INFO 2025-05-31 01:17:12,093 autoreload 51 139855467625344 /app/user_app/views/authentication.py changed, reloading.
+INFO 2025-05-31 01:17:12,641 autoreload 53 139859678505856 Watching for file changes with StatReloader
+INFO 2025-05-31 01:18:52,366 autoreload 53 139859678505856 /app/user_app/views/authentication.py changed, reloading.
+INFO 2025-05-31 01:18:52,871 autoreload 55 139968182352768 Watching for file changes with StatReloader
+INFO 2025-05-31 01:20:10,824 autoreload 55 139968182352768 /app/user_app/views/authentication.py changed, reloading.
+INFO 2025-05-31 01:20:11,359 autoreload 57 139643427044224 Watching for file changes with StatReloader
+INFO 2025-05-31 01:20:21,677 basehttp 57 139643327559360 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:22,656 basehttp 57 139643327559360 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 01:20:23,451 log 57 139643327559360 Too Many Requests: /auth/login/
+WARNING 2025-05-31 01:20:23,451 basehttp 57 139643327559360 "POST /auth/login/ HTTP/1.1" 429 147
+WARNING 2025-05-31 01:20:24,113 log 57 139643327559360 Too Many Requests: /auth/login/
+WARNING 2025-05-31 01:20:24,114 basehttp 57 139643327559360 "POST /auth/login/ HTTP/1.1" 429 147
+WARNING 2025-05-31 01:20:25,565 log 57 139643327559360 Too Many Requests: /auth/login/
+WARNING 2025-05-31 01:20:25,566 basehttp 57 139643327559360 "POST /auth/login/ HTTP/1.1" 429 147
+INFO 2025-05-31 01:20:35,488 autoreload 57 139643427044224 /app/user_app/views/authentication.py changed, reloading.
+INFO 2025-05-31 01:20:36,014 autoreload 61 140459092188032 Watching for file changes with StatReloader
+INFO 2025-05-31 01:20:42,617 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:43,800 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:44,547 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:45,325 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:46,054 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:46,822 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:47,687 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:48,426 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:49,102 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:49,871 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:50,552 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:51,241 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:51,902 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:52,558 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:53,298 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:53,924 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:54,570 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:55,219 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:55,874 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:56,491 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:57,102 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:58,028 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:58,736 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:59,323 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:20:59,964 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:21:02,011 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:21:02,823 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:21:03,565 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:21:24,220 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:21:27,035 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:21:28,104 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 01:21:35,933 basehttp 61 140458911065792 "POST /auth/get-otp-login/ HTTP/1.1" 200 18
+INFO 2025-05-31 01:21:53,287 basehttp 61 140458911065792 "POST /auth/verify-otp-login/ HTTP/1.1" 200 504
+INFO 2025-05-31 01:22:10,380 basehttp 61 140458911065792 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 01:22:13,167 log 61 140458911065792 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 01:22:13,168 basehttp 61 140458911065792 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+INFO 2025-05-31 01:23:43,384 autoreload 61 140459092188032 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 01:23:44,390 autoreload 65 139724369972096 Watching for file changes with StatReloader
+WARNING 2025-05-31 01:23:45,651 log 65 139724272383680 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 01:23:45,652 basehttp 65 139724272383680 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 01:23:48,618 log 65 139724272383680 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 01:23:48,618 basehttp 65 139724272383680 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+INFO 2025-05-31 01:25:08,532 autoreload 65 139724369972096 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 01:25:09,075 autoreload 69 140275127032704 Watching for file changes with StatReloader
+INFO 2025-05-31 01:25:34,769 autoreload 69 140275127032704 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 01:25:35,303 autoreload 71 140368586861440 Watching for file changes with StatReloader
+INFO 2025-05-31 01:25:42,645 autoreload 9 139653461121920 Watching for file changes with StatReloader
+ERROR 2025-05-31 01:25:47,702 log 9 139653354038976 Internal Server Error: /auth/verify-totp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 138, in post
+    serializer_otp.is_valid(raise_exception=True)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 444, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 501, in to_internal_value
+    validated_value = field.run_validation(primitive_value)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/fields.py", line 757, in run_validation
+    return super().run_validation(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/fields.py", line 539, in run_validation
+    self.run_validators(value)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/fields.py", line 553, in run_validators
+    validator(value)
+  File "/app/user_app/validators.py", line 44, in totp_regex_validator
+    print(
+    ^^^^^
+  File "/usr/local/lib/python3.12/bdb.py", line 100, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/bdb.py", line 125, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+ERROR 2025-05-31 01:25:47,712 basehttp 9 139653354038976 "POST /auth/verify-totp-login/ HTTP/1.1" 500 140110
+INFO 2025-05-31 01:54:20,971 autoreload 9 139653461121920 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 01:54:21,479 autoreload 13 140716579597184 Watching for file changes with StatReloader
+WARNING 2025-05-31 01:54:24,604 log 13 140716403582656 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 01:54:24,605 basehttp 13 140716403582656 "POST /auth/verify-totp-login/ HTTP/1.1" 400 107
+WARNING 2025-05-31 01:54:25,732 log 13 140716403582656 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 01:54:25,734 basehttp 13 140716403582656 "POST /auth/verify-totp-login/ HTTP/1.1" 400 107
+WARNING 2025-05-31 01:54:26,810 log 13 140716403582656 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 01:54:26,811 basehttp 13 140716403582656 "POST /auth/verify-totp-login/ HTTP/1.1" 400 107
+WARNING 2025-05-31 01:54:27,585 log 13 140716403582656 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 01:54:27,586 basehttp 13 140716403582656 "POST /auth/verify-totp-login/ HTTP/1.1" 400 107
+WARNING 2025-05-31 01:54:28,498 log 13 140716403582656 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 01:54:28,499 basehttp 13 140716403582656 "POST /auth/verify-totp-login/ HTTP/1.1" 400 107
+INFO 2025-05-31 01:54:30,955 basehttp 13 140716403582656 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 01:54:33,920 log 13 140716403582656 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 01:54:33,921 basehttp 13 140716403582656 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 01:54:34,762 log 13 140716403582656 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 01:54:34,762 basehttp 13 140716403582656 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+INFO 2025-05-31 01:57:42,244 autoreload 13 140716579597184 /app/user_app/serializers/authentication.py changed, reloading.
+INFO 2025-05-31 01:57:42,810 autoreload 17 140479678745472 Watching for file changes with StatReloader
+INFO 2025-05-31 01:59:31,663 autoreload 17 140479678745472 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 01:59:32,238 autoreload 19 140208423381888 Watching for file changes with StatReloader
+INFO 2025-05-31 02:01:12,393 autoreload 19 140208423381888 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 02:01:12,904 autoreload 21 140145788746624 Watching for file changes with StatReloader
+INFO 2025-05-31 02:01:22,955 basehttp 21 140145689835200 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 02:01:27,041 log 21 140145689835200 Bad Request: /auth/verify-otp-login/
+WARNING 2025-05-31 02:01:27,041 basehttp 21 140145689835200 "POST /auth/verify-otp-login/ HTTP/1.1" 400 117
+WARNING 2025-05-31 02:01:32,334 log 21 140145689835200 Bad Request: /auth/verify-otp-login/
+WARNING 2025-05-31 02:01:32,335 basehttp 21 140145689835200 "POST /auth/verify-otp-login/ HTTP/1.1" 400 117
+INFO 2025-05-31 02:05:45,233 autoreload 21 140145788746624 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 02:05:45,798 autoreload 25 140073423551360 Watching for file changes with StatReloader
+WARNING 2025-05-31 02:05:47,002 log 25 140073244817088 Bad Request: /auth/verify-otp-login/
+WARNING 2025-05-31 02:05:47,003 basehttp 25 140073244817088 "POST /auth/verify-otp-login/ HTTP/1.1" 400 117
+WARNING 2025-05-31 02:05:48,916 log 25 140073244817088 Bad Request: /auth/verify-otp-login/
+WARNING 2025-05-31 02:05:48,917 basehttp 25 140073244817088 "POST /auth/verify-otp-login/ HTTP/1.1" 400 117
+WARNING 2025-05-31 02:06:34,714 log 25 140073244817088 Bad Request: /auth/verify-otp-login/
+WARNING 2025-05-31 02:06:34,715 basehttp 25 140073244817088 "POST /auth/verify-otp-login/ HTTP/1.1" 400 117
+WARNING 2025-05-31 02:06:47,547 log 25 140073244817088 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 02:06:47,549 basehttp 25 140073244817088 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+INFO 2025-05-31 02:07:27,633 autoreload 25 140073423551360 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 02:07:28,201 autoreload 29 140023931968384 Watching for file changes with StatReloader
+ERROR 2025-05-31 02:07:30,582 log 29 140023832721088 Internal Server Error: /auth/verify-totp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 139, in post
+    user = AuthenticationService.verify_totp(email=email,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: AuthenticationService.verify_totp() got an unexpected keyword argument 'totp_code'
+ERROR 2025-05-31 02:07:30,589 basehttp 29 140023832721088 "POST /auth/verify-totp-login/ HTTP/1.1" 500 101217
+INFO 2025-05-31 02:09:02,183 autoreload 29 140023931968384 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 02:09:02,708 autoreload 33 139706536745856 Watching for file changes with StatReloader
+INFO 2025-05-31 02:09:10,936 autoreload 33 139706536745856 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 02:09:11,469 autoreload 35 140032606026624 Watching for file changes with StatReloader
+WARNING 2025-05-31 02:09:14,382 log 35 140032438433472 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 02:09:14,383 basehttp 35 140032438433472 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 02:09:18,397 log 35 140032438433472 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 02:09:18,398 basehttp 35 140032438433472 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+INFO 2025-05-31 02:09:35,223 basehttp 35 140032438433472 "POST /auth/verify-totp-login/ HTTP/1.1" 200 504
+INFO 2025-05-31 02:12:47,029 autoreload 35 140032606026624 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 02:12:47,524 autoreload 39 139699568536448 Watching for file changes with StatReloader
+INFO 2025-05-31 02:12:55,213 basehttp 39 139699469366976 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 02:12:59,029 log 39 139699469366976 Bad Request: /auth/verify-totp-login/
+WARNING 2025-05-31 02:12:59,030 basehttp 39 139699469366976 "POST /auth/verify-totp-login/ HTTP/1.1" 400 115
+WARNING 2025-05-31 02:13:03,588 log 39 139699469366976 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 02:13:03,588 basehttp 39 139699469366976 "POST /auth/verify-totp-login/ HTTP/1.1" 401 162
+INFO 2025-05-31 02:14:24,800 autoreload 39 139699568536448 /app/user_app/validators.py changed, reloading.
+INFO 2025-05-31 02:14:25,507 autoreload 43 140660875185024 Watching for file changes with StatReloader
+WARNING 2025-05-31 02:14:30,131 log 43 140660775532224 Bad Request: /auth/verify-otp-login/
+WARNING 2025-05-31 02:14:30,131 basehttp 43 140660775532224 "POST /auth/verify-otp-login/ HTTP/1.1" 400 117
+WARNING 2025-05-31 02:14:32,053 log 43 140660775532224 Bad Request: /auth/verify-otp-login/
+WARNING 2025-05-31 02:14:32,053 basehttp 43 140660775532224 "POST /auth/verify-otp-login/ HTTP/1.1" 400 117
+ERROR 2025-05-31 02:14:34,283 log 43 140660775532224 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 80, in post
+    user = AuthenticationService.verify_otp(email=email,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 176, in verify_otp
+    is_valid_otp = AuthenticationService.retrieve_otp_code(hashed_email) == otp_code
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 86, in retrieve_otp_code
+    return str(con.get(key).decode('utf-8'))
+               ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2025-05-31 02:14:34,289 basehttp 43 140660775532224 "POST /auth/verify-otp-login/ HTTP/1.1" 500 109734
+INFO 2025-05-31 02:15:26,458 autoreload 43 140660875185024 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 02:15:26,994 autoreload 47 140033658510208 Watching for file changes with StatReloader
+INFO 2025-05-31 02:16:21,217 autoreload 47 140033658510208 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 02:16:21,709 autoreload 49 139989404183424 Watching for file changes with StatReloader
+ERROR 2025-05-31 02:16:58,047 log 49 139989305210560 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 80, in post
+    user = AuthenticationService.verify_otp(email=email,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 176, in verify_otp
+    is_valid_otp = AuthenticationService.retrieve_otp_code(hashed_email) == otp_code
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 86, in retrieve_otp_code
+    return str(con.get(key).decode('utf-8')) or None
+               ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2025-05-31 02:16:58,054 basehttp 49 139989305210560 "POST /auth/verify-otp-login/ HTTP/1.1" 500 109787
+INFO 2025-05-31 02:17:21,378 autoreload 49 139989404183424 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 02:17:21,942 autoreload 53 140275697245056 Watching for file changes with StatReloader
+WARNING 2025-05-31 02:17:26,394 log 53 140275597915840 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 02:17:26,395 basehttp 53 140275597915840 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 02:17:29,187 log 53 140275597915840 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 02:17:29,187 basehttp 53 140275597915840 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+INFO 2025-05-31 02:17:33,570 basehttp 53 140275597915840 "POST /auth/get-otp-login/ HTTP/1.1" 200 18
+INFO 2025-05-31 02:17:48,603 basehttp 53 140275597915840 "POST /auth/verify-otp-login/ HTTP/1.1" 200 504
+INFO 2025-05-31 02:32:51,743 autoreload 53 140275697245056 /app/user_app/serializers/model.py changed, reloading.
+INFO 2025-05-31 02:32:52,243 autoreload 57 139755619322752 Watching for file changes with StatReloader
+INFO 2025-05-31 02:41:53,830 basehttp 57 139755519948480 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 02:41:54,972 basehttp 57 139755519948480 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 02:41:56,149 basehttp 57 139755519948480 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 02:41:56,940 basehttp 57 139755519948480 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 02:41:57,711 basehttp 57 139755519948480 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 02:41:58,445 basehttp 57 139755519948480 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 02:41:59,216 basehttp 57 139755519948480 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 03:19:06,917 autoreload 57 139755619322752 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:19:07,441 autoreload 61 139904128457600 Watching for file changes with StatReloader
+INFO 2025-05-31 03:27:20,702 autoreload 61 139904128457600 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:27:21,219 autoreload 63 139714270407552 Watching for file changes with StatReloader
+INFO 2025-05-31 03:27:28,344 autoreload 63 139714270407552 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:27:28,876 autoreload 65 139731883715456 Watching for file changes with StatReloader
+INFO 2025-05-31 03:28:38,866 autoreload 65 139731883715456 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:28:39,389 autoreload 67 140162951211904 Watching for file changes with StatReloader
+INFO 2025-05-31 03:29:06,178 autoreload 9 140279918410624 Watching for file changes with StatReloader
+INFO 2025-05-31 03:29:07,008 basehttp 9 140279738791616 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 03:29:10,128 log 9 140279738791616 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:29:10,130 basehttp 9 140279738791616 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:29:10,876 log 9 140279738791616 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:29:10,876 basehttp 9 140279738791616 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:29:11,473 log 9 140279738791616 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:29:11,474 basehttp 9 140279738791616 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:29:12,002 log 9 140279738791616 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:29:12,002 basehttp 9 140279738791616 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:29:13,244 log 9 140279738791616 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:29:13,245 basehttp 9 140279738791616 "POST /auth/verify-otp-login/ HTTP/1.1" 401 149
+WARNING 2025-05-31 03:29:16,072 log 9 140279738791616 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:29:16,072 basehttp 9 140279738791616 "POST /auth/login/ HTTP/1.1" 401 172
+WARNING 2025-05-31 03:29:19,079 log 9 140279738791616 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:29:19,081 basehttp 9 140279738791616 "POST /auth/login/ HTTP/1.1" 401 172
+WARNING 2025-05-31 03:29:20,402 log 9 140279738791616 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:29:20,402 basehttp 9 140279738791616 "POST /auth/login/ HTTP/1.1" 401 172
+WARNING 2025-05-31 03:29:22,758 log 9 140279738791616 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:29:22,758 basehttp 9 140279738791616 "POST /auth/login/ HTTP/1.1" 401 172
+INFO 2025-05-31 03:30:25,766 autoreload 9 140279918410624 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:30:26,676 autoreload 13 139678571182976 Watching for file changes with StatReloader
+INFO 2025-05-31 03:30:44,969 autoreload 13 139678571182976 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:30:45,524 autoreload 15 140407550208896 Watching for file changes with StatReloader
+WARNING 2025-05-31 03:30:49,099 log 15 140407371458240 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:30:49,100 basehttp 15 140407371458240 "POST /auth/login/ HTTP/1.1" 401 172
+WARNING 2025-05-31 03:30:50,352 log 15 140407371458240 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:30:50,353 basehttp 15 140407371458240 "POST /auth/login/ HTTP/1.1" 401 172
+WARNING 2025-05-31 03:30:51,192 log 15 140407371458240 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:30:51,196 basehttp 15 140407371458240 "POST /auth/login/ HTTP/1.1" 401 172
+WARNING 2025-05-31 03:30:51,902 log 15 140407371458240 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:30:51,902 basehttp 15 140407371458240 "POST /auth/login/ HTTP/1.1" 401 172
+WARNING 2025-05-31 03:30:52,609 log 15 140407371458240 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:30:52,613 basehttp 15 140407371458240 "POST /auth/login/ HTTP/1.1" 401 172
+WARNING 2025-05-31 03:30:54,107 log 15 140407371458240 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:30:54,108 basehttp 15 140407371458240 "POST /auth/login/ HTTP/1.1" 401 172
+INFO 2025-05-31 03:34:40,385 autoreload 15 140407550208896 /app/user_app/models.py changed, reloading.
+INFO 2025-05-31 03:34:40,915 autoreload 19 139773907893120 Watching for file changes with StatReloader
+INFO 2025-05-31 03:34:54,084 autoreload 10 140407645309824 Watching for file changes with StatReloader
+INFO 2025-05-31 03:39:02,323 autoreload 10 140407645309824 /app/user_app/models.py changed, reloading.
+INFO 2025-05-31 03:39:03,237 autoreload 12 140089348705152 Watching for file changes with StatReloader
+INFO 2025-05-31 03:39:46,171 basehttp 12 140089249183424 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 03:39:47,487 basehttp 12 140089249183424 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 03:39:50,349 basehttp 12 140089249183424 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 03:39:51,091 basehttp 12 140089249183424 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 03:39:57,387 log 12 140089249183424 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:39:57,388 basehttp 12 140089249183424 "POST /auth/verify-otp-login/ HTTP/1.1" 401 157
+WARNING 2025-05-31 03:39:58,017 log 12 140089249183424 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:39:58,017 basehttp 12 140089249183424 "POST /auth/verify-otp-login/ HTTP/1.1" 401 157
+WARNING 2025-05-31 03:39:59,016 log 12 140089249183424 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:39:59,017 basehttp 12 140089249183424 "POST /auth/verify-otp-login/ HTTP/1.1" 401 157
+INFO 2025-05-31 03:40:04,384 basehttp 12 140089249183424 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 03:40:05,279 basehttp 12 140089249183424 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 03:40:30,656 basehttp 12 140089249183424 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 03:40:31,315 basehttp 12 140089249183424 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 03:40:31,990 basehttp 12 140089249183424 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 03:40:57,825 basehttp 12 140089249183424 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 03:40:59,617 log 12 140089249183424 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:40:59,618 basehttp 12 140089249183424 "POST /auth/verify-otp-login/ HTTP/1.1" 401 157
+WARNING 2025-05-31 03:41:00,639 log 12 140089249183424 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:41:00,640 basehttp 12 140089249183424 "POST /auth/verify-otp-login/ HTTP/1.1" 401 157
+WARNING 2025-05-31 03:41:01,642 log 12 140089249183424 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:41:01,643 basehttp 12 140089249183424 "POST /auth/verify-otp-login/ HTTP/1.1" 401 157
+WARNING 2025-05-31 03:41:04,250 log 12 140089249183424 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 03:41:04,250 basehttp 12 140089249183424 "POST /auth/verify-totp-login/ HTTP/1.1" 401 157
+WARNING 2025-05-31 03:41:05,259 log 12 140089249183424 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 03:41:05,259 basehttp 12 140089249183424 "POST /auth/verify-totp-login/ HTTP/1.1" 401 157
+INFO 2025-05-31 03:42:04,793 autoreload 12 140089348705152 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:42:05,347 autoreload 16 140628025232256 Watching for file changes with StatReloader
+INFO 2025-05-31 03:42:07,959 basehttp 16 140627925743296 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 03:42:10,376 log 16 140627925743296 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:42:10,376 basehttp 16 140627925743296 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:42:12,736 log 16 140627925743296 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:42:12,737 basehttp 16 140627925743296 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:42:13,845 log 16 140627925743296 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:42:13,845 basehttp 16 140627925743296 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:42:14,362 log 16 140627925743296 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:42:14,363 basehttp 16 140627925743296 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:42:14,935 log 16 140627925743296 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:42:14,936 basehttp 16 140627925743296 "POST /auth/verify-otp-login/ HTTP/1.1" 401 150
+WARNING 2025-05-31 03:42:15,919 log 16 140627925743296 Too Many Requests: /auth/verify-otp-login/
+WARNING 2025-05-31 03:42:15,920 basehttp 16 140627925743296 "POST /auth/verify-otp-login/ HTTP/1.1" 429 142
+WARNING 2025-05-31 03:42:22,324 log 16 140627925743296 Too Many Requests: /auth/verify-otp-login/
+WARNING 2025-05-31 03:42:22,324 basehttp 16 140627925743296 "POST /auth/verify-otp-login/ HTTP/1.1" 429 142
+INFO 2025-05-31 03:43:37,788 autoreload 16 140628025232256 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:43:38,395 autoreload 20 140536209271680 Watching for file changes with StatReloader
+WARNING 2025-05-31 03:43:39,632 log 20 140536027543232 Too Many Requests: /auth/verify-otp-login/
+WARNING 2025-05-31 03:43:39,632 basehttp 20 140536027543232 "POST /auth/verify-otp-login/ HTTP/1.1" 429 142
+WARNING 2025-05-31 03:43:40,720 log 20 140536027543232 Too Many Requests: /auth/verify-otp-login/
+WARNING 2025-05-31 03:43:40,721 basehttp 20 140536027543232 "POST /auth/verify-otp-login/ HTTP/1.1" 429 142
+WARNING 2025-05-31 03:43:41,520 log 20 140536027543232 Too Many Requests: /auth/verify-otp-login/
+WARNING 2025-05-31 03:43:41,521 basehttp 20 140536027543232 "POST /auth/verify-otp-login/ HTTP/1.1" 429 142
+WARNING 2025-05-31 03:43:42,198 log 20 140536027543232 Too Many Requests: /auth/verify-otp-login/
+WARNING 2025-05-31 03:43:42,202 basehttp 20 140536027543232 "POST /auth/verify-otp-login/ HTTP/1.1" 429 142
+INFO 2025-05-31 03:44:03,960 autoreload 9 140559044426624 Watching for file changes with StatReloader
+INFO 2025-05-31 03:44:08,855 basehttp 9 140558945171136 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 03:44:09,743 basehttp 9 140558945171136 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-31 03:44:10,572 basehttp 9 140558945171136 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-31 03:44:12,521 log 9 140558945171136 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:44:12,521 basehttp 9 140558945171136 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:44:13,186 log 9 140558945171136 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:44:13,186 basehttp 9 140558945171136 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:44:13,805 log 9 140558945171136 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:44:13,806 basehttp 9 140558945171136 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:44:14,553 log 9 140558945171136 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:44:14,553 basehttp 9 140558945171136 "POST /auth/verify-otp-login/ HTTP/1.1" 401 162
+WARNING 2025-05-31 03:44:15,318 log 9 140558945171136 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:44:15,318 basehttp 9 140558945171136 "POST /auth/verify-otp-login/ HTTP/1.1" 401 149
+ERROR 2025-05-31 03:44:18,288 log 9 140558945171136 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 80, in post
+    user = AuthenticationService.verify_otp(email=email,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 176, in verify_otp
+    raise AuthenticationFailed(detail=_(f'Your account has been deactivated. Reason: {user.deactivate_reason.reason_detail}'),code='account_locked_general')
+                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RelatedManager' object has no attribute 'reason_detail'
+ERROR 2025-05-31 03:44:18,295 basehttp 9 140558945171136 "POST /auth/verify-otp-login/ HTTP/1.1" 500 106257
+ERROR 2025-05-31 03:45:27,772 log 9 140558926288576 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 80, in post
+    user = AuthenticationService.verify_otp(email=email,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 176, in verify_otp
+    raise AuthenticationFailed(detail=_(f'Your account has been deactivated. Reason: {user.deactivate_reason.reason_detail}'),code='account_locked_general')
+                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RelatedManager' object has no attribute 'reason_detail'
+ERROR 2025-05-31 03:45:27,777 basehttp 9 140558926288576 "POST /auth/verify-otp-login/ HTTP/1.1" 500 106257
+INFO 2025-05-31 03:47:41,545 autoreload 9 140559044426624 /app/user_app/models.py changed, reloading.
+INFO 2025-05-31 03:47:42,524 autoreload 15 140497162599296 Watching for file changes with StatReloader
+INFO 2025-05-31 03:49:07,821 autoreload 15 140497162599296 /app/user_app/models.py changed, reloading.
+INFO 2025-05-31 03:49:08,350 autoreload 17 140258475862912 Watching for file changes with StatReloader
+INFO 2025-05-31 03:49:28,177 autoreload 17 140258475862912 /app/user_app/models.py changed, reloading.
+INFO 2025-05-31 03:49:28,681 autoreload 19 140403025398656 Watching for file changes with StatReloader
+INFO 2025-05-31 03:49:56,487 autoreload 19 140403025398656 /app/user_app/models.py changed, reloading.
+INFO 2025-05-31 03:49:57,081 autoreload 21 140269979413376 Watching for file changes with StatReloader
+INFO 2025-05-31 03:50:08,437 autoreload 21 140269979413376 /app/user_app/models.py changed, reloading.
+INFO 2025-05-31 03:50:08,977 autoreload 23 140089274944384 Watching for file changes with StatReloader
+INFO 2025-05-31 03:50:27,083 autoreload 23 140089274944384 /app/user_app/models.py changed, reloading.
+INFO 2025-05-31 03:50:27,574 autoreload 25 139667797609344 Watching for file changes with StatReloader
+INFO 2025-05-31 03:50:48,777 autoreload 25 139667797609344 /app/user_app/models.py changed, reloading.
+INFO 2025-05-31 03:50:49,340 autoreload 27 140193877113728 Watching for file changes with StatReloader
+INFO 2025-05-31 03:50:55,428 autoreload 27 140193877113728 /app/user_app/models.py changed, reloading.
+INFO 2025-05-31 03:50:55,981 autoreload 29 139856572541824 Watching for file changes with StatReloader
+INFO 2025-05-31 03:51:54,546 autoreload 29 139856572541824 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:51:55,004 autoreload 31 140679817403264 Watching for file changes with StatReloader
+WARNING 2025-05-31 03:52:02,089 log 31 140679718057664 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 03:52:02,089 basehttp 31 140679718057664 "POST /auth/verify-totp-login/ HTTP/1.1" 401 187
+WARNING 2025-05-31 03:52:03,797 log 31 140679718057664 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 03:52:03,798 basehttp 31 140679718057664 "POST /auth/verify-totp-login/ HTTP/1.1" 401 187
+WARNING 2025-05-31 03:52:04,546 log 31 140679718057664 Unauthorized: /auth/verify-totp-login/
+WARNING 2025-05-31 03:52:04,546 basehttp 31 140679718057664 "POST /auth/verify-totp-login/ HTTP/1.1" 401 187
+ERROR 2025-05-31 03:52:06,423 log 31 140679718057664 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/authentication.py", line 80, in post
+    user = AuthenticationService.verify_otp(email=email,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/authentication_service.py", line 176, in verify_otp
+    raise AuthenticationFailed(detail=_(f'Your account has been deactivated. Reason: {user.deactivate_reason.reason_detail}'),code='account_locked_general')
+                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RelatedManager' object has no attribute 'reason_detail'
+ERROR 2025-05-31 03:52:06,431 basehttp 31 140679718057664 "POST /auth/verify-otp-login/ HTTP/1.1" 500 106257
+INFO 2025-05-31 03:52:28,533 autoreload 31 140679817403264 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:52:29,113 autoreload 35 140618629200768 Watching for file changes with StatReloader
+INFO 2025-05-31 03:52:48,396 autoreload 35 140618629200768 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:52:49,035 autoreload 37 139978982435712 Watching for file changes with StatReloader
+INFO 2025-05-31 03:53:13,152 autoreload 37 139978982435712 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:53:13,702 autoreload 39 139717634198400 Watching for file changes with StatReloader
+INFO 2025-05-31 03:53:28,686 autoreload 39 139717634198400 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-31 03:53:29,226 autoreload 41 140654194699136 Watching for file changes with StatReloader
+WARNING 2025-05-31 03:53:31,831 log 41 140654086661824 Unauthorized: /auth/verify-otp-login/
+WARNING 2025-05-31 03:53:31,832 basehttp 41 140654086661824 "POST /auth/verify-otp-login/ HTTP/1.1" 401 187
+WARNING 2025-05-31 03:53:34,995 log 41 140654086661824 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:53:34,995 basehttp 41 140654086661824 "POST /auth/login/ HTTP/1.1" 401 187
+WARNING 2025-05-31 03:53:35,830 log 41 140654086661824 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:53:35,831 basehttp 41 140654086661824 "POST /auth/login/ HTTP/1.1" 401 187
+WARNING 2025-05-31 03:53:36,506 log 41 140654086661824 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:53:36,507 basehttp 41 140654086661824 "POST /auth/login/ HTTP/1.1" 401 187
+WARNING 2025-05-31 03:53:37,062 log 41 140654086661824 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:53:37,062 basehttp 41 140654086661824 "POST /auth/login/ HTTP/1.1" 401 187
+WARNING 2025-05-31 03:53:37,618 log 41 140654086661824 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:53:37,618 basehttp 41 140654086661824 "POST /auth/login/ HTTP/1.1" 401 187
+WARNING 2025-05-31 03:53:38,100 log 41 140654086661824 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:53:38,101 basehttp 41 140654086661824 "POST /auth/login/ HTTP/1.1" 401 187
+WARNING 2025-05-31 03:53:38,611 log 41 140654086661824 Unauthorized: /auth/login/
+WARNING 2025-05-31 03:53:38,612 basehttp 41 140654086661824 "POST /auth/login/ HTTP/1.1" 401 187

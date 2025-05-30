@@ -83,10 +83,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'backend.urls'
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
-]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -203,8 +200,6 @@ LOCALE_PATHS = [
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
-
-STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
@@ -359,6 +354,7 @@ LOCKING_ACCOUNT_LIFETIME = config('LOCKING_ACCOUNT_IN_SECONDS', cast=str, defaul
 OTP_EXPIRES_LIFETIME = config('OTP_EXPIRES_LIFETIME', cast=str, default='30|minutes')
 OTP_RENEW_WINDOW_LIFETIME = config('OTP_RENEW_WINDOW_LIFETIME', cast=str, default='5|minutes')
 OTP_LENGTH = config('OTP_LENGTH', cast=int, default=6)
+TOTP_DIGITS= config('TOTP_DIGITS', cast=int, default=6)
 OTP_MIXED_CASE = config('OTP_MIXED_CASE', cast=bool, default=False)
 
 # TOKEN CONFIG

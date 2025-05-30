@@ -25,9 +25,12 @@ class TwoFactorAuthTypeChoices(models.TextChoices):
     EMAIL = 'email', 'EMAIL'
 
 class DeactivateUserReasonTypeChoices(models.TextChoices):
-    BAN = 'ban', _('Admin Ban')
-    SPAM = 'spam', _('Spam Login')
-    OTHER = 'other', _('Other')
+    SPAM = 'SPAM', _('Suspicious Spam Activity')
+    ABUSE = 'ABUSE', _('Violation of Terms of Service')
+    FROZEN_BY_ADMIN = 'ADMIN', _('Frozen by Administrator')
+    TOO_MANY_FAILED_LOGINS = 'FAILED_LOGIN', _('Too many failed login attempts')
+    INACTIVE = 'INACTIVE', _('User Inactive for too long')
+    OTHER = 'OTHER', _('Other')
 
 class DeactivateUserReasonActorDetailChoices(models.TextChoices):
     SYSTEM = 'system', _('System')
@@ -78,6 +81,12 @@ class User(AbstractBaseUser, PermissionsMixin, BaseModelMixin):
         self.last_login = timezone.now()
         self.save(update_fields=['last_login'])
 
+    @property
+    def deactivation_reason_code(self):
+        lastest = self.deactivate_reason.first()
+        if lastest:
+            return lastest.reason_type,lastest.reason_detail
+        return None,None
 
 
 class UserTwoFactorAuthSetting(BaseModelMixin):
@@ -93,7 +102,7 @@ class UserTwoFactorAuthSetting(BaseModelMixin):
 
 class UserDeactivateReason(BaseModelMixin):
     id = models.UUIDField(primary_key=True, editable=False,default=uuid.uuid4)
-    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='deactivate_reason',verbose_name='User')
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='deactivate_reason',verbose_name='User')
     reason_type = models.CharField(max_length=50,choices=DeactivateUserReasonTypeChoices.choices,verbose_name='Reason')
     reason_detail = models.CharField(max_length=500,null=True,blank=True,verbose_name='Detail')
     actor = models.ForeignKey(User,on_delete=models.CASCADE,related_name='user_deactivate',null=True,blank=True,default=None,verbose_name='Actor')
@@ -101,6 +110,8 @@ class UserDeactivateReason(BaseModelMixin):
     class Meta:
         verbose_name = 'User Deactivate Reason'
         verbose_name_plural = 'User Deactivate Reason'
+        ordering = ['-created_at']
+
 
 class Profile(BaseModelMixin):
     id = models.UUIDField(primary_key=True, editable=False,default=uuid.uuid4)
@@ -141,8 +152,8 @@ class TOTP(BaseModelMixin):
         verbose_name = '2FA Authentication'
         verbose_name_plural = '2FA Authentication'
 
-    def check_otp(self, otp):
-        totp = pyotp.TOTP(self.secret_key)
+    def check_otp(self, otp,digits):
+        totp = pyotp.TOTP(self.secret_key,digits=digits)
         return totp.verify(otp)
 
 class Oauth2Token(BaseModelMixin):

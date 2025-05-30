@@ -4,13 +4,13 @@ from django.db import IntegrityError, transaction
 from django.contrib.auth import get_user_model
 from django.utils.translation import gettext_lazy as _
 
-from rest_framework.exceptions import AuthenticationFailed
+from base.exceptions import AuthenticationFailed
 from ..models import Profile,UserTwoFactorAuthSetting,TwoFactorAuthTypeChoices
 
 User = get_user_model()
 
 logger = logging.getLogger(__name__)
-class UserRegistrationService:
+class RegistrationService:
     @staticmethod
     @transaction.atomic
     def user_registration(email, password, first_name, last_name, language, phone_number, gender, birth_date):

@@ -18,13 +18,13 @@ language_config = LanguageConfig().get_language_config()
 site_config = SiteConfig().get_site_config()
 
 @shared_task(bind=True,default_retry_delay=300, max_retries=5)
-def send_mail_otp_forgot_password(self,subject,user_id,otp_code,otp_expiry_minutes,current_language_code):
+def send_mail_otp_forgot_password(self,subject,user_id,otp_code,otp_expiry_minutes):
     try:
         user_serializer = UserSerializer(instance=User.objects.get(pk=user_id)).data
         context = {
             'subject': subject,
             'user':user_serializer,
-            'language': user_serializer['language'] or current_language_code or language_config['LANGUAGE_CODE'],
+            'language': user_serializer['language']  or language_config['LANGUAGE_CODE'],
             'site_name':site_config['SITE_NAME'],
             'otp_code':otp_code,
             'otp_expiry_minutes': otp_expiry_minutes,

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ddfd3e1-a91c-4705-9ce9-39b5abe920b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/base/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/user_app/serializers/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/user_app/serializers/recovery_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/user_app/serializers/registration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/user_app/services/unlock_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/user_app/views/recovery_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/user_app/views/registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/base/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/base/hashers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/hashers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/base/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/logs/celery.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/logs/celery.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/logs/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/logs/django.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/serializers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/serializers/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/serializers/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/serializers/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/services/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/services/authentication_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/services/authentication_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/services/user_forgot_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/services/recovery_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/services/user_registration_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/services/registration_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/tasks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/tasks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/tasks/send_email_otp_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/tasks/authentication_otp_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/tasks/send_mail_login_failed_deactivate.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/tasks/account_deactivated.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/tasks/send_mail_otp_forgot_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/tasks/send_mail_otp_forgot_password.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/templates/user_app/otp_verify_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/templates/user_app/authentication_otp_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/views/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/views/authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/celery.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/celery.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/django.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2xS5C0siISUrz0kVaA8J2ZAh0mr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Docker.docker-compose-dev.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;I do mind&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tohie/Desktop/myshop/backend/user_app/management/commands&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tohie\Desktop\myshop\backend\user_app\management\commands" />
+      <recent name="C:\Users\tohie\Desktop\myshop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tohie\Desktop\myshop\backend\user_app" />
+      <recent name="C:\Users\tohie\Desktop\myshop\backend\static\css" />
+      <recent name="C:\Users\tohie\Desktop\myshop\rabbitMQ" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose-dev.yml: Compose Deployment">
+    <configuration name="myshop" type="Python.DjangoServer" factoryName="Django server">
+      <module name="myshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose-dev.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose-dev.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose-dev.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ddfd3e1-a91c-4705-9ce9-39b5abe920b1" name="Changes" comment="" />
+      <created>1747918502233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747918502233</updated>
+      <workItem from="1747918503326" duration="25215000" />
+      <workItem from="1747948207517" duration="74000" />
+      <workItem from="1748002513788" duration="22785000" />
+      <workItem from="1748093583897" duration="21502000" />
+      <workItem from="1748159577760" duration="40452000" />
+      <workItem from="1748259346066" duration="27814000" />
+      <workItem from="1748341245155" duration="29869000" />
+      <workItem from="1748432119849" duration="25186000" />
+      <workItem from="1748567076416" duration="5010000" />
+      <workItem from="1748610941037" duration="21277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

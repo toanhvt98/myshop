@@ -1,3 +1,3 @@
 from .authentication_service import AuthenticationService
-from .user_registration_service import UserRegistrationService
-from .user_forgot_password import UserForgotPasswordService
+from .registration_service import RegistrationService
+from .recovery_account import RecoveryAccountService

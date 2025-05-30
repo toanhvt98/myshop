@@ -1,5 +1,4 @@
-from ..models import User,Profile,Address,TOTP,UserTwoFactorAuthSetting
-from ..models import TwoFactorAuthTypeChoices
+from ..models import User,Profile,Address,TOTP,UserTwoFactorAuthSetting,Oauth2Token, UserDeactivateReason
 from rest_framework import serializers
 from django.utils.translation import gettext_lazy as _
 
