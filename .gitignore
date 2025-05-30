@@ -1,4 +1,5 @@
 venv/
 backend/.env
 logs
+backend/logs/*
 backend/logs
