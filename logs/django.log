@@ -1,0 +1,2215 @@
+INFO 2025-05-27 03:34:13,693 autoreload 11 139964954536832 Watching for file changes with StatReloader
+INFO 2025-05-27 03:34:42,143 autoreload 9 139933564525440 Watching for file changes with StatReloader
+WARNING 2025-05-27 03:34:45,782 log 9 139933381551808 Forbidden: /auth/login/
+WARNING 2025-05-27 03:34:45,782 basehttp 9 139933381551808 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:34:46,939 log 9 139933381551808 Forbidden: /auth/login/
+WARNING 2025-05-27 03:34:46,945 basehttp 9 139933381551808 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:34:47,862 log 9 139933381551808 Forbidden: /auth/login/
+WARNING 2025-05-27 03:34:47,864 basehttp 9 139933381551808 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:34:48,716 log 9 139933381551808 Forbidden: /auth/login/
+WARNING 2025-05-27 03:34:48,717 basehttp 9 139933381551808 "POST /auth/login/ HTTP/1.1" 403 162
+ERROR 2025-05-27 03:35:01,563 user_login_service 9 139933381551808 An error occurred while deactivating user: column user_app_userdeactivatereason.actor_detail does not exist
+LINE 1: ...ail", "user_app_userdeactivatereason"."actor_id", "user_app_...
+                                                             ^
+
+WARNING 2025-05-27 03:35:01,564 log 9 139933381551808 Forbidden: /auth/login/
+WARNING 2025-05-27 03:35:01,565 basehttp 9 139933381551808 "POST /auth/login/ HTTP/1.1" 403 126
+WARNING 2025-05-27 03:35:03,737 log 9 139933381551808 Forbidden: /auth/login/
+WARNING 2025-05-27 03:35:03,738 basehttp 9 139933381551808 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:37:14,582 log 9 139933389944512 Forbidden: /auth/login/
+WARNING 2025-05-27 03:37:14,588 basehttp 9 139933389944512 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:37:15,488 log 9 139933389944512 Forbidden: /auth/login/
+WARNING 2025-05-27 03:37:15,490 basehttp 9 139933389944512 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:37:16,385 log 9 139933389944512 Forbidden: /auth/login/
+WARNING 2025-05-27 03:37:16,386 basehttp 9 139933389944512 "POST /auth/login/ HTTP/1.1" 403 162
+ERROR 2025-05-27 03:37:17,173 user_login_service 9 139933389944512 An error occurred while deactivating user: Exceeded the number of allowed logins
+WARNING 2025-05-27 03:37:17,174 log 9 139933389944512 Forbidden: /auth/login/
+WARNING 2025-05-27 03:37:17,175 basehttp 9 139933389944512 "POST /auth/login/ HTTP/1.1" 403 126
+WARNING 2025-05-27 03:37:18,632 log 9 139933389944512 Forbidden: /auth/login/
+WARNING 2025-05-27 03:37:18,633 basehttp 9 139933389944512 "POST /auth/login/ HTTP/1.1" 403 162
+INFO 2025-05-27 03:38:17,638 autoreload 9 139933564525440 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 03:38:18,490 autoreload 24 139873027705728 Watching for file changes with StatReloader
+WARNING 2025-05-27 03:38:22,555 log 24 139872857749184 Forbidden: /auth/login/
+WARNING 2025-05-27 03:38:22,556 basehttp 24 139872857749184 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:38:24,692 log 24 139872857749184 Forbidden: /auth/login/
+WARNING 2025-05-27 03:38:24,693 basehttp 24 139872857749184 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:38:25,593 log 24 139872857749184 Forbidden: /auth/login/
+WARNING 2025-05-27 03:38:25,594 basehttp 24 139872857749184 "POST /auth/login/ HTTP/1.1" 403 162
+ERROR 2025-05-27 03:38:26,382 user_login_service 24 139872857749184 An error occurred while deactivating user: Exceeded the number of allowed logins
+WARNING 2025-05-27 03:38:26,383 log 24 139872857749184 Forbidden: /auth/login/
+WARNING 2025-05-27 03:38:26,384 basehttp 24 139872857749184 "POST /auth/login/ HTTP/1.1" 403 126
+INFO 2025-05-27 03:44:14,620 autoreload 24 139873027705728 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 03:44:15,182 autoreload 28 140382205725568 Watching for file changes with StatReloader
+INFO 2025-05-27 03:45:29,056 autoreload 28 140382205725568 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 03:45:29,533 autoreload 30 139988913023872 Watching for file changes with StatReloader
+INFO 2025-05-27 03:45:41,012 autoreload 30 139988913023872 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 03:45:41,491 autoreload 32 139764664982400 Watching for file changes with StatReloader
+WARNING 2025-05-27 03:45:54,461 log 32 139764566013632 Forbidden: /auth/login/
+WARNING 2025-05-27 03:45:54,461 basehttp 32 139764566013632 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:45:55,283 log 32 139764566013632 Forbidden: /auth/login/
+WARNING 2025-05-27 03:45:55,283 basehttp 32 139764566013632 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:45:56,013 log 32 139764566013632 Forbidden: /auth/login/
+WARNING 2025-05-27 03:45:56,014 basehttp 32 139764566013632 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:45:56,675 log 32 139764566013632 Forbidden: /auth/login/
+WARNING 2025-05-27 03:45:56,676 basehttp 32 139764566013632 "POST /auth/login/ HTTP/1.1" 403 162
+ERROR 2025-05-27 03:45:57,378 user_login_service 32 139764566013632 An error occurred while creating UserDeactivateReason object: column "reason_type" of relation "user_app_userdeactivatereason" does not exist
+LINE 1: ...on" ("created_at", "updated_at", "id", "user_id", "reason_ty...
+                                                             ^
+
+ERROR 2025-05-27 03:45:57,379 user_login_service 32 139764566013632 An error occurred while deactivating user: Your account has already been deactivated. Please contact support.
+WARNING 2025-05-27 03:45:57,380 log 32 139764566013632 Forbidden: /auth/login/
+WARNING 2025-05-27 03:45:57,380 basehttp 32 139764566013632 "POST /auth/login/ HTTP/1.1" 403 126
+WARNING 2025-05-27 03:45:58,837 log 32 139764566013632 Forbidden: /auth/login/
+WARNING 2025-05-27 03:45:58,838 basehttp 32 139764566013632 "POST /auth/login/ HTTP/1.1" 403 162
+INFO 2025-05-27 03:46:18,895 autoreload 9 140482291796864 Watching for file changes with StatReloader
+INFO 2025-05-27 03:47:48,085 autoreload 9 140482291796864 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 03:47:48,884 autoreload 11 140578439019392 Watching for file changes with StatReloader
+INFO 2025-05-27 03:47:50,580 autoreload 11 140578439019392 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 03:47:51,129 autoreload 13 140481321868160 Watching for file changes with StatReloader
+WARNING 2025-05-27 03:47:52,921 log 13 140481223669440 Forbidden: /auth/login/
+WARNING 2025-05-27 03:47:52,922 basehttp 13 140481223669440 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:47:54,229 log 13 140481223669440 Forbidden: /auth/login/
+WARNING 2025-05-27 03:47:54,233 basehttp 13 140481223669440 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:47:55,151 log 13 140481223669440 Forbidden: /auth/login/
+WARNING 2025-05-27 03:47:55,152 basehttp 13 140481223669440 "POST /auth/login/ HTTP/1.1" 403 162
+ERROR 2025-05-27 03:47:55,978 user_login_service 13 140481223669440 An error occurred while deactivating user: column "reason_type" of relation "user_app_userdeactivatereason" does not exist
+LINE 1: ...on" ("created_at", "updated_at", "id", "user_id", "reason_ty...
+                                                             ^
+
+WARNING 2025-05-27 03:47:55,979 log 13 140481223669440 Forbidden: /auth/login/
+WARNING 2025-05-27 03:47:55,979 basehttp 13 140481223669440 "POST /auth/login/ HTTP/1.1" 403 126
+WARNING 2025-05-27 03:48:30,693 log 13 140481223669440 Forbidden: /auth/login/
+WARNING 2025-05-27 03:48:30,694 basehttp 13 140481223669440 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:48:31,637 log 13 140481223669440 Forbidden: /auth/login/
+WARNING 2025-05-27 03:48:31,638 basehttp 13 140481223669440 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:48:32,636 log 13 140481223669440 Forbidden: /auth/login/
+WARNING 2025-05-27 03:48:32,638 basehttp 13 140481223669440 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:48:33,393 log 13 140481223669440 Forbidden: /auth/login/
+WARNING 2025-05-27 03:48:33,394 basehttp 13 140481223669440 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 03:48:34,237 log 13 140481223669440 Forbidden: /auth/login/
+WARNING 2025-05-27 03:48:34,238 basehttp 13 140481223669440 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 04:04:54,997 autoreload 13 140481321868160 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 04:04:55,558 autoreload 25 139783068101504 Watching for file changes with StatReloader
+WARNING 2025-05-27 04:05:39,799 log 25 139782968522432 Forbidden: /auth/login/
+WARNING 2025-05-27 04:05:39,799 basehttp 25 139782968522432 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:05:40,684 log 25 139782968522432 Forbidden: /auth/login/
+WARNING 2025-05-27 04:05:40,684 basehttp 25 139782968522432 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:05:41,438 log 25 139782968522432 Forbidden: /auth/login/
+WARNING 2025-05-27 04:05:41,438 basehttp 25 139782968522432 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:05:42,172 log 25 139782968522432 Forbidden: /auth/login/
+WARNING 2025-05-27 04:05:42,173 basehttp 25 139782968522432 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:05:42,901 log 25 139782968522432 Forbidden: /auth/login/
+WARNING 2025-05-27 04:05:42,901 basehttp 25 139782968522432 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 04:06:05,288 autoreload 25 139783068101504 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 04:06:05,822 autoreload 29 140211987430272 Watching for file changes with StatReloader
+WARNING 2025-05-27 04:06:26,762 log 29 140211812034240 Forbidden: /auth/login/
+WARNING 2025-05-27 04:06:26,763 basehttp 29 140211812034240 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:06:33,017 log 29 140211812034240 Forbidden: /auth/login/
+WARNING 2025-05-27 04:06:33,017 basehttp 29 140211812034240 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:06:33,669 log 29 140211812034240 Forbidden: /auth/login/
+WARNING 2025-05-27 04:06:33,669 basehttp 29 140211812034240 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:06:34,302 log 29 140211812034240 Forbidden: /auth/login/
+WARNING 2025-05-27 04:06:34,303 basehttp 29 140211812034240 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:06:34,966 log 29 140211812034240 Forbidden: /auth/login/
+WARNING 2025-05-27 04:06:34,967 basehttp 29 140211812034240 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 04:07:09,905 autoreload 29 140211987430272 /app/user_app/tasks/send_mail_login_failed_deactivate.py changed, reloading.
+INFO 2025-05-27 04:07:10,608 autoreload 33 140441279159168 Watching for file changes with StatReloader
+WARNING 2025-05-27 04:08:34,228 log 33 140441179600576 Forbidden: /auth/login/
+WARNING 2025-05-27 04:08:34,228 basehttp 33 140441179600576 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:08:34,982 log 33 140441179600576 Forbidden: /auth/login/
+WARNING 2025-05-27 04:08:34,988 basehttp 33 140441179600576 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:08:35,741 log 33 140441179600576 Forbidden: /auth/login/
+WARNING 2025-05-27 04:08:35,743 basehttp 33 140441179600576 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:08:36,427 log 33 140441179600576 Forbidden: /auth/login/
+WARNING 2025-05-27 04:08:36,428 basehttp 33 140441179600576 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:08:37,238 log 33 140441179600576 Forbidden: /auth/login/
+WARNING 2025-05-27 04:08:37,239 basehttp 33 140441179600576 "POST /auth/login/ HTTP/1.1" 403 149
+WARNING 2025-05-27 04:08:37,738 log 33 140441179600576 Forbidden: /auth/login/
+WARNING 2025-05-27 04:08:37,739 basehttp 33 140441179600576 "POST /auth/login/ HTTP/1.1" 403 109
+INFO 2025-05-27 04:09:45,368 autoreload 33 140441279159168 /app/backend/settings.py changed, reloading.
+INFO 2025-05-27 04:09:45,954 autoreload 37 140163041418112 Watching for file changes with StatReloader
+INFO 2025-05-27 04:10:01,201 autoreload 9 139975212022656 Watching for file changes with StatReloader
+INFO 2025-05-27 04:11:07,098 autoreload 9 139975212022656 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 04:11:08,059 autoreload 11 140147909409664 Watching for file changes with StatReloader
+WARNING 2025-05-27 04:11:10,290 log 11 140147735656128 Forbidden: /auth/login/
+WARNING 2025-05-27 04:11:10,291 basehttp 11 140147735656128 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:11:11,310 log 11 140147735656128 Forbidden: /auth/login/
+WARNING 2025-05-27 04:11:11,310 basehttp 11 140147735656128 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:11:12,701 log 11 140147735656128 Forbidden: /auth/login/
+WARNING 2025-05-27 04:11:12,702 basehttp 11 140147735656128 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:11:13,416 log 11 140147735656128 Forbidden: /auth/login/
+WARNING 2025-05-27 04:11:13,417 basehttp 11 140147735656128 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:11:14,349 log 11 140147735656128 Forbidden: /auth/login/
+WARNING 2025-05-27 04:11:14,349 basehttp 11 140147735656128 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 04:11:37,277 autoreload 11 140147909409664 /app/backend/settings.py changed, reloading.
+INFO 2025-05-27 04:11:37,835 autoreload 15 140031699950464 Watching for file changes with StatReloader
+INFO 2025-05-27 04:11:47,193 autoreload 15 140031699950464 /app/backend/settings.py changed, reloading.
+INFO 2025-05-27 04:11:47,802 autoreload 17 140592953019264 Watching for file changes with StatReloader
+INFO 2025-05-27 04:11:58,983 autoreload 9 140466319321984 Watching for file changes with StatReloader
+WARNING 2025-05-27 04:12:10,139 log 9 140466212251328 Forbidden: /auth/login/
+WARNING 2025-05-27 04:12:10,140 basehttp 9 140466212251328 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:12:11,146 log 9 140466212251328 Forbidden: /auth/login/
+WARNING 2025-05-27 04:12:11,146 basehttp 9 140466212251328 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:12:11,866 log 9 140466212251328 Forbidden: /auth/login/
+WARNING 2025-05-27 04:12:11,867 basehttp 9 140466212251328 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:12:12,593 log 9 140466212251328 Forbidden: /auth/login/
+WARNING 2025-05-27 04:12:12,594 basehttp 9 140466212251328 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:12:13,272 log 9 140466212251328 Forbidden: /auth/login/
+WARNING 2025-05-27 04:12:13,272 basehttp 9 140466212251328 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 04:13:07,966 autoreload 9 140466319321984 /app/backend/settings.py changed, reloading.
+INFO 2025-05-27 04:13:09,013 autoreload 13 139755212163968 Watching for file changes with StatReloader
+WARNING 2025-05-27 04:13:16,913 log 13 139755113100992 Not Found: /
+WARNING 2025-05-27 04:13:16,913 basehttp 13 139755113100992 "GET / HTTP/1.1" 404 2396
+INFO 2025-05-27 04:14:01,977 autoreload 13 139755212163968 /app/backend/settings.py changed, reloading.
+INFO 2025-05-27 04:14:02,525 autoreload 17 140101500021632 Watching for file changes with StatReloader
+INFO 2025-05-27 04:14:13,028 autoreload 9 140279735401344 Watching for file changes with StatReloader
+WARNING 2025-05-27 04:15:31,543 log 9 140279635982016 Forbidden: /auth/login/
+WARNING 2025-05-27 04:15:31,544 basehttp 9 140279635982016 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:15:32,439 log 9 140279635982016 Forbidden: /auth/login/
+WARNING 2025-05-27 04:15:32,440 basehttp 9 140279635982016 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:15:33,302 log 9 140279635982016 Forbidden: /auth/login/
+WARNING 2025-05-27 04:15:33,303 basehttp 9 140279635982016 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:15:33,968 log 9 140279635982016 Forbidden: /auth/login/
+WARNING 2025-05-27 04:15:33,969 basehttp 9 140279635982016 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:15:34,874 log 9 140279635982016 Forbidden: /auth/login/
+WARNING 2025-05-27 04:15:34,874 basehttp 9 140279635982016 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 04:16:11,818 autoreload 9 140279735401344 /app/backend/settings.py changed, reloading.
+INFO 2025-05-27 04:16:12,389 autoreload 13 140613917731712 Watching for file changes with StatReloader
+INFO 2025-05-27 04:16:28,412 autoreload 9 140712095943552 Watching for file changes with StatReloader
+INFO 2025-05-27 04:16:35,460 autoreload 9 140712095943552 /app/backend/settings.py changed, reloading.
+INFO 2025-05-27 04:16:36,085 autoreload 11 139655968050048 Watching for file changes with StatReloader
+WARNING 2025-05-27 04:16:55,706 log 11 139655860135616 Forbidden: /auth/login/
+WARNING 2025-05-27 04:16:55,707 basehttp 11 139655860135616 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:16:56,629 log 11 139655860135616 Forbidden: /auth/login/
+WARNING 2025-05-27 04:16:56,630 basehttp 11 139655860135616 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:16:57,451 log 11 139655860135616 Forbidden: /auth/login/
+WARNING 2025-05-27 04:16:57,452 basehttp 11 139655860135616 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:17:30,288 log 11 139655860135616 Forbidden: /auth/login/
+WARNING 2025-05-27 04:17:30,289 basehttp 11 139655860135616 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:17:37,148 log 11 139655860135616 Forbidden: /auth/login/
+WARNING 2025-05-27 04:17:37,149 basehttp 11 139655860135616 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 04:22:38,417 autoreload 9 140710217902976 Watching for file changes with StatReloader
+WARNING 2025-05-27 04:23:29,705 log 9 140710040827584 Forbidden: /auth/login/
+WARNING 2025-05-27 04:23:29,706 basehttp 9 140710040827584 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:23:34,106 log 9 140710040827584 Forbidden: /auth/login/
+WARNING 2025-05-27 04:23:34,107 basehttp 9 140710040827584 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:23:34,848 log 9 140710040827584 Forbidden: /auth/login/
+WARNING 2025-05-27 04:23:34,849 basehttp 9 140710040827584 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:23:35,573 log 9 140710040827584 Forbidden: /auth/login/
+WARNING 2025-05-27 04:23:35,575 basehttp 9 140710040827584 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:23:36,443 log 9 140710040827584 Forbidden: /auth/login/
+WARNING 2025-05-27 04:23:36,444 basehttp 9 140710040827584 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 04:26:49,511 autoreload 9 140710217902976 /app/backend/settings.py changed, reloading.
+INFO 2025-05-27 04:26:50,411 autoreload 14 140332777364352 Watching for file changes with StatReloader
+INFO 2025-05-27 04:27:06,671 autoreload 9 139686380555136 Watching for file changes with StatReloader
+WARNING 2025-05-27 04:27:23,895 log 9 139686281426624 Forbidden: /auth/login/
+WARNING 2025-05-27 04:27:23,896 basehttp 9 139686281426624 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:27:29,017 log 9 139686281426624 Forbidden: /auth/login/
+WARNING 2025-05-27 04:27:29,017 basehttp 9 139686281426624 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:27:29,877 log 9 139686281426624 Forbidden: /auth/login/
+WARNING 2025-05-27 04:27:29,877 basehttp 9 139686281426624 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:27:30,531 log 9 139686281426624 Forbidden: /auth/login/
+WARNING 2025-05-27 04:27:30,531 basehttp 9 139686281426624 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:27:31,310 log 9 139686281426624 Forbidden: /auth/login/
+WARNING 2025-05-27 04:27:31,311 basehttp 9 139686281426624 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 04:39:54,038 autoreload 9 139686380555136 /app/user_app/tasks/send_mail_login_failed_deactivate.py changed, reloading.
+INFO 2025-05-27 04:39:54,817 autoreload 13 140054771673984 Watching for file changes with StatReloader
+INFO 2025-05-27 04:40:17,834 autoreload 9 140468813368192 Watching for file changes with StatReloader
+WARNING 2025-05-27 04:40:24,147 log 9 140468637656768 Forbidden: /auth/login/
+WARNING 2025-05-27 04:40:24,147 basehttp 9 140468637656768 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:40:25,161 log 9 140468637656768 Forbidden: /auth/login/
+WARNING 2025-05-27 04:40:25,162 basehttp 9 140468637656768 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:40:25,921 log 9 140468637656768 Forbidden: /auth/login/
+WARNING 2025-05-27 04:40:25,922 basehttp 9 140468637656768 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:40:26,637 log 9 140468637656768 Forbidden: /auth/login/
+WARNING 2025-05-27 04:40:26,638 basehttp 9 140468637656768 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 04:40:27,416 log 9 140468637656768 Forbidden: /auth/login/
+WARNING 2025-05-27 04:40:27,416 basehttp 9 140468637656768 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 04:41:16,099 autoreload 9 140468813368192 /app/backend/settings.py changed, reloading.
+INFO 2025-05-27 04:41:17,017 autoreload 13 140361019812736 Watching for file changes with StatReloader
+INFO 2025-05-27 17:20:47,522 autoreload 9 140296243342208 Watching for file changes with StatReloader
+WARNING 2025-05-27 17:21:39,610 log 9 140296135321280 Forbidden: /auth/login/
+WARNING 2025-05-27 17:21:39,611 basehttp 9 140296135321280 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:21:40,633 log 9 140296135321280 Forbidden: /auth/login/
+WARNING 2025-05-27 17:21:40,634 basehttp 9 140296135321280 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:21:41,843 log 9 140296135321280 Forbidden: /auth/login/
+WARNING 2025-05-27 17:21:41,845 basehttp 9 140296135321280 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:21:42,591 log 9 140296135321280 Forbidden: /auth/login/
+WARNING 2025-05-27 17:21:42,592 basehttp 9 140296135321280 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:21:43,470 log 9 140296135321280 Forbidden: /auth/login/
+WARNING 2025-05-27 17:21:43,471 basehttp 9 140296135321280 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 17:32:34,488 autoreload 9 140296243342208 /app/user_app/models.py changed, reloading.
+INFO 2025-05-27 17:32:35,294 autoreload 13 140119584160640 Watching for file changes with StatReloader
+INFO 2025-05-27 17:32:59,689 autoreload 13 140119584160640 /app/user_app/tasks/send_mail_login_failed_deactivate.py changed, reloading.
+INFO 2025-05-27 17:33:00,257 autoreload 15 140113311988608 Watching for file changes with StatReloader
+INFO 2025-05-27 17:33:28,775 autoreload 15 140113311988608 /app/user_app/tasks/send_mail_login_failed_deactivate.py changed, reloading.
+INFO 2025-05-27 17:33:29,228 autoreload 17 139927824382848 Watching for file changes with StatReloader
+INFO 2025-05-27 17:33:48,387 autoreload 17 139927824382848 /app/user_app/models.py changed, reloading.
+INFO 2025-05-27 17:33:48,948 autoreload 19 140495828708224 Watching for file changes with StatReloader
+INFO 2025-05-27 17:34:04,687 autoreload 19 140495828708224 /app/user_app/tasks/send_mail_login_failed_deactivate.py changed, reloading.
+INFO 2025-05-27 17:34:05,212 autoreload 21 140705536662400 Watching for file changes with StatReloader
+INFO 2025-05-27 17:34:30,677 autoreload 21 140705536662400 /app/user_app/tasks/send_mail_login_failed_deactivate.py changed, reloading.
+INFO 2025-05-27 17:34:31,120 autoreload 23 140452296403840 Watching for file changes with StatReloader
+INFO 2025-05-27 17:35:04,334 autoreload 23 140452296403840 /app/user_app/tasks/send_mail_login_failed_deactivate.py changed, reloading.
+INFO 2025-05-27 17:35:04,824 autoreload 25 140461868739456 Watching for file changes with StatReloader
+INFO 2025-05-27 17:35:43,151 autoreload 25 140461868739456 /app/user_app/tasks/send_mail_login_failed_deactivate.py changed, reloading.
+INFO 2025-05-27 17:35:43,686 autoreload 27 139954103139200 Watching for file changes with StatReloader
+INFO 2025-05-27 17:35:49,794 autoreload 27 139954103139200 /app/user_app/tasks/send_mail_login_failed_deactivate.py changed, reloading.
+INFO 2025-05-27 17:35:50,442 autoreload 29 140149236423552 Watching for file changes with StatReloader
+INFO 2025-05-27 17:36:07,077 autoreload 15 140523870653312 Watching for file changes with StatReloader
+WARNING 2025-05-27 17:36:49,702 log 15 140523771737792 Forbidden: /auth/login/
+WARNING 2025-05-27 17:36:49,703 basehttp 15 140523771737792 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:36:50,506 log 15 140523771737792 Forbidden: /auth/login/
+WARNING 2025-05-27 17:36:50,507 basehttp 15 140523771737792 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:36:51,276 log 15 140523771737792 Forbidden: /auth/login/
+WARNING 2025-05-27 17:36:51,277 basehttp 15 140523771737792 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:36:51,975 log 15 140523771737792 Forbidden: /auth/login/
+WARNING 2025-05-27 17:36:51,976 basehttp 15 140523771737792 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:36:52,727 log 15 140523771737792 Forbidden: /auth/login/
+WARNING 2025-05-27 17:36:52,728 basehttp 15 140523771737792 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 17:37:36,838 autoreload 15 140523870653312 /app/user_app/tasks/send_mail_login_failed_deactivate.py changed, reloading.
+INFO 2025-05-27 17:37:37,685 autoreload 21 140256151387008 Watching for file changes with StatReloader
+WARNING 2025-05-27 17:39:06,255 log 21 140255973861056 Forbidden: /auth/login/
+WARNING 2025-05-27 17:39:06,255 basehttp 21 140255973861056 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:39:07,031 log 21 140255973861056 Forbidden: /auth/login/
+WARNING 2025-05-27 17:39:07,032 basehttp 21 140255973861056 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:39:07,761 log 21 140255973861056 Forbidden: /auth/login/
+WARNING 2025-05-27 17:39:07,762 basehttp 21 140255973861056 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:39:08,408 log 21 140255973861056 Forbidden: /auth/login/
+WARNING 2025-05-27 17:39:08,409 basehttp 21 140255973861056 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:39:09,189 log 21 140255973861056 Forbidden: /auth/login/
+WARNING 2025-05-27 17:39:09,190 basehttp 21 140255973861056 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 17:39:44,998 autoreload 9 140522169146240 Watching for file changes with StatReloader
+WARNING 2025-05-27 17:39:56,614 log 9 140521993397952 Forbidden: /auth/login/
+WARNING 2025-05-27 17:39:56,615 basehttp 9 140521993397952 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:39:57,418 log 9 140521993397952 Forbidden: /auth/login/
+WARNING 2025-05-27 17:39:57,418 basehttp 9 140521993397952 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:39:58,131 log 9 140521993397952 Forbidden: /auth/login/
+WARNING 2025-05-27 17:39:58,132 basehttp 9 140521993397952 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:39:58,865 log 9 140521993397952 Forbidden: /auth/login/
+WARNING 2025-05-27 17:39:58,866 basehttp 9 140521993397952 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:39:59,662 log 9 140521993397952 Forbidden: /auth/login/
+WARNING 2025-05-27 17:39:59,663 basehttp 9 140521993397952 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 17:42:57,536 autoreload 9 140522169146240 /app/user_app/tasks/send_mail_login_failed_deactivate.py changed, reloading.
+INFO 2025-05-27 17:42:58,376 autoreload 13 140694577179520 Watching for file changes with StatReloader
+INFO 2025-05-27 17:43:29,598 autoreload 13 140694577179520 /app/user_app/models.py changed, reloading.
+INFO 2025-05-27 17:43:30,105 autoreload 15 140627378822016 Watching for file changes with StatReloader
+INFO 2025-05-27 17:43:41,082 autoreload 9 139860347489152 Watching for file changes with StatReloader
+WARNING 2025-05-27 17:43:54,453 log 9 139860165781184 Forbidden: /auth/login/
+WARNING 2025-05-27 17:43:54,454 basehttp 9 139860165781184 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:43:55,291 log 9 139860165781184 Forbidden: /auth/login/
+WARNING 2025-05-27 17:43:55,291 basehttp 9 139860165781184 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:43:56,097 log 9 139860165781184 Forbidden: /auth/login/
+WARNING 2025-05-27 17:43:56,098 basehttp 9 139860165781184 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:43:56,849 log 9 139860165781184 Forbidden: /auth/login/
+WARNING 2025-05-27 17:43:56,850 basehttp 9 139860165781184 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 17:43:57,532 log 9 139860165781184 Forbidden: /auth/login/
+WARNING 2025-05-27 17:43:57,533 basehttp 9 139860165781184 "POST /auth/login/ HTTP/1.1" 403 149
+INFO 2025-05-27 17:51:47,551 autoreload 9 139860347489152 /app/user_app/tasks/send_mail_otp_forgot_password.py changed, reloading.
+INFO 2025-05-27 17:51:48,368 autoreload 13 139738414766976 Watching for file changes with StatReloader
+INFO 2025-05-27 19:32:50,880 autoreload 13 139738414766976 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 19:32:51,402 autoreload 15 139952277318528 Watching for file changes with StatReloader
+INFO 2025-05-27 19:34:27,510 autoreload 15 139952277318528 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-27 19:34:28,042 autoreload 17 139946159717248 Watching for file changes with StatReloader
+INFO 2025-05-27 19:34:38,550 autoreload 17 139946159717248 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-27 19:34:39,134 autoreload 19 140659026893696 Watching for file changes with StatReloader
+WARNING 2025-05-27 19:34:40,716 log 19 140658928989888 Forbidden: /auth/login/
+WARNING 2025-05-27 19:34:40,717 basehttp 19 140658928989888 "POST /auth/login/ HTTP/1.1" 403 109
+INFO 2025-05-27 19:35:56,316 autoreload 19 140659026893696 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 19:35:56,905 autoreload 23 140393974143872 Watching for file changes with StatReloader
+INFO 2025-05-27 19:36:16,950 autoreload 23 140393974143872 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 19:36:17,489 autoreload 25 140093402352512 Watching for file changes with StatReloader
+ERROR 2025-05-27 19:36:21,536 log 25 140093302978240 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 33, in post
+    user = UserLoginService.authenticate_user(**serializer.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserLoginService.authenticate_user() missing 1 required positional argument: 'current_language_code'
+ERROR 2025-05-27 19:36:21,542 basehttp 25 140093302978240 "POST /auth/login/ HTTP/1.1" 500 99482
+INFO 2025-05-27 19:36:37,532 autoreload 25 140093402352512 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-27 19:36:38,107 autoreload 29 140479971969920 Watching for file changes with StatReloader
+INFO 2025-05-27 19:36:39,409 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 200 890
+INFO 2025-05-27 19:36:40,765 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 200 890
+INFO 2025-05-27 19:37:09,732 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 200 890
+INFO 2025-05-27 19:37:21,400 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 200 890
+WARNING 2025-05-27 19:37:30,606 log 29 140479874152128 Forbidden: /auth/login/
+WARNING 2025-05-27 19:37:30,607 basehttp 29 140479874152128 "POST /auth/login/?email=toanhvt2005@gmail.com&password=toanh HTTP/1.1" 403 162
+ERROR 2025-05-27 19:37:34,266 log 29 140479874152128 Internal Server Error: /auth/login
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2025-05-27 19:37:34,267 basehttp 29 140479874152128 "POST /auth/login HTTP/1.1" 500 75875
+WARNING 2025-05-27 19:37:37,411 log 29 140479874152128 Forbidden: /auth/login/
+WARNING 2025-05-27 19:37:37,412 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 19:37:38,666 log 29 140479874152128 Forbidden: /auth/login/
+WARNING 2025-05-27 19:37:38,667 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 19:37:39,369 log 29 140479874152128 Forbidden: /auth/login/
+WARNING 2025-05-27 19:37:39,370 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 403 162
+WARNING 2025-05-27 19:37:40,107 log 29 140479874152128 Forbidden: /auth/login/
+WARNING 2025-05-27 19:37:40,108 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 403 149
+WARNING 2025-05-27 19:37:43,055 log 29 140479874152128 Forbidden: /auth/login/
+WARNING 2025-05-27 19:37:43,056 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 403 109
+WARNING 2025-05-27 19:37:44,196 log 29 140479874152128 Forbidden: /auth/login/
+WARNING 2025-05-27 19:37:44,197 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 403 109
+WARNING 2025-05-27 19:37:44,786 log 29 140479874152128 Forbidden: /auth/login/
+WARNING 2025-05-27 19:37:44,786 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 403 109
+WARNING 2025-05-27 19:37:45,296 log 29 140479874152128 Forbidden: /auth/login/
+WARNING 2025-05-27 19:37:45,297 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 403 109
+WARNING 2025-05-27 19:37:46,388 log 29 140479874152128 Forbidden: /auth/login/
+WARNING 2025-05-27 19:37:46,389 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 403 109
+INFO 2025-05-27 19:37:58,220 basehttp 29 140479874152128 "POST /auth/login/ HTTP/1.1" 200 890
+INFO 2025-05-27 19:38:39,176 autoreload 29 140479971969920 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 19:38:39,710 autoreload 35 139677428632448 Watching for file changes with StatReloader
+WARNING 2025-05-27 19:38:41,067 log 35 139677330781888 Forbidden: /auth/login/
+WARNING 2025-05-27 19:38:41,068 basehttp 35 139677330781888 "POST /auth/login/ HTTP/1.1" 403 109
+WARNING 2025-05-27 19:38:42,222 log 35 139677330781888 Forbidden: /auth/login/
+WARNING 2025-05-27 19:38:42,223 basehttp 35 139677330781888 "POST /auth/login/ HTTP/1.1" 403 109
+WARNING 2025-05-27 19:38:43,028 log 35 139677330781888 Forbidden: /auth/login/
+WARNING 2025-05-27 19:38:43,029 basehttp 35 139677330781888 "POST /auth/login/ HTTP/1.1" 403 109
+WARNING 2025-05-27 19:38:43,577 log 35 139677330781888 Forbidden: /auth/login/
+WARNING 2025-05-27 19:38:43,578 basehttp 35 139677330781888 "POST /auth/login/ HTTP/1.1" 403 109
+WARNING 2025-05-27 19:38:44,138 log 35 139677330781888 Forbidden: /auth/login/
+WARNING 2025-05-27 19:38:44,138 basehttp 35 139677330781888 "POST /auth/login/ HTTP/1.1" 403 109
+WARNING 2025-05-27 19:38:44,637 log 35 139677330781888 Forbidden: /auth/login/
+WARNING 2025-05-27 19:38:44,637 basehttp 35 139677330781888 "POST /auth/login/ HTTP/1.1" 403 109
+WARNING 2025-05-27 19:38:45,155 log 35 139677330781888 Forbidden: /auth/login/
+WARNING 2025-05-27 19:38:45,155 basehttp 35 139677330781888 "POST /auth/login/ HTTP/1.1" 403 109
+WARNING 2025-05-27 19:38:52,778 log 35 139677330781888 Forbidden: /auth/login/
+WARNING 2025-05-27 19:38:52,779 basehttp 35 139677330781888 "POST /auth/login/ HTTP/1.1" 403 109
+INFO 2025-05-27 19:38:59,536 autoreload 35 139677428632448 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-27 19:39:00,090 autoreload 39 140680888597376 Watching for file changes with StatReloader
+INFO 2025-05-27 20:19:18,759 autoreload 39 140680888597376 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 20:19:19,466 autoreload 41 139768112180096 Watching for file changes with StatReloader
+INFO 2025-05-27 20:20:22,646 autoreload 41 139768112180096 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-27 20:20:23,195 autoreload 43 140514457324416 Watching for file changes with StatReloader
+INFO 2025-05-27 20:20:34,426 autoreload 43 140514457324416 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 20:20:35,035 autoreload 45 140297408506752 Watching for file changes with StatReloader
+INFO 2025-05-27 20:20:45,402 autoreload 45 140297408506752 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 20:20:45,952 autoreload 47 140094570695552 Watching for file changes with StatReloader
+ERROR 2025-05-27 20:20:57,409 log 47 140094462699200 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 33, in post
+    user = UserLoginService.authenticate_user(**serializer.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/user_login_service.py", line 80, in authenticate_user
+    if not user.is_active or user.deactivate_reason:
+                             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 531, in __get__
+    raise self.RelatedObjectDoesNotExist(
+user_app.models.User.deactivate_reason.RelatedObjectDoesNotExist: User has no deactivate_reason.
+ERROR 2025-05-27 20:20:57,436 basehttp 47 140094462699200 "POST /auth/login/ HTTP/1.1" 500 108208
+INFO 2025-05-27 20:22:53,755 autoreload 47 140094570695552 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 20:22:54,282 autoreload 51 140190103370624 Watching for file changes with StatReloader
+ERROR 2025-05-27 20:22:58,173 log 51 140190003705536 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 33, in post
+    user = UserLoginService.authenticate_user(**serializer.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/user_login_service.py", line 80, in authenticate_user
+    if not user.is_active or user.deactivate_reason is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 531, in __get__
+    raise self.RelatedObjectDoesNotExist(
+user_app.models.User.deactivate_reason.RelatedObjectDoesNotExist: User has no deactivate_reason.
+ERROR 2025-05-27 20:22:58,185 basehttp 51 140190003705536 "POST /auth/login/ HTTP/1.1" 500 108232
+INFO 2025-05-27 20:25:06,863 autoreload 51 140190103370624 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 20:25:07,366 autoreload 55 139916113050496 Watching for file changes with StatReloader
+INFO 2025-05-27 20:25:26,294 autoreload 55 139916113050496 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 20:25:26,830 autoreload 57 140442876328832 Watching for file changes with StatReloader
+INFO 2025-05-27 20:25:28,358 basehttp 57 140442778678976 "POST /auth/login/ HTTP/1.1" 200 890
+WARNING 2025-05-27 20:26:10,498 log 57 140442778678976 Bad Request: /auth/register/
+WARNING 2025-05-27 20:26:10,499 basehttp 57 140442778678976 "POST /auth/register/ HTTP/1.1" 400 239
+WARNING 2025-05-27 20:26:15,754 log 57 140442778678976 Bad Request: /auth/register/
+WARNING 2025-05-27 20:26:15,755 basehttp 57 140442778678976 "POST /auth/register/ HTTP/1.1" 400 118
+INFO 2025-05-27 20:26:20,985 user_registration_service 57 140442778678976 User toanhvt2003@gmail.com created successfully.
+INFO 2025-05-27 20:26:20,988 user_registration_service 57 140442778678976 Profile for user toanhvt2003@gmail.com created successfully.
+INFO 2025-05-27 20:26:20,990 user_registration_service 57 140442778678976 Two factor auth types for user toanhvt2003@gmail.com created successfully.
+INFO 2025-05-27 20:26:20,999 basehttp 57 140442778678976 "POST /auth/register/ HTTP/1.1" 201 892
+INFO 2025-05-27 20:26:29,158 basehttp 57 140442778678976 "POST /auth/login/ HTTP/1.1" 200 892
+INFO 2025-05-27 20:27:23,398 autoreload 57 140442876328832 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 20:27:23,937 autoreload 61 140171071507328 Watching for file changes with StatReloader
+INFO 2025-05-27 20:28:59,352 autoreload 61 140171071507328 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-27 20:28:59,873 autoreload 63 139913473514368 Watching for file changes with StatReloader
+INFO 2025-05-27 20:29:09,271 autoreload 63 139913473514368 /app/user_app/serializers/user.py changed, reloading.
+INFO 2025-05-27 20:29:09,790 autoreload 65 139756530092928 Watching for file changes with StatReloader
+ERROR 2025-05-27 20:29:12,836 log 65 139756348368576 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 35, in post
+    enabled_2fa =user_serializer.data.get('enabled_2fa')
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "/app/user_app/serializers/user.py", line 56, in get_enabled_2fa
+    return obj.two_factor_auth_type.filter(enabled=True).values_list('type',flat=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1491, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1509, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1516, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1643, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1675, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1523, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1330, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1802, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'enabled' into field. Choices are: created_at, id, is_enable, is_priority, type, updated_at, user, user_id
+ERROR 2025-05-27 20:29:12,849 basehttp 65 139756348368576 "POST /auth/login/ HTTP/1.1" 500 179604
+INFO 2025-05-27 20:41:28,606 autoreload 65 139756530092928 /app/user_app/serializers/user.py changed, reloading.
+INFO 2025-05-27 20:41:29,235 autoreload 69 140228014549888 Watching for file changes with StatReloader
+INFO 2025-05-27 20:41:31,853 basehttp 69 140227914970816 "POST /auth/login/ HTTP/1.1" 200 403
+INFO 2025-05-27 20:41:48,563 basehttp 69 140227914970816 "POST /auth/login/ HTTP/1.1" 200 403
+INFO 2025-05-27 20:42:19,007 autoreload 69 140228014549888 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-27 20:42:19,551 autoreload 73 140179218406272 Watching for file changes with StatReloader
+INFO 2025-05-27 20:42:49,744 basehttp 73 140179119486656 "POST /auth/login/ HTTP/1.1" 200 403
+INFO 2025-05-27 21:56:42,052 autoreload 73 140179218406272 /app/user_app/serializers/user.py changed, reloading.
+INFO 2025-05-27 21:56:42,564 autoreload 77 140322703690624 Watching for file changes with StatReloader
+INFO 2025-05-27 21:56:45,794 basehttp 77 140322596136640 "POST /auth/login/ HTTP/1.1" 200 403
+INFO 2025-05-27 21:59:20,986 autoreload 77 140322703690624 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-27 21:59:21,575 autoreload 81 140371217042304 Watching for file changes with StatReloader
+INFO 2025-05-27 22:00:24,171 autoreload 81 140371217042304 /app/user_app/models.py changed, reloading.
+INFO 2025-05-27 22:00:24,674 autoreload 83 139665278245760 Watching for file changes with StatReloader
+INFO 2025-05-27 22:00:52,131 autoreload 83 139665278245760 /app/user_app/serializers/user.py changed, reloading.
+INFO 2025-05-27 22:00:52,568 autoreload 85 140132260957056 Watching for file changes with StatReloader
+INFO 2025-05-27 22:01:13,819 autoreload 9 139886725688192 Watching for file changes with StatReloader
+INFO 2025-05-27 22:02:19,725 autoreload 9 139886725688192 /app/user_app/services/user_registration_service.py changed, reloading.
+INFO 2025-05-27 22:02:20,252 autoreload 11 140088865389440 Watching for file changes with StatReloader
+INFO 2025-05-27 22:02:39,832 autoreload 11 140088865389440 /app/user_app/services/user_forgot_password.py changed, reloading.
+INFO 2025-05-27 22:02:40,647 autoreload 13 139995412790144 Watching for file changes with StatReloader
+ERROR 2025-05-27 22:02:41,584 log 13 139995314599616 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "user_app_usertwofactorauthsetting" does not exist
+LINE 1: ...rauthsetting"."is_priority" AS "is_priority" FROM "user_app_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 36, in post
+    if len(enabled_2fa) == 0:
+       ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 366, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1945, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 216, in __iter__
+    for row in compiler.results_iter(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1572, in results_iter
+    results = self.execute_sql(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "user_app_usertwofactorauthsetting" does not exist
+LINE 1: ...rauthsetting"."is_priority" AS "is_priority" FROM "user_app_...
+                                                             ^
+
+ERROR 2025-05-27 22:02:41,595 basehttp 13 139995314599616 "POST /auth/login/ HTTP/1.1" 500 162897
+INFO 2025-05-27 22:07:31,449 autoreload 13 139995412790144 /app/user_app/serializers/user.py changed, reloading.
+INFO 2025-05-27 22:07:32,244 autoreload 25 140648818105216 Watching for file changes with StatReloader
+INFO 2025-05-27 22:07:35,247 basehttp 25 140648719005376 "POST /auth/login/ HTTP/1.1" 200 403
+INFO 2025-05-27 22:07:52,545 autoreload 25 140648818105216 /app/user_app/serializers/user.py changed, reloading.
+INFO 2025-05-27 22:07:53,122 autoreload 29 140344281897856 Watching for file changes with StatReloader
+INFO 2025-05-27 22:07:58,960 autoreload 29 140344281897856 /app/user_app/serializers/user.py changed, reloading.
+INFO 2025-05-27 22:07:59,482 autoreload 31 139813911350144 Watching for file changes with StatReloader
+INFO 2025-05-27 22:08:10,021 autoreload 31 139813911350144 /app/user_app/serializers/user.py changed, reloading.
+INFO 2025-05-27 22:08:10,563 autoreload 33 140174162721664 Watching for file changes with StatReloader
+INFO 2025-05-27 22:08:11,731 basehttp 33 140174064301760 "POST /auth/login/ HTTP/1.1" 200 403
+INFO 2025-05-27 22:08:12,961 basehttp 33 140174064301760 "POST /auth/login/ HTTP/1.1" 200 403
+INFO 2025-05-27 22:08:26,048 basehttp 33 140174064301760 "POST /auth/login/ HTTP/1.1" 200 403
+INFO 2025-05-27 22:08:27,262 basehttp 33 140174064301760 "POST /auth/login/ HTTP/1.1" 200 403
+WARNING 2025-05-27 22:08:45,295 log 33 140174064301760 Bad Request: /auth/register/
+WARNING 2025-05-27 22:08:45,295 basehttp 33 140174064301760 "POST /auth/register/ HTTP/1.1" 400 239
+INFO 2025-05-27 22:08:55,528 user_registration_service 33 140174064301760 User toanhvt2002@gmail.com created successfully.
+INFO 2025-05-27 22:08:55,530 user_registration_service 33 140174064301760 Profile for user toanhvt2002@gmail.com created successfully.
+INFO 2025-05-27 22:08:55,531 user_registration_service 33 140174064301760 Two factor auth types for user toanhvt2002@gmail.com created successfully.
+INFO 2025-05-27 22:08:55,539 basehttp 33 140174064301760 "POST /auth/register/ HTTP/1.1" 201 403
+INFO 2025-05-27 22:09:09,939 basehttp 33 140174064301760 "POST /auth/login/ HTTP/1.1" 200 403
+INFO 2025-05-27 22:09:29,956 basehttp 33 140174064301760 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-27 22:11:55,779 autoreload 33 140174162721664 /app/user_app/services/user_forgot_password.py changed, reloading.
+INFO 2025-05-27 22:11:56,306 autoreload 37 139900956785536 Watching for file changes with StatReloader
+INFO 2025-05-27 22:12:35,871 autoreload 37 139900956785536 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-27 22:12:36,391 autoreload 39 140046826273664 Watching for file changes with StatReloader
+INFO 2025-05-27 22:13:53,849 autoreload 39 140046826273664 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-27 22:13:54,396 autoreload 41 140575364053888 Watching for file changes with StatReloader
+INFO 2025-05-27 22:13:56,859 basehttp 41 140575265208000 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-27 22:13:57,840 basehttp 41 140575265208000 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-27 22:13:59,010 basehttp 41 140575265208000 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-27 22:14:04,703 basehttp 41 140575265208000 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-27 22:14:05,708 basehttp 41 140575265208000 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-27 22:17:00,545 autoreload 41 140575364053888 /app/user_app/cache_key.py changed, reloading.
+INFO 2025-05-27 22:17:01,031 autoreload 45 140331024616320 Watching for file changes with StatReloader
+INFO 2025-05-27 22:18:03,576 autoreload 45 140331024616320 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:18:04,052 autoreload 47 139721129675648 Watching for file changes with StatReloader
+INFO 2025-05-27 22:20:41,274 autoreload 47 139721129675648 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:20:41,799 autoreload 49 140287203920768 Watching for file changes with StatReloader
+INFO 2025-05-27 22:21:10,262 autoreload 49 140287203920768 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:21:10,976 autoreload 51 140322271849344 Watching for file changes with StatReloader
+INFO 2025-05-27 22:22:17,747 autoreload 51 140322271849344 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:22:18,237 autoreload 53 140137570835328 Watching for file changes with StatReloader
+INFO 2025-05-27 22:22:28,407 autoreload 53 140137570835328 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:22:28,876 autoreload 55 139923959831424 Watching for file changes with StatReloader
+INFO 2025-05-27 22:22:34,776 autoreload 55 139923959831424 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:22:35,261 autoreload 57 139767985728384 Watching for file changes with StatReloader
+INFO 2025-05-27 22:22:38,040 autoreload 57 139767985728384 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:22:38,580 autoreload 59 139807691852672 Watching for file changes with StatReloader
+INFO 2025-05-27 22:22:51,088 autoreload 59 139807691852672 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:22:51,695 autoreload 61 139906294958976 Watching for file changes with StatReloader
+INFO 2025-05-27 22:23:07,394 autoreload 61 139906294958976 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:23:07,935 autoreload 63 140393185856384 Watching for file changes with StatReloader
+INFO 2025-05-27 22:23:25,769 autoreload 63 140393185856384 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:23:26,293 autoreload 65 140414851181440 Watching for file changes with StatReloader
+INFO 2025-05-27 22:23:33,293 autoreload 65 140414851181440 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:23:33,764 autoreload 67 140674828405632 Watching for file changes with StatReloader
+INFO 2025-05-27 22:23:39,419 autoreload 67 140674828405632 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:23:39,858 autoreload 69 140298913561472 Watching for file changes with StatReloader
+INFO 2025-05-27 22:23:50,316 autoreload 69 140298913561472 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:23:50,853 autoreload 71 140588185705344 Watching for file changes with StatReloader
+INFO 2025-05-27 22:24:18,352 autoreload 71 140588185705344 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:24:18,828 autoreload 73 140312095017856 Watching for file changes with StatReloader
+INFO 2025-05-27 22:24:29,199 autoreload 73 140312095017856 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:24:29,753 autoreload 75 139873632803712 Watching for file changes with StatReloader
+INFO 2025-05-27 22:24:48,706 autoreload 75 139873632803712 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:24:49,229 autoreload 77 139854135827328 Watching for file changes with StatReloader
+INFO 2025-05-27 22:26:01,696 autoreload 77 139854135827328 /app/user_app/services/utils.py changed, reloading.
+INFO 2025-05-27 22:26:02,242 autoreload 79 140292276333440 Watching for file changes with StatReloader
+INFO 2025-05-28 00:22:14,540 autoreload 79 140292276333440 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 00:22:15,061 autoreload 81 140113023904640 Watching for file changes with StatReloader
+INFO 2025-05-28 00:32:53,590 autoreload 81 140113023904640 /app/base/views.py changed, reloading.
+INFO 2025-05-28 00:32:54,136 autoreload 83 140058881665920 Watching for file changes with StatReloader
+INFO 2025-05-28 00:43:24,699 autoreload 83 140058881665920 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 00:43:25,214 autoreload 85 139644851657600 Watching for file changes with StatReloader
+INFO 2025-05-28 00:43:35,350 autoreload 85 139644851657600 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 00:43:35,859 autoreload 87 139740547537792 Watching for file changes with StatReloader
+ERROR 2025-05-28 01:08:16,970 log 87 139740372264640 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/base/views.py", line 94, in finalize_response
+    response.set_cookie(**parsed_data)
+TypeError: HttpResponseBase.set_cookie() missing 1 required positional argument: 'key'
+ERROR 2025-05-28 01:08:16,973 basehttp 87 139740372264640 "POST /auth/login/ HTTP/1.1" 500 86825
+INFO 2025-05-28 01:08:56,897 autoreload 87 139740547537792 /app/base/views.py changed, reloading.
+INFO 2025-05-28 01:08:57,448 autoreload 91 140449520876416 Watching for file changes with StatReloader
+INFO 2025-05-28 01:09:04,456 autoreload 91 140449520876416 /app/base/views.py changed, reloading.
+INFO 2025-05-28 01:09:05,081 autoreload 93 140493767703424 Watching for file changes with StatReloader
+INFO 2025-05-28 01:09:11,261 basehttp 93 140493659776704 "POST /auth/login/ HTTP/1.1" 200 444
+WARNING 2025-05-28 01:09:21,296 log 93 140493659776704 Method Not Allowed: /auth/me/
+WARNING 2025-05-28 01:09:21,297 basehttp 93 140493659776704 "POST /auth/me/ HTTP/1.1" 405 145
+WARNING 2025-05-28 01:09:22,110 log 93 140493659776704 Method Not Allowed: /auth/me/
+WARNING 2025-05-28 01:09:22,111 basehttp 93 140493659776704 "POST /auth/me/ HTTP/1.1" 405 145
+INFO 2025-05-28 01:09:27,582 basehttp 93 140493659776704 "POST /auth/login/ HTTP/1.1" 200 444
+INFO 2025-05-28 01:09:31,168 basehttp 93 140493659776704 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 01:10:35,457 basehttp 93 140493668169408 "POST /auth/login/ HTTP/1.1" 200 444
+INFO 2025-05-28 01:10:36,520 basehttp 93 140493668169408 "POST /auth/login/ HTTP/1.1" 200 444
+INFO 2025-05-28 01:10:37,292 basehttp 93 140493668169408 "POST /auth/login/ HTTP/1.1" 200 444
+INFO 2025-05-28 01:10:38,096 basehttp 93 140493668169408 "POST /auth/login/ HTTP/1.1" 200 444
+INFO 2025-05-28 01:10:38,909 basehttp 93 140493668169408 "POST /auth/login/ HTTP/1.1" 200 444
+INFO 2025-05-28 01:10:39,932 basehttp 93 140493668169408 "POST /auth/login/ HTTP/1.1" 200 444
+INFO 2025-05-28 01:10:40,737 basehttp 93 140493668169408 "POST /auth/login/ HTTP/1.1" 200 444
+INFO 2025-05-28 01:57:29,622 basehttp 93 140493641942720 "POST /auth/login/ HTTP/1.1" 200 444
+INFO 2025-05-28 01:57:38,502 basehttp 93 140493641942720 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-28 01:57:40,529 basehttp 93 140493641942720 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-28 01:57:41,726 basehttp 93 140493641942720 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-28 01:57:42,970 basehttp 93 140493641942720 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-28 02:04:59,560 autoreload 93 140493767703424 /app/base/utils.py changed, reloading.
+INFO 2025-05-28 02:05:00,166 autoreload 101 140637308775296 Watching for file changes with StatReloader
+INFO 2025-05-28 02:05:21,182 autoreload 101 140637308775296 /app/base/views.py changed, reloading.
+INFO 2025-05-28 02:05:21,743 autoreload 103 139756567804800 Watching for file changes with StatReloader
+INFO 2025-05-28 02:05:41,022 autoreload 103 139756567804800 /app/base/utils.py changed, reloading.
+INFO 2025-05-28 02:05:41,516 autoreload 105 140274955635584 Watching for file changes with StatReloader
+INFO 2025-05-28 02:06:00,626 autoreload 105 140274955635584 /app/base/views.py changed, reloading.
+INFO 2025-05-28 02:06:01,173 autoreload 107 139626126093184 Watching for file changes with StatReloader
+INFO 2025-05-28 02:06:31,124 autoreload 107 139626126093184 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 02:06:31,658 autoreload 109 140359489067904 Watching for file changes with StatReloader
+INFO 2025-05-28 02:06:42,214 autoreload 109 140359489067904 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 02:06:42,779 autoreload 111 139770803866496 Watching for file changes with StatReloader
+INFO 2025-05-28 02:07:06,988 autoreload 111 139770803866496 /app/base/views.py changed, reloading.
+INFO 2025-05-28 02:07:07,523 autoreload 113 140288674167680 Watching for file changes with StatReloader
+INFO 2025-05-28 02:07:29,692 autoreload 113 140288674167680 /app/base/views.py changed, reloading.
+INFO 2025-05-28 02:07:30,209 autoreload 115 139849792301952 Watching for file changes with StatReloader
+INFO 2025-05-28 02:08:15,160 autoreload 115 139849792301952 /app/base/authentication.py changed, reloading.
+INFO 2025-05-28 02:08:15,691 autoreload 117 140165439900544 Watching for file changes with StatReloader
+INFO 2025-05-28 02:08:41,326 autoreload 117 140165439900544 /app/base/authentication.py changed, reloading.
+INFO 2025-05-28 02:08:41,903 autoreload 119 139970776669056 Watching for file changes with StatReloader
+INFO 2025-05-28 02:08:45,006 basehttp 119 139970668865216 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-28 02:08:51,647 basehttp 119 139970668865216 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-28 02:08:58,448 log 119 139970668865216 Unauthorized: /auth/me/
+WARNING 2025-05-28 02:08:58,449 basehttp 119 139970668865216 "GET /auth/me/ HTTP/1.1" 401 108
+WARNING 2025-05-28 02:09:00,089 log 119 139970668865216 Unauthorized: /auth/me/
+WARNING 2025-05-28 02:09:00,090 basehttp 119 139970668865216 "GET /auth/me/ HTTP/1.1" 401 108
+INFO 2025-05-28 02:09:07,922 autoreload 119 139970776669056 /app/base/authentication.py changed, reloading.
+INFO 2025-05-28 02:09:08,557 autoreload 123 140184890334080 Watching for file changes with StatReloader
+WARNING 2025-05-28 02:09:20,656 log 123 140184791234240 Forbidden: /auth/login/
+WARNING 2025-05-28 02:09:20,656 basehttp 123 140184791234240 "POST /auth/login/ HTTP/1.1" 403 110
+INFO 2025-05-28 02:09:25,706 basehttp 123 140184791234240 "POST /auth/login/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:09:27,982 basehttp 123 140184791234240 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:09:30,205 basehttp 123 140184791234240 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:09:30,910 basehttp 123 140184791234240 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:09:31,579 basehttp 123 140184791234240 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:09:32,139 basehttp 123 140184791234240 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:09:32,710 basehttp 123 140184791234240 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:09:33,199 basehttp 123 140184791234240 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:09:43,996 basehttp 123 140184791234240 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-28 02:12:17,712 basehttp 123 140184712640192 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-28 02:12:19,561 basehttp 123 140184712640192 "POST /auth/login/ HTTP/1.1" 200 52
+INFO 2025-05-28 02:12:29,383 basehttp 123 140184712640192 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-28 02:20:18,054 autoreload 123 140184890334080 /app/base/views.py changed, reloading.
+INFO 2025-05-28 02:20:18,595 autoreload 129 140658532055936 Watching for file changes with StatReloader
+INFO 2025-05-28 02:20:32,138 autoreload 129 140658532055936 /app/base/views.py changed, reloading.
+INFO 2025-05-28 02:20:32,682 autoreload 131 140161060916096 Watching for file changes with StatReloader
+INFO 2025-05-28 02:21:02,491 autoreload 9 140565874822016 Watching for file changes with StatReloader
+INFO 2025-05-28 02:21:10,185 basehttp 9 140565775595200 "POST /auth/login/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:21:32,276 basehttp 9 140565775595200 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:21:51,640 basehttp 9 140565775595200 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:21:53,271 basehttp 9 140565775595200 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:21:53,988 basehttp 9 140565775595200 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:21:54,595 basehttp 9 140565775595200 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:21:55,204 basehttp 9 140565775595200 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:21:55,787 basehttp 9 140565775595200 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:22:00,338 basehttp 9 140565775595200 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:22:02,887 basehttp 9 140565775595200 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 02:23:14,761 autoreload 9 140565874822016 /app/backend/utils.py changed, reloading.
+INFO 2025-05-28 02:24:29,867 autoreload 9 140629677534080 Watching for file changes with StatReloader
+INFO 2025-05-28 02:24:33,223 autoreload 9 139753267997568 Watching for file changes with StatReloader
+INFO 2025-05-28 02:24:48,066 autoreload 9 139621424720768 Watching for file changes with StatReloader
+INFO 2025-05-28 02:25:00,789 autoreload 9 140278672956288 Watching for file changes with StatReloader
+INFO 2025-05-28 03:08:19,087 autoreload 9 140038277446528 Watching for file changes with StatReloader
+INFO 2025-05-28 03:08:38,063 autoreload 10 139882271443840 Watching for file changes with StatReloader
+INFO 2025-05-28 03:08:38,540 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:08:39,572 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:08:40,235 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:08:40,829 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:08:41,455 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:08:42,323 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:08:42,891 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:08:43,483 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:09:15,243 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:09:19,915 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:09:20,583 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:09:21,044 basehttp 10 139882173249216 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:09:47,250 autoreload 9 140377354591104 Watching for file changes with StatReloader
+INFO 2025-05-28 03:10:55,350 basehttp 9 140377180862144 "GET /auth/me/ HTTP/1.1" 200 444
+INFO 2025-05-28 03:11:03,814 basehttp 9 140377180862144 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-28 03:11:09,513 basehttp 9 140377180862144 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-28 03:17:54,608 autoreload 9 140377354591104 /app/base/views.py changed, reloading.
+INFO 2025-05-28 03:17:55,501 autoreload 13 140543900982144 Watching for file changes with StatReloader
+INFO 2025-05-28 03:18:52,332 autoreload 13 140543900982144 /app/base/utils.py changed, reloading.
+INFO 2025-05-28 03:18:52,863 autoreload 15 140432142257024 Watching for file changes with StatReloader
+INFO 2025-05-28 03:19:08,458 autoreload 15 140432142257024 /app/base/utils.py changed, reloading.
+INFO 2025-05-28 03:19:08,963 autoreload 17 140447911242624 Watching for file changes with StatReloader
+INFO 2025-05-28 03:21:34,043 autoreload 17 140447911242624 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 03:21:34,547 autoreload 19 140337619884928 Watching for file changes with StatReloader
+INFO 2025-05-28 03:40:44,115 autoreload 19 140337619884928 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 03:40:44,621 autoreload 21 139953717255040 Watching for file changes with StatReloader
+INFO 2025-05-28 03:41:06,807 autoreload 21 139953717255040 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 03:41:07,319 autoreload 23 140456952249216 Watching for file changes with StatReloader
+INFO 2025-05-28 03:41:17,389 basehttp 23 140456771974848 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-28 03:42:49,307 autoreload 23 140456952249216 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 03:42:49,856 autoreload 27 140678890900352 Watching for file changes with StatReloader
+INFO 2025-05-28 03:44:47,663 autoreload 27 140678890900352 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 03:44:48,197 autoreload 29 140563693783936 Watching for file changes with StatReloader
+INFO 2025-05-28 04:04:35,136 autoreload 29 140563693783936 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 04:04:35,647 autoreload 31 140439882906496 Watching for file changes with StatReloader
+INFO 2025-05-28 04:08:35,789 autoreload 31 140439882906496 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 04:08:36,298 autoreload 33 140158272449408 Watching for file changes with StatReloader
+INFO 2025-05-28 04:08:55,473 autoreload 33 140158272449408 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 04:08:56,003 autoreload 35 140255936326528 Watching for file changes with StatReloader
+INFO 2025-05-28 04:11:19,973 autoreload 35 140255936326528 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 04:11:20,547 autoreload 37 139772827192192 Watching for file changes with StatReloader
+INFO 2025-05-28 04:11:47,717 autoreload 37 139772827192192 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 04:11:48,284 autoreload 39 139807287589760 Watching for file changes with StatReloader
+INFO 2025-05-28 04:11:59,759 autoreload 39 139807287589760 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 04:12:00,301 autoreload 41 140101240634240 Watching for file changes with StatReloader
+INFO 2025-05-28 04:29:01,861 autoreload 41 140101240634240 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 04:29:02,397 autoreload 43 140146887322496 Watching for file changes with StatReloader
+INFO 2025-05-28 04:54:23,063 autoreload 43 140146887322496 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 04:54:23,596 autoreload 45 140556843641728 Watching for file changes with StatReloader
+INFO 2025-05-28 06:12:49,405 autoreload 45 140556843641728 /app/backend/settings.py changed, reloading.
+INFO 2025-05-28 06:12:50,279 autoreload 47 140585028344704 Watching for file changes with StatReloader
+INFO 2025-05-28 06:13:16,873 autoreload 47 140585028344704 /app/backend/settings.py changed, reloading.
+INFO 2025-05-28 06:13:17,422 autoreload 49 140089953176448 Watching for file changes with StatReloader
+INFO 2025-05-28 06:13:30,835 autoreload 49 140089953176448 /app/backend/settings.py changed, reloading.
+INFO 2025-05-28 06:13:31,365 autoreload 51 139763418696576 Watching for file changes with StatReloader
+INFO 2025-05-28 07:45:40,766 autoreload 51 139763418696576 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 07:45:41,405 autoreload 53 140005833341824 Watching for file changes with StatReloader
+INFO 2025-05-28 07:48:46,805 autoreload 53 140005833341824 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 07:48:47,336 autoreload 55 140172505271168 Watching for file changes with StatReloader
+INFO 2025-05-28 07:49:37,634 autoreload 55 140172505271168 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 07:49:38,104 autoreload 57 139848045357952 Watching for file changes with StatReloader
+INFO 2025-05-28 07:50:14,447 autoreload 57 139848045357952 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 07:50:14,970 autoreload 59 140181676911488 Watching for file changes with StatReloader
+INFO 2025-05-28 07:52:43,463 autoreload 59 140181676911488 /app/backend/settings.py changed, reloading.
+INFO 2025-05-28 07:52:43,991 autoreload 61 140504465476480 Watching for file changes with StatReloader
+INFO 2025-05-28 07:53:09,600 autoreload 61 140504465476480 /app/backend/settings.py changed, reloading.
+INFO 2025-05-28 07:53:10,108 autoreload 63 140150907169664 Watching for file changes with StatReloader
+INFO 2025-05-28 07:54:10,063 autoreload 63 140150907169664 /app/backend/settings.py changed, reloading.
+INFO 2025-05-28 07:54:10,625 autoreload 65 140012410473344 Watching for file changes with StatReloader
+INFO 2025-05-28 07:54:55,050 autoreload 65 140012410473344 /app/backend/settings.py changed, reloading.
+INFO 2025-05-28 07:54:55,536 autoreload 67 140301945936768 Watching for file changes with StatReloader
+INFO 2025-05-28 08:12:47,256 autoreload 67 140301945936768 /app/backend/settings.py changed, reloading.
+INFO 2025-05-28 08:12:47,822 autoreload 69 139829927865216 Watching for file changes with StatReloader
+INFO 2025-05-28 08:13:35,747 autoreload 9 140281207143296 Watching for file changes with StatReloader
+INFO 2025-05-28 08:14:09,918 autoreload 9 140281207143296 /app/user_app/utils.py changed, reloading.
+INFO 2025-05-28 08:14:10,453 autoreload 11 140654154181504 Watching for file changes with StatReloader
+INFO 2025-05-28 08:17:06,232 autoreload 9 140497081383808 Watching for file changes with StatReloader
+INFO 2025-05-28 08:17:57,363 autoreload 9 140497081383808 /app/user_app/tasks/send_mail_otp_forgot_password.py changed, reloading.
+INFO 2025-05-28 08:17:57,921 autoreload 11 140374052555648 Watching for file changes with StatReloader
+INFO 2025-05-28 08:19:12,174 autoreload 11 140374052555648 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 08:19:12,833 autoreload 13 139694513154944 Watching for file changes with StatReloader
+INFO 2025-05-28 08:20:05,281 autoreload 13 139694513154944 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 08:20:05,804 autoreload 15 139698170952576 Watching for file changes with StatReloader
+INFO 2025-05-28 08:23:43,343 autoreload 15 139698170952576 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 08:23:44,242 autoreload 17 140134208195456 Watching for file changes with StatReloader
+INFO 2025-05-28 08:33:17,874 autoreload 17 140134208195456 /app/user_app/cache_key.py changed, reloading.
+INFO 2025-05-28 08:33:18,440 autoreload 19 140337880746880 Watching for file changes with StatReloader
+INFO 2025-05-28 08:33:28,279 autoreload 19 140337880746880 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 08:33:28,767 autoreload 21 140022565944192 Watching for file changes with StatReloader
+INFO 2025-05-28 08:38:45,574 autoreload 21 140022565944192 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 08:38:46,161 autoreload 23 139880516676480 Watching for file changes with StatReloader
+INFO 2025-05-28 18:34:37,824 autoreload 9 139696323619712 Watching for file changes with StatReloader
+INFO 2025-05-28 19:08:12,160 autoreload 9 139696323619712 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 19:08:13,132 autoreload 11 140397092420480 Watching for file changes with StatReloader
+INFO 2025-05-28 19:08:22,250 basehttp 11 140396993656512 "GET /admin/ HTTP/1.1" 200 13412
+INFO 2025-05-28 19:08:22,299 basehttp 11 140396902475456 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-05-28 19:08:22,299 basehttp 11 140396993656512 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-05-28 19:08:22,299 basehttp 11 140396910868160 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-05-28 19:08:22,306 basehttp 11 140396910868160 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-05-28 19:08:22,307 basehttp 11 140396993656512 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-05-28 19:08:22,308 basehttp 11 140396902475456 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-05-28 19:08:22,310 basehttp 11 140396902475456 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-05-28 19:08:22,361 basehttp 11 140396993656512 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-05-28 19:08:22,361 basehttp 11 140396902475456 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2025-05-28 19:08:22,523 log 11 140396993656512 Not Found: /favicon.ico
+WARNING 2025-05-28 19:08:22,524 basehttp 11 140396993656512 "GET /favicon.ico HTTP/1.1" 404 2447
+INFO 2025-05-28 19:59:43,442 autoreload 11 140397092420480 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 19:59:44,171 autoreload 16 140669869529984 Watching for file changes with StatReloader
+INFO 2025-05-28 22:42:18,648 autoreload 16 140669869529984 /app/base/utils.py changed, reloading.
+INFO 2025-05-28 22:42:19,186 autoreload 18 139990770600832 Watching for file changes with StatReloader
+INFO 2025-05-28 22:43:25,978 autoreload 18 139990770600832 /app/user_app/cache_key.py changed, reloading.
+INFO 2025-05-28 22:43:26,508 autoreload 20 140671143332736 Watching for file changes with StatReloader
+INFO 2025-05-28 22:45:20,943 autoreload 20 140671143332736 /app/user_app/cache_key.py changed, reloading.
+INFO 2025-05-28 22:45:21,444 autoreload 22 140615854906240 Watching for file changes with StatReloader
+INFO 2025-05-28 22:54:44,231 autoreload 22 140615854906240 /app/user_app/cache_key.py changed, reloading.
+INFO 2025-05-28 22:54:44,723 autoreload 24 140692301159296 Watching for file changes with StatReloader
+INFO 2025-05-28 22:55:00,259 autoreload 24 140692301159296 /app/user_app/cache_key.py changed, reloading.
+INFO 2025-05-28 22:55:00,780 autoreload 26 139686294993792 Watching for file changes with StatReloader
+INFO 2025-05-28 22:55:13,704 autoreload 26 139686294993792 /app/user_app/cache_key.py changed, reloading.
+INFO 2025-05-28 22:55:14,188 autoreload 28 140452776930176 Watching for file changes with StatReloader
+INFO 2025-05-28 23:06:34,143 autoreload 28 140452776930176 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 23:06:34,694 autoreload 30 140387081591680 Watching for file changes with StatReloader
+INFO 2025-05-28 23:07:36,165 autoreload 30 140387081591680 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 23:07:36,617 autoreload 32 139756009220992 Watching for file changes with StatReloader
+INFO 2025-05-28 23:09:17,574 autoreload 32 139756009220992 /app/base/config.py changed, reloading.
+INFO 2025-05-28 23:09:18,147 autoreload 34 139802805595008 Watching for file changes with StatReloader
+INFO 2025-05-28 23:10:03,061 autoreload 34 139802805595008 /app/user_app/tasks/send_mail_otp_forgot_password.py changed, reloading.
+INFO 2025-05-28 23:10:03,553 autoreload 36 140492989479808 Watching for file changes with StatReloader
+INFO 2025-05-28 23:18:14,587 autoreload 36 140492989479808 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 23:18:15,227 autoreload 38 140587437919104 Watching for file changes with StatReloader
+INFO 2025-05-28 23:34:54,033 autoreload 38 140587437919104 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-28 23:34:54,589 autoreload 40 140569416067968 Watching for file changes with StatReloader
+INFO 2025-05-28 23:40:34,730 autoreload 40 140569416067968 /app/user_app/serializers/model.py changed, reloading.
+INFO 2025-05-28 23:40:35,196 autoreload 42 140559172811648 Watching for file changes with StatReloader
+INFO 2025-05-28 23:41:31,103 autoreload 42 140559172811648 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 23:41:31,585 autoreload 44 140542509570944 Watching for file changes with StatReloader
+INFO 2025-05-28 23:43:31,780 autoreload 44 140542509570944 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 23:43:32,274 autoreload 46 140156906601344 Watching for file changes with StatReloader
+INFO 2025-05-28 23:49:41,902 autoreload 46 140156906601344 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 23:49:42,353 autoreload 48 140095307144064 Watching for file changes with StatReloader
+INFO 2025-05-28 23:59:40,459 autoreload 48 140095307144064 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-28 23:59:41,000 autoreload 50 140174897953664 Watching for file changes with StatReloader
+INFO 2025-05-29 00:05:15,619 autoreload 50 140174897953664 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 00:05:16,103 autoreload 52 140554559626112 Watching for file changes with StatReloader
+INFO 2025-05-29 00:07:56,846 autoreload 52 140554559626112 /app/base/utils.py changed, reloading.
+INFO 2025-05-29 00:07:57,364 autoreload 54 139861045492608 Watching for file changes with StatReloader
+ERROR 2025-05-29 00:08:01,523 log 54 139860937483968 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 55, in post
+    temp_auth_user,max_age = encrypt_data(data={'email':user.email,'user_id':user.id}),simplejwt_config['access_token_lifetime_in_seconds']
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/base/utils.py", line 31, in encrypt_data
+    json_data_str = json.dumps(data)
+                    ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UUID is not JSON serializable
+ERROR 2025-05-29 00:08:01,554 basehttp 54 139860937483968 "POST /auth/login/ HTTP/1.1" 500 124874
+INFO 2025-05-29 00:09:04,314 autoreload 54 139861045492608 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 00:09:04,835 autoreload 58 139823015029632 Watching for file changes with StatReloader
+INFO 2025-05-29 00:09:34,581 autoreload 58 139823015029632 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 00:09:35,198 autoreload 60 140110370429824 Watching for file changes with StatReloader
+INFO 2025-05-29 00:09:37,916 basehttp 60 140110271035072 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 02:00:36,624 basehttp 60 140110261593792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 02:00:38,047 basehttp 60 140110261593792 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 02:03:24,622 autoreload 60 140110370429824 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 02:03:25,125 autoreload 66 140377503513472 Watching for file changes with StatReloader
+INFO 2025-05-29 02:04:41,305 autoreload 66 140377503513472 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 02:04:41,805 autoreload 68 140513583070080 Watching for file changes with StatReloader
+ERROR 2025-05-29 02:04:42,851 log 68 140513403463360 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 57, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 85, in create_otp_email
+    UserLoginService.set_otp_email(hashed_email, otp)
+  File "/app/user_app/services/user_login_service.py", line 73, in set_otp_email
+    con.set(key, otp_code, ex=ex)
+  File "/usr/local/lib/python3.12/site-packages/redis/commands/core.py", line 2304, in set
+    raise DataError("ex must be datetime.timedelta or int")
+redis.exceptions.DataError: ex must be datetime.timedelta or int
+ERROR 2025-05-29 02:04:42,858 basehttp 68 140513403463360 "POST /auth/login/ HTTP/1.1" 500 118286
+INFO 2025-05-29 02:05:31,497 autoreload 9 139783244094336 Watching for file changes with StatReloader
+ERROR 2025-05-29 02:05:36,923 log 9 139783066089152 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 57, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 85, in create_otp_email
+    UserLoginService.set_otp_email(hashed_email, otp)
+  File "/app/user_app/services/user_login_service.py", line 73, in set_otp_email
+    con.set(key, otp_code, ex=ex)
+  File "/usr/local/lib/python3.12/site-packages/redis/commands/core.py", line 2304, in set
+    raise DataError("ex must be datetime.timedelta or int")
+redis.exceptions.DataError: ex must be datetime.timedelta or int
+ERROR 2025-05-29 02:05:36,935 basehttp 9 139783066089152 "POST /auth/login/ HTTP/1.1" 500 118155
+INFO 2025-05-29 02:08:48,036 autoreload 9 139783244094336 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 02:08:48,934 autoreload 13 140330992208768 Watching for file changes with StatReloader
+ERROR 2025-05-29 02:08:51,368 log 13 140330885129920 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 57, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 86, in create_otp_email
+    UserLoginService.set_otp_email(hashed_email, otp)
+  File "/app/user_app/services/user_login_service.py", line 73, in set_otp_email
+    con.set(key, otp_code, ex=ex)
+  File "/usr/local/lib/python3.12/site-packages/redis/commands/core.py", line 2304, in set
+    raise DataError("ex must be datetime.timedelta or int")
+redis.exceptions.DataError: ex must be datetime.timedelta or int
+ERROR 2025-05-29 02:08:51,383 basehttp 13 140330885129920 "POST /auth/login/ HTTP/1.1" 500 118174
+INFO 2025-05-29 02:09:10,618 autoreload 13 140330992208768 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 02:09:11,197 autoreload 17 139806099602304 Watching for file changes with StatReloader
+ERROR 2025-05-29 02:09:16,994 log 17 139805992101568 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 57, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 86, in create_otp_email
+    UserLoginService.set_otp_email(hashed_email, otp)
+  File "/app/user_app/services/user_login_service.py", line 73, in set_otp_email
+    con.set(key, otp_code, ex=ex)
+  File "/usr/local/lib/python3.12/site-packages/redis/commands/core.py", line 2304, in set
+    raise DataError("ex must be datetime.timedelta or int")
+redis.exceptions.DataError: ex must be datetime.timedelta or int
+ERROR 2025-05-29 02:09:17,009 basehttp 17 139805992101568 "POST /auth/login/ HTTP/1.1" 500 118178
+INFO 2025-05-29 02:10:26,806 autoreload 17 139806099602304 /app/backend/utils.py changed, reloading.
+INFO 2025-05-29 02:10:27,329 autoreload 21 140583271717760 Watching for file changes with StatReloader
+INFO 2025-05-29 02:27:43,601 autoreload 21 140583271717760 /app/base/config.py changed, reloading.
+INFO 2025-05-29 02:27:44,228 autoreload 23 140395721931648 Watching for file changes with StatReloader
+ERROR 2025-05-29 02:27:52,315 log 23 140395623167680 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 57, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 86, in create_otp_email
+    UserLoginService.set_otp_email(hashed_email, otp)
+  File "/app/user_app/services/user_login_service.py", line 73, in set_otp_email
+    con.set(key, otp_code, ex=ex)
+  File "/usr/local/lib/python3.12/site-packages/redis/commands/core.py", line 2304, in set
+    raise DataError("ex must be datetime.timedelta or int")
+redis.exceptions.DataError: ex must be datetime.timedelta or int
+ERROR 2025-05-29 02:27:52,321 basehttp 23 140395623167680 "POST /auth/login/ HTTP/1.1" 500 118178
+INFO 2025-05-29 02:28:48,213 autoreload 23 140395721931648 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 02:28:48,773 autoreload 27 139975298812800 Watching for file changes with StatReloader
+ERROR 2025-05-29 02:28:51,306 log 27 139975123265216 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 57, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 84, in create_otp_email
+    with transaction.atomic():
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/transaction.py", line 307, in __exit__
+    connection.set_autocommit(True)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 491, in set_autocommit
+    self.run_and_clear_commit_hooks()
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 769, in run_and_clear_commit_hooks
+    func()
+  File "/app/user_app/services/user_login_service.py", line 87, in <lambda>
+    lambda :send_email_otp_login.delay(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'user_app.tasks.send_email_otp_login' has no attribute 'delay'
+ERROR 2025-05-29 02:28:51,317 basehttp 27 139975123265216 "POST /auth/login/ HTTP/1.1" 500 125766
+INFO 2025-05-29 02:30:07,593 autoreload 27 139975298812800 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 02:30:08,109 autoreload 31 139701490510720 Watching for file changes with StatReloader
+INFO 2025-05-29 02:30:20,725 autoreload 9 140487697288064 Watching for file changes with StatReloader
+ERROR 2025-05-29 02:31:09,897 log 9 140487589570240 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 57, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 84, in create_otp_email
+    with transaction.atomic():
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/transaction.py", line 307, in __exit__
+    connection.set_autocommit(True)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 491, in set_autocommit
+    self.run_and_clear_commit_hooks()
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 769, in run_and_clear_commit_hooks
+    func()
+  File "/app/user_app/services/user_login_service.py", line 87, in <lambda>
+    lambda :send_email_otp_login.delay(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'user_app.tasks.send_email_otp_login' has no attribute 'delay'
+ERROR 2025-05-29 02:31:09,905 basehttp 9 140487589570240 "POST /auth/login/ HTTP/1.1" 500 125766
+INFO 2025-05-29 02:31:39,976 autoreload 9 140487697288064 /app/user_app/tasks/__init__.py changed, reloading.
+INFO 2025-05-29 02:31:41,038 autoreload 13 140444532562816 Watching for file changes with StatReloader
+INFO 2025-05-29 02:31:53,420 basehttp 13 140444433331904 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 02:33:23,568 autoreload 9 139692402355072 Watching for file changes with StatReloader
+INFO 2025-05-29 02:33:26,917 basehttp 9 139692295005888 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 02:34:07,350 basehttp 9 139692295005888 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 02:34:31,404 autoreload 9 139692402355072 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 02:34:32,244 autoreload 13 140294036441984 Watching for file changes with StatReloader
+INFO 2025-05-29 02:34:46,971 autoreload 13 140294036441984 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 02:34:47,658 autoreload 15 139751908379520 Watching for file changes with StatReloader
+INFO 2025-05-29 02:35:29,495 autoreload 15 139751908379520 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 02:35:30,020 autoreload 17 139943832624000 Watching for file changes with StatReloader
+INFO 2025-05-29 02:35:32,231 basehttp 17 139943649208000 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 02:36:12,290 autoreload 17 139943832624000 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 02:36:12,827 autoreload 21 140303898135424 Watching for file changes with StatReloader
+INFO 2025-05-29 02:36:18,379 basehttp 21 140303790974656 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 03:57:51,064 autoreload 21 140303898135424 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 03:57:51,603 autoreload 25 140047673645952 Watching for file changes with StatReloader
+INFO 2025-05-29 03:58:04,397 basehttp 25 140047566186176 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 03:58:57,732 autoreload 9 140151580535680 Watching for file changes with StatReloader
+INFO 2025-05-29 03:59:02,776 basehttp 9 140151481120448 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:00:06,558 autoreload 9 140151580535680 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 04:00:07,600 autoreload 13 140470003383168 Watching for file changes with StatReloader
+INFO 2025-05-29 04:00:50,462 autoreload 9 139641172298624 Watching for file changes with StatReloader
+INFO 2025-05-29 04:00:51,566 basehttp 9 139641074169536 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:21:01,392 autoreload 9 139641172298624 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 04:21:02,184 autoreload 13 139653372943232 Watching for file changes with StatReloader
+INFO 2025-05-29 04:25:25,681 autoreload 13 139653372943232 /app/user_app/serializers/model.py changed, reloading.
+INFO 2025-05-29 04:25:26,240 autoreload 15 140272422488960 Watching for file changes with StatReloader
+INFO 2025-05-29 04:25:48,984 autoreload 15 140272422488960 /app/user_app/serializers/model.py changed, reloading.
+INFO 2025-05-29 04:25:49,617 autoreload 17 140080152857472 Watching for file changes with StatReloader
+INFO 2025-05-29 04:27:00,580 autoreload 17 140080152857472 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 04:27:01,082 autoreload 19 139820449237888 Watching for file changes with StatReloader
+INFO 2025-05-29 04:27:15,598 autoreload 9 139948544297856 Watching for file changes with StatReloader
+INFO 2025-05-29 04:27:32,119 basehttp 9 139948436956864 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:28:08,501 autoreload 9 139948544297856 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 04:28:09,474 autoreload 13 140561609444224 Watching for file changes with StatReloader
+INFO 2025-05-29 04:28:41,953 autoreload 13 140561609444224 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 04:28:42,530 autoreload 15 139790056483712 Watching for file changes with StatReloader
+INFO 2025-05-29 04:28:57,462 autoreload 9 139727420595072 Watching for file changes with StatReloader
+INFO 2025-05-29 04:29:15,378 basehttp 9 139727313249984 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:34:55,576 basehttp 9 139727321642688 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:40:00,228 autoreload 9 139727420595072 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 04:40:01,124 autoreload 15 140109189061504 Watching for file changes with StatReloader
+INFO 2025-05-29 04:40:06,206 autoreload 15 140109189061504 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 04:40:06,771 autoreload 17 139760196213632 Watching for file changes with StatReloader
+INFO 2025-05-29 04:40:09,781 basehttp 17 139760096982720 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:42:46,238 autoreload 17 139760196213632 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 04:42:46,831 autoreload 21 139710651353984 Watching for file changes with StatReloader
+INFO 2025-05-29 04:44:09,374 autoreload 21 139710651353984 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 04:44:09,929 autoreload 23 139712828324736 Watching for file changes with StatReloader
+INFO 2025-05-29 04:44:15,452 basehttp 23 139712729659072 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:44:22,659 autoreload 23 139712828324736 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 04:44:23,326 autoreload 27 139977761913728 Watching for file changes with StatReloader
+INFO 2025-05-29 04:44:26,834 basehttp 27 139977662871232 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:44:32,877 autoreload 27 139977761913728 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 04:44:33,458 autoreload 31 139686682069888 Watching for file changes with StatReloader
+INFO 2025-05-29 04:46:16,994 autoreload 31 139686682069888 /app/user_app/tasks/send_email_otp_login.py changed, reloading.
+INFO 2025-05-29 04:46:17,524 autoreload 33 140096681528192 Watching for file changes with StatReloader
+INFO 2025-05-29 04:46:30,769 autoreload 9 139694242130816 Watching for file changes with StatReloader
+INFO 2025-05-29 04:46:38,427 basehttp 9 139694074492608 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:51:06,645 basehttp 9 139694055610048 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:52:49,819 basehttp 9 139694064002752 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:53:24,148 autoreload 9 140000291818368 Watching for file changes with StatReloader
+INFO 2025-05-29 04:53:25,311 basehttp 9 140000193623744 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 04:56:18,803 autoreload 9 140033219709824 Watching for file changes with StatReloader
+INFO 2025-05-29 04:56:45,138 basehttp 9 140033038214848 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 05:05:44,309 autoreload 9 140033219709824 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 05:05:45,119 autoreload 13 139661690448768 Watching for file changes with StatReloader
+INFO 2025-05-29 05:06:08,524 autoreload 13 139661690448768 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 05:06:09,044 autoreload 15 139874396441472 Watching for file changes with StatReloader
+INFO 2025-05-29 05:06:40,951 autoreload 15 139874396441472 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 05:06:41,417 autoreload 17 140122674563968 Watching for file changes with StatReloader
+ERROR 2025-05-29 05:07:25,519 log 17 140122494330560 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 57, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 90, in create_otp_email
+    UserLoginService.set_otp_email(hashed_email, otp)
+  File "/app/user_app/services/user_login_service.py", line 73, in set_otp_email
+    con.set(key, otp_code, ex=ex)
+  File "/usr/local/lib/python3.12/site-packages/redis/commands/core.py", line 2304, in set
+    raise DataError("ex must be datetime.timedelta or int")
+redis.exceptions.DataError: ex must be datetime.timedelta or int
+ERROR 2025-05-29 05:07:25,527 basehttp 17 140122494330560 "POST /auth/login/ HTTP/1.1" 500 118155
+INFO 2025-05-29 05:13:42,968 autoreload 17 140122674563968 /app/base/config.py changed, reloading.
+INFO 2025-05-29 05:13:43,465 autoreload 21 139768608119680 Watching for file changes with StatReloader
+INFO 2025-05-29 05:13:47,642 basehttp 21 139768427964096 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 05:19:28,102 autoreload 21 139768608119680 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 05:19:28,643 autoreload 25 140238842456960 Watching for file changes with StatReloader
+INFO 2025-05-29 05:20:36,800 autoreload 25 140238842456960 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 05:20:37,351 autoreload 27 139692458494848 Watching for file changes with StatReloader
+INFO 2025-05-29 05:20:40,177 basehttp 27 139692358973120 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 05:21:35,576 autoreload 27 139692458494848 /app/user_app/urls.py changed, reloading.
+INFO 2025-05-29 05:21:36,186 autoreload 31 140602805418880 Watching for file changes with StatReloader
+INFO 2025-05-29 05:21:40,692 basehttp 31 140602706441920 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 05:22:15,188 basehttp 31 140602706441920 "POST /auth/login/ HTTP/1.1" 200 89
+ERROR 2025-05-29 05:22:26,995 log 31 140602706441920 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/cryptography/fernet.py", line 114, in _get_unverified_token_data
+    data = base64.urlsafe_b64decode(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/base64.py", line 134, in urlsafe_b64decode
+    return b64decode(s)
+           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/base64.py", line 88, in b64decode
+    return binascii.a2b_base64(s, strict_mode=validate)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+binascii.Error: Invalid base64-encoded string: number of data characters (205) cannot be 1 more than a multiple of 4
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 73, in post
+    temp_auth_user = decrypt_data(temp_auth_user)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/base/utils.py", line 37, in decrypt_data
+    decrypted_data_json = f.decrypt(encrypted_data).decode('utf-8')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cryptography/fernet.py", line 85, in decrypt
+    timestamp, data = Fernet._get_unverified_token_data(token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cryptography/fernet.py", line 116, in _get_unverified_token_data
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+ERROR 2025-05-29 05:22:27,001 basehttp 31 140602706441920 "POST /auth/verify-otp-login/ HTTP/1.1" 500 122763
+INFO 2025-05-29 05:25:05,018 basehttp 31 140602695952064 "POST /auth/login/ HTTP/1.1" 200 89
+ERROR 2025-05-29 05:25:07,723 log 31 140602695952064 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/cryptography/fernet.py", line 114, in _get_unverified_token_data
+    data = base64.urlsafe_b64decode(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/base64.py", line 134, in urlsafe_b64decode
+    return b64decode(s)
+           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/base64.py", line 88, in b64decode
+    return binascii.a2b_base64(s, strict_mode=validate)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+binascii.Error: Invalid base64-encoded string: number of data characters (205) cannot be 1 more than a multiple of 4
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 73, in post
+    temp_auth_user = decrypt_data(temp_auth_user)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/base/utils.py", line 37, in decrypt_data
+    decrypted_data_json = f.decrypt(encrypted_data).decode('utf-8')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cryptography/fernet.py", line 85, in decrypt
+    timestamp, data = Fernet._get_unverified_token_data(token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cryptography/fernet.py", line 116, in _get_unverified_token_data
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+ERROR 2025-05-29 05:25:07,726 basehttp 31 140602695952064 "POST /auth/verify-otp-login/ HTTP/1.1" 500 122763
+INFO 2025-05-29 05:27:23,909 autoreload 31 140602805418880 /app/base/utils.py changed, reloading.
+INFO 2025-05-29 05:27:24,423 autoreload 37 140300077759360 Watching for file changes with StatReloader
+INFO 2025-05-29 05:27:36,884 autoreload 37 140300077759360 /app/base/utils.py changed, reloading.
+INFO 2025-05-29 05:27:37,363 autoreload 39 140242794613632 Watching for file changes with StatReloader
+INFO 2025-05-29 05:27:49,586 autoreload 39 140242794613632 /app/base/utils.py changed, reloading.
+INFO 2025-05-29 05:27:50,045 autoreload 41 140342393437056 Watching for file changes with StatReloader
+ERROR 2025-05-29 05:28:11,299 log 41 140342217144000 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/cryptography/fernet.py", line 114, in _get_unverified_token_data
+    data = base64.urlsafe_b64decode(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/base64.py", line 134, in urlsafe_b64decode
+    return b64decode(s)
+           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/base64.py", line 88, in b64decode
+    return binascii.a2b_base64(s, strict_mode=validate)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+binascii.Error: Invalid base64-encoded string: number of data characters (205) cannot be 1 more than a multiple of 4
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 73, in post
+    temp_auth_user = decrypt_data(temp_auth_user)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/base/utils.py", line 37, in decrypt_data
+    decrypted_data_json = f.decrypt(encrypted_data.encode('utf-8')).decode('utf-8')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cryptography/fernet.py", line 85, in decrypt
+    timestamp, data = Fernet._get_unverified_token_data(token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cryptography/fernet.py", line 116, in _get_unverified_token_data
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+ERROR 2025-05-29 05:28:11,310 basehttp 41 140342217144000 "POST /auth/verify-otp-login/ HTTP/1.1" 500 122970
+INFO 2025-05-29 05:28:14,817 basehttp 41 140342217144000 "POST /auth/login/ HTTP/1.1" 200 89
+ERROR 2025-05-29 05:28:28,253 log 41 140342217144000 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 80, in post
+    user = UserLoginService.check_otp_email(email=email,user_id=user_id,current_language_code=current_language_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserLoginService.check_otp_email() got an unexpected keyword argument 'user_id'
+ERROR 2025-05-29 05:28:28,255 basehttp 41 140342217144000 "POST /auth/verify-otp-login/ HTTP/1.1" 500 100307
+INFO 2025-05-29 05:31:39,970 autoreload 41 140342393437056 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 05:31:40,630 autoreload 45 139876105640832 Watching for file changes with StatReloader
+INFO 2025-05-29 05:32:26,362 autoreload 45 139876105640832 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 05:32:26,928 autoreload 47 140157725875072 Watching for file changes with StatReloader
+INFO 2025-05-29 05:32:43,246 autoreload 47 140157725875072 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 05:32:43,826 autoreload 49 139643843713920 Watching for file changes with StatReloader
+INFO 2025-05-29 05:32:50,251 basehttp 49 139643676784320 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-29 05:32:52,808 log 49 139643676784320 Bad Request: /auth/verify-otp-login/
+WARNING 2025-05-29 05:32:52,808 basehttp 49 139643676784320 "POST /auth/verify-otp-login/ HTTP/1.1" 400 109
+ERROR 2025-05-29 05:33:01,832 log 49 139643676784320 Internal Server Error: /auth/verify-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 85, in post
+    user = UserLoginService.check_otp_email(email=email,current_language_code=current_language_code,**serializer_otp.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/user_login_service.py", line 108, in check_otp_email
+    user = User.objects.select_for_update().get(email=email)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 629, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 366, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1945, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 846, in as_sql
+    raise TransactionManagementError(
+django.db.transaction.TransactionManagementError: select_for_update cannot be used outside of a transaction.
+ERROR 2025-05-29 05:33:01,837 basehttp 49 139643676784320 "POST /auth/verify-otp-login/ HTTP/1.1" 500 135788
+INFO 2025-05-29 05:33:51,356 autoreload 49 139643843713920 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 05:33:52,039 autoreload 53 140283753081728 Watching for file changes with StatReloader
+INFO 2025-05-29 05:34:01,396 autoreload 53 140283753081728 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 05:34:01,919 autoreload 55 140478556568448 Watching for file changes with StatReloader
+WARNING 2025-05-29 05:34:09,978 log 55 140478457525952 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:34:09,978 basehttp 55 140478457525952 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 05:34:11,906 log 55 140478457525952 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:34:11,908 basehttp 55 140478457525952 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 05:34:12,918 log 55 140478457525952 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:34:12,919 basehttp 55 140478457525952 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 05:34:13,579 log 55 140478457525952 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:34:13,580 basehttp 55 140478457525952 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 05:34:14,225 log 55 140478457525952 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:34:14,225 basehttp 55 140478457525952 "POST /auth/verify-otp-login/ HTTP/1.1" 403 149
+WARNING 2025-05-29 05:34:15,585 log 55 140478457525952 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:34:15,586 basehttp 55 140478457525952 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+INFO 2025-05-29 05:35:18,069 autoreload 55 140478556568448 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 05:35:18,625 autoreload 59 140503426063232 Watching for file changes with StatReloader
+WARNING 2025-05-29 05:36:13,947 log 59 140503318210240 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:36:13,948 basehttp 59 140503318210240 "POST /auth/verify-otp-login/ HTTP/1.1" 403 109
+WARNING 2025-05-29 05:36:15,506 log 59 140503318210240 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:36:15,506 basehttp 59 140503318210240 "POST /auth/verify-otp-login/ HTTP/1.1" 403 109
+WARNING 2025-05-29 05:36:16,377 log 59 140503318210240 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:36:16,377 basehttp 59 140503318210240 "POST /auth/verify-otp-login/ HTTP/1.1" 403 109
+INFO 2025-05-29 05:36:41,711 autoreload 59 140503426063232 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 05:36:42,243 autoreload 63 139805837151104 Watching for file changes with StatReloader
+INFO 2025-05-29 05:37:04,753 autoreload 63 139805837151104 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 05:37:05,282 autoreload 65 140429736147840 Watching for file changes with StatReloader
+INFO 2025-05-29 05:37:11,195 autoreload 65 140429736147840 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 05:37:11,734 autoreload 67 140106847812480 Watching for file changes with StatReloader
+INFO 2025-05-29 05:37:35,107 autoreload 67 140106847812480 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 05:37:35,827 autoreload 69 139946850728832 Watching for file changes with StatReloader
+WARNING 2025-05-29 05:37:46,138 log 69 139946677499584 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:37:46,139 basehttp 69 139946677499584 "POST /auth/verify-otp-login/ HTTP/1.1" 403 157
+WARNING 2025-05-29 05:38:45,322 log 69 139946677499584 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:38:45,323 basehttp 69 139946677499584 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 05:38:52,278 log 69 139946677499584 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:38:52,280 basehttp 69 139946677499584 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 05:38:53,198 log 69 139946677499584 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:38:53,198 basehttp 69 139946677499584 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 05:38:54,890 log 69 139946677499584 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:38:54,890 basehttp 69 139946677499584 "POST /auth/verify-otp-login/ HTTP/1.1" 403 149
+WARNING 2025-05-29 05:38:57,619 log 69 139946677499584 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:38:57,619 basehttp 69 139946677499584 "POST /auth/verify-otp-login/ HTTP/1.1" 403 157
+WARNING 2025-05-29 05:38:59,317 log 69 139946677499584 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:38:59,317 basehttp 69 139946677499584 "POST /auth/verify-otp-login/ HTTP/1.1" 403 157
+WARNING 2025-05-29 05:39:00,161 log 69 139946677499584 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:39:00,162 basehttp 69 139946677499584 "POST /auth/verify-otp-login/ HTTP/1.1" 403 157
+INFO 2025-05-29 05:39:28,780 autoreload 9 139965879585664 Watching for file changes with StatReloader
+INFO 2025-05-29 05:40:41,392 autoreload 9 139965879585664 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 05:40:42,391 autoreload 11 139988911045504 Watching for file changes with StatReloader
+WARNING 2025-05-29 05:40:43,494 log 11 139988813428416 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:40:43,495 basehttp 11 139988813428416 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 05:40:44,726 log 11 139988813428416 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:40:44,727 basehttp 11 139988813428416 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 05:40:45,365 log 11 139988813428416 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:40:45,365 basehttp 11 139988813428416 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 05:40:45,911 log 11 139988813428416 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:40:45,911 basehttp 11 139988813428416 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 05:40:46,565 log 11 139988813428416 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:40:46,566 basehttp 11 139988813428416 "POST /auth/verify-otp-login/ HTTP/1.1" 403 150
+WARNING 2025-05-29 05:40:48,349 log 11 139988813428416 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:40:48,350 basehttp 11 139988813428416 "POST /auth/verify-otp-login/ HTTP/1.1" 403 150
+WARNING 2025-05-29 05:40:49,030 log 11 139988813428416 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:40:49,030 basehttp 11 139988813428416 "POST /auth/verify-otp-login/ HTTP/1.1" 403 150
+WARNING 2025-05-29 05:40:49,591 log 11 139988813428416 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:40:49,592 basehttp 11 139988813428416 "POST /auth/verify-otp-login/ HTTP/1.1" 403 150
+WARNING 2025-05-29 05:40:50,693 log 11 139988813428416 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:40:50,694 basehttp 11 139988813428416 "POST /auth/verify-otp-login/ HTTP/1.1" 403 150
+WARNING 2025-05-29 05:40:51,335 log 11 139988813428416 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:40:51,336 basehttp 11 139988813428416 "POST /auth/verify-otp-login/ HTTP/1.1" 403 150
+WARNING 2025-05-29 05:40:52,019 log 11 139988813428416 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:40:52,020 basehttp 11 139988813428416 "POST /auth/verify-otp-login/ HTTP/1.1" 403 150
+WARNING 2025-05-29 05:42:36,723 log 11 139988803987136 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:42:36,723 basehttp 11 139988803987136 "POST /auth/verify-otp-login/ HTTP/1.1" 403 150
+WARNING 2025-05-29 05:42:37,618 log 11 139988803987136 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 05:42:37,619 basehttp 11 139988803987136 "POST /auth/verify-otp-login/ HTTP/1.1" 403 150
+INFO 2025-05-29 06:37:09,374 autoreload 11 139988911045504 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 06:37:09,997 autoreload 17 140158366976896 Watching for file changes with StatReloader
+INFO 2025-05-29 06:38:27,858 autoreload 17 140158366976896 /app/user_app/cache_key.py changed, reloading.
+INFO 2025-05-29 06:38:28,482 autoreload 19 139857293187968 Watching for file changes with StatReloader
+INFO 2025-05-29 06:39:47,135 autoreload 19 139857293187968 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 06:39:47,592 autoreload 21 140490155572096 Watching for file changes with StatReloader
+INFO 2025-05-29 06:39:51,368 autoreload 21 140490155572096 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 06:39:51,898 autoreload 23 140091136023424 Watching for file changes with StatReloader
+INFO 2025-05-29 06:42:30,078 autoreload 23 140091136023424 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 06:42:30,790 autoreload 25 139801624456064 Watching for file changes with StatReloader
+INFO 2025-05-29 06:46:50,800 autoreload 25 139801624456064 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 06:46:51,379 autoreload 27 139875091110784 Watching for file changes with StatReloader
+INFO 2025-05-29 06:48:10,945 autoreload 27 139875091110784 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 06:48:11,401 autoreload 29 139923274279808 Watching for file changes with StatReloader
+INFO 2025-05-29 06:49:49,458 autoreload 29 139923274279808 /app/user_app/urls.py changed, reloading.
+INFO 2025-05-29 06:49:49,969 autoreload 31 140026793671552 Watching for file changes with StatReloader
+ERROR 2025-05-29 06:49:58,622 log 31 140026694284992 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 38, in post
+    user = UserLoginService.authenticate_user(**serializer.validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/services/user_login_service.py", line 207, in authenticate_user
+    user_auth.update_last_login()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'update_last_login'
+ERROR 2025-05-29 06:49:58,633 basehttp 31 140026694284992 "POST /auth/login/ HTTP/1.1" 500 103709
+INFO 2025-05-29 06:51:17,785 autoreload 31 140026793671552 /app/user_app/models.py changed, reloading.
+INFO 2025-05-29 06:51:18,474 autoreload 35 140575840418688 Watching for file changes with StatReloader
+INFO 2025-05-29 06:51:21,309 basehttp 35 140575732868800 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 06:51:24,049 basehttp 35 140575732868800 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 06:51:25,347 basehttp 35 140575732868800 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-29 06:51:28,964 log 35 140575732868800 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 06:51:28,964 basehttp 35 140575732868800 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+ERROR 2025-05-29 06:51:49,438 log 35 140575732868800 Internal Server Error: /auth/resend-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 115, in post
+    UserLoginService.resend_otp_email(email=email,
+  File "/app/user_app/services/user_login_service.py", line 124, in resend_otp_email
+    UserLoginService.create_otp_email(email,user_id,current_language_code)
+  File "/app/user_app/services/user_login_service.py", line 104, in create_otp_email
+    raise Throttled(detail=_('Cannot receive OTP at this time. Please try again after {wait} seconds.'),wait=UserLoginService.get_locking_email_otp_login_ttl(hashed_email))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/exceptions.py", line 238, in __init__
+    detail = ' '.join((
+             ^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, __proxy__ found
+ERROR 2025-05-29 06:51:49,452 basehttp 35 140575732868800 "POST /auth/resend-otp-login/ HTTP/1.1" 500 113456
+ERROR 2025-05-29 06:52:35,423 log 35 140575732868800 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 58, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 104, in create_otp_email
+    raise Throttled(detail=_('Cannot receive OTP at this time. Please try again after {wait} seconds.'),wait=UserLoginService.get_locking_email_otp_login_ttl(hashed_email))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/exceptions.py", line 238, in __init__
+    detail = ' '.join((
+             ^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, __proxy__ found
+ERROR 2025-05-29 06:52:35,426 basehttp 35 140575732868800 "POST /auth/login/ HTTP/1.1" 500 112761
+INFO 2025-05-29 06:54:35,795 autoreload 35 140575840418688 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 06:54:36,322 autoreload 39 139989358107520 Watching for file changes with StatReloader
+ERROR 2025-05-29 06:54:40,622 log 39 139989259073216 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 58, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 104, in create_otp_email
+    raise Throttled(extra_detail_singular=_('Cannot receive OTP at this time. Please try again after {wait} seconds.'),wait=UserLoginService.get_locking_email_otp_login_ttl(hashed_email))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Throttled.__init__() got an unexpected keyword argument 'extra_detail_singular'
+ERROR 2025-05-29 06:54:40,631 basehttp 39 139989259073216 "POST /auth/login/ HTTP/1.1" 500 108477
+ERROR 2025-05-29 06:54:42,027 log 39 139989259073216 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 58, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 104, in create_otp_email
+    raise Throttled(extra_detail_singular=_('Cannot receive OTP at this time. Please try again after {wait} seconds.'),wait=UserLoginService.get_locking_email_otp_login_ttl(hashed_email))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Throttled.__init__() got an unexpected keyword argument 'extra_detail_singular'
+ERROR 2025-05-29 06:54:42,033 basehttp 39 139989259073216 "POST /auth/login/ HTTP/1.1" 500 108477
+INFO 2025-05-29 07:06:56,880 autoreload 39 139989358107520 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 07:06:57,471 autoreload 43 140171311258496 Watching for file changes with StatReloader
+INFO 2025-05-29 07:07:10,049 autoreload 43 140171311258496 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 07:07:10,675 autoreload 45 140071709580160 Watching for file changes with StatReloader
+INFO 2025-05-29 07:07:14,287 basehttp 45 140071601645248 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 07:07:16,266 basehttp 45 140071601645248 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-29 07:07:20,794 log 45 140071601645248 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 07:07:20,794 basehttp 45 140071601645248 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+WARNING 2025-05-29 07:07:48,624 log 45 140071601645248 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 07:07:48,625 basehttp 45 140071601645248 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+INFO 2025-05-29 07:08:19,002 basehttp 45 140071601645248 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 07:08:20,162 basehttp 45 140071601645248 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-29 07:08:55,009 log 45 140071601645248 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 07:08:55,010 basehttp 45 140071601645248 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+INFO 2025-05-29 08:08:55,189 basehttp 45 140071610037952 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 08:09:18,042 autoreload 9 140300468312960 Watching for file changes with StatReloader
+INFO 2025-05-29 08:30:13,169 autoreload 9 140300468312960 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 08:30:14,089 autoreload 11 139850260081536 Watching for file changes with StatReloader
+INFO 2025-05-29 08:32:35,124 autoreload 11 139850260081536 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 08:32:35,833 autoreload 13 140712954542976 Watching for file changes with StatReloader
+INFO 2025-05-29 08:33:09,137 autoreload 13 140712954542976 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 08:33:09,751 autoreload 15 140289885485952 Watching for file changes with StatReloader
+INFO 2025-05-29 08:35:18,994 autoreload 15 140289885485952 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 08:35:19,650 autoreload 17 140584066124672 Watching for file changes with StatReloader
+INFO 2025-05-29 08:35:22,789 basehttp 17 140583958947520 "POST /auth/login/ HTTP/1.1" 200 89
+ERROR 2025-05-29 08:35:24,525 log 17 140583958947520 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 58, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 113, in create_otp_email
+    UserLoginService.check_user_locking_status_otp_login(hashed_email)
+  File "/app/user_app/services/user_login_service.py", line 298, in check_user_locking_status_otp_login
+    if UserLoginService.check_email_is_locking_otp_login(hashed_email) and UserLoginService.get_locking_email_otp_login_count(hashed_email) >= 3:
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'bytes' and 'int'
+ERROR 2025-05-29 08:35:24,535 basehttp 17 140583958947520 "POST /auth/login/ HTTP/1.1" 500 111645
+ERROR 2025-05-29 08:35:25,472 log 17 140583958947520 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/user_app/views/auth.py", line 58, in post
+    UserLoginService.create_otp_email(email=user_serializer.data.get('email'),user_id=user_serializer.data.get('id'),current_language_code=user_serializer.data.get('language'))
+  File "/app/user_app/services/user_login_service.py", line 113, in create_otp_email
+    UserLoginService.check_user_locking_status_otp_login(hashed_email)
+  File "/app/user_app/services/user_login_service.py", line 298, in check_user_locking_status_otp_login
+    if UserLoginService.check_email_is_locking_otp_login(hashed_email) and UserLoginService.get_locking_email_otp_login_count(hashed_email) >= 3:
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'bytes' and 'int'
+ERROR 2025-05-29 08:35:25,483 basehttp 17 140583958947520 "POST /auth/login/ HTTP/1.1" 500 111645
+INFO 2025-05-29 08:38:01,641 autoreload 17 140584066124672 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 08:38:02,260 autoreload 21 140143808990080 Watching for file changes with StatReloader
+INFO 2025-05-29 08:38:04,299 basehttp 21 140143633622720 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 08:38:05,660 basehttp 21 140143633622720 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-29 08:38:06,701 log 21 140143633622720 Too Many Requests: /auth/login/
+WARNING 2025-05-29 08:38:06,702 basehttp 21 140143633622720 "POST /auth/login/ HTTP/1.1" 429 147
+WARNING 2025-05-29 08:38:16,314 log 21 140143633622720 Too Many Requests: /auth/login/
+WARNING 2025-05-29 08:38:16,315 basehttp 21 140143633622720 "POST /auth/login/ HTTP/1.1" 429 147
+WARNING 2025-05-29 08:38:17,569 log 21 140143633622720 Too Many Requests: /auth/login/
+WARNING 2025-05-29 08:38:17,597 basehttp 21 140143633622720 "POST /auth/login/ HTTP/1.1" 429 147
+INFO 2025-05-29 08:41:30,973 basehttp 21 140143642015424 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-29 08:41:34,297 log 21 140143642015424 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 08:41:34,298 basehttp 21 140143642015424 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+WARNING 2025-05-29 08:41:36,324 log 21 140143642015424 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 08:41:36,324 basehttp 21 140143642015424 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+WARNING 2025-05-29 08:41:37,544 log 21 140143642015424 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 08:41:37,545 basehttp 21 140143642015424 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+WARNING 2025-05-29 08:41:38,835 log 21 140143642015424 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 08:41:38,837 basehttp 21 140143642015424 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+INFO 2025-05-29 08:44:53,622 basehttp 21 140143614740160 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-29 08:45:22,819 log 21 140143614740160 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 08:45:22,819 basehttp 21 140143614740160 "POST /auth/resend-otp-login/ HTTP/1.1" 429 146
+INFO 2025-05-29 08:45:34,042 autoreload 21 140143808990080 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 08:45:34,575 autoreload 29 140184309390208 Watching for file changes with StatReloader
+INFO 2025-05-29 08:45:40,216 basehttp 29 140184201930432 "POST /auth/login/ HTTP/1.1" 200 89
+WARNING 2025-05-29 08:45:43,384 log 29 140184201930432 Too Many Requests: /auth/login/
+WARNING 2025-05-29 08:45:43,384 basehttp 29 140184201930432 "POST /auth/login/ HTTP/1.1" 429 146
+WARNING 2025-05-29 08:45:46,023 log 29 140184201930432 Too Many Requests: /auth/login/
+WARNING 2025-05-29 08:45:46,023 basehttp 29 140184201930432 "POST /auth/login/ HTTP/1.1" 429 146
+WARNING 2025-05-29 08:45:47,058 log 29 140184201930432 Too Many Requests: /auth/login/
+WARNING 2025-05-29 08:45:47,058 basehttp 29 140184201930432 "POST /auth/login/ HTTP/1.1" 429 146
+INFO 2025-05-29 08:45:52,698 basehttp 29 140184201930432 "POST /auth/login/ HTTP/1.1" 200 89
+ERROR 2025-05-29 08:45:56,877 log 29 140184201930432 Internal Server Error: /auth/resend-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/base/views.py", line 34, in finalize_response
+    return super().finalize_response(request, response, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2025-05-29 08:45:56,880 basehttp 29 140184201930432 "POST /auth/resend-otp-login/ HTTP/1.1" 500 90034
+WARNING 2025-05-29 08:46:11,240 log 29 140184201930432 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 08:46:11,241 basehttp 29 140184201930432 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+INFO 2025-05-29 08:46:26,267 basehttp 29 140184201930432 "POST /auth/login/ HTTP/1.1" 200 89
+ERROR 2025-05-29 08:46:29,034 log 29 140184201930432 Internal Server Error: /auth/resend-otp-login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/base/views.py", line 34, in finalize_response
+    return super().finalize_response(request, response, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2025-05-29 08:46:29,036 basehttp 29 140184201930432 "POST /auth/resend-otp-login/ HTTP/1.1" 500 90034
+INFO 2025-05-29 08:47:19,758 autoreload 29 140184309390208 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 08:47:20,304 autoreload 33 140478468905856 Watching for file changes with StatReloader
+INFO 2025-05-29 08:50:30,185 autoreload 33 140478468905856 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 08:50:30,784 autoreload 35 140446198414208 Watching for file changes with StatReloader
+INFO 2025-05-29 08:50:40,611 basehttp 35 140446031410880 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 08:50:45,142 basehttp 35 140446031410880 "POST /auth/resend-otp-login/ HTTP/1.1" 200 18
+WARNING 2025-05-29 08:50:48,615 log 35 140446031410880 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 08:50:48,616 basehttp 35 140446031410880 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+WARNING 2025-05-29 08:53:49,430 log 35 140446020921024 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 08:53:49,431 basehttp 35 140446020921024 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 08:53:53,646 log 35 140446020921024 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 08:53:53,647 basehttp 35 140446020921024 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 08:53:54,599 log 35 140446020921024 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 08:53:54,600 basehttp 35 140446020921024 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 08:53:55,290 log 35 140446020921024 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 08:53:55,291 basehttp 35 140446020921024 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+WARNING 2025-05-29 08:53:58,453 log 35 140446020921024 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 08:53:58,454 basehttp 35 140446020921024 "POST /auth/verify-otp-login/ HTTP/1.1" 403 150
+INFO 2025-05-29 08:55:00,171 autoreload 35 140446198414208 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 08:55:00,871 autoreload 41 139627813428096 Watching for file changes with StatReloader
+INFO 2025-05-29 08:55:16,416 basehttp 41 139627633567424 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 08:55:25,777 basehttp 41 139627633567424 "POST /auth/resend-otp-login/ HTTP/1.1" 200 18
+WARNING 2025-05-29 08:55:27,556 log 41 139627633567424 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 08:55:27,557 basehttp 41 139627633567424 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+WARNING 2025-05-29 08:55:45,025 log 41 139627633567424 Forbidden: /auth/verify-otp-login/
+WARNING 2025-05-29 08:55:45,026 basehttp 41 139627633567424 "POST /auth/verify-otp-login/ HTTP/1.1" 403 162
+INFO 2025-05-29 08:56:18,438 autoreload 41 139627813428096 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-29 08:56:18,958 autoreload 45 140673913265024 Watching for file changes with StatReloader
+INFO 2025-05-29 08:56:22,199 basehttp 45 140673814574784 "POST /auth/verify-otp-login/ HTTP/1.1" 200 504
+INFO 2025-05-29 08:56:29,893 basehttp 45 140673814574784 "GET /auth/me/ HTTP/1.1" 200 504
+INFO 2025-05-29 08:57:28,814 autoreload 45 140673913265024 /app/base/views.py changed, reloading.
+INFO 2025-05-29 08:57:29,362 autoreload 49 140305912433536 Watching for file changes with StatReloader
+INFO 2025-05-29 08:58:15,079 autoreload 49 140305912433536 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 08:58:15,789 autoreload 51 140078050884480 Watching for file changes with StatReloader
+INFO 2025-05-29 08:58:22,510 basehttp 51 140077875328704 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-29 08:58:25,706 basehttp 51 140077875328704 "POST /auth/resend-otp-login/ HTTP/1.1" 200 18
+WARNING 2025-05-29 08:58:26,589 log 51 140077875328704 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-29 08:58:26,590 basehttp 51 140077875328704 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+INFO 2025-05-29 08:58:45,818 basehttp 51 140077875328704 "POST /auth/verify-otp-login/ HTTP/1.1" 200 504
+INFO 2025-05-29 08:59:59,831 autoreload 51 140078050884480 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 09:00:00,520 autoreload 55 139709280197504 Watching for file changes with StatReloader
+INFO 2025-05-29 09:00:27,457 autoreload 55 139709280197504 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 09:00:27,978 autoreload 57 140250119277440 Watching for file changes with StatReloader
+INFO 2025-05-29 09:01:30,220 autoreload 57 140250119277440 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 09:01:30,710 autoreload 59 140100095003520 Watching for file changes with StatReloader
+INFO 2025-05-29 09:02:21,361 autoreload 59 140100095003520 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 09:02:21,920 autoreload 61 139839868480384 Watching for file changes with StatReloader
+INFO 2025-05-29 09:02:30,262 autoreload 61 139839868480384 /app/user_app/views/auth.py changed, reloading.
+INFO 2025-05-29 09:02:30,858 autoreload 63 140152051755904 Watching for file changes with StatReloader
+INFO 2025-05-30 08:04:28,220 autoreload 9 140179055856512 Watching for file changes with StatReloader
+INFO 2025-05-30 08:20:23,796 autoreload 9 140179055856512 /app/user_app/cache_key.py changed, reloading.
+INFO 2025-05-30 08:20:24,695 autoreload 11 140162411678592 Watching for file changes with StatReloader
+INFO 2025-05-30 08:20:37,111 autoreload 11 140162411678592 /app/user_app/models.py changed, reloading.
+INFO 2025-05-30 08:20:37,699 autoreload 13 140042918194048 Watching for file changes with StatReloader
+INFO 2025-05-30 08:22:41,843 autoreload 13 140042918194048 /app/user_app/models.py changed, reloading.
+INFO 2025-05-30 08:22:42,254 autoreload 15 140093385264000 Watching for file changes with StatReloader
+INFO 2025-05-30 08:23:13,118 autoreload 15 140093385264000 /app/user_app/models.py changed, reloading.
+INFO 2025-05-30 08:23:13,690 autoreload 17 140064876862336 Watching for file changes with StatReloader
+INFO 2025-05-30 08:27:09,718 autoreload 17 140064876862336 /app/user_app/cache_key.py changed, reloading.
+INFO 2025-05-30 08:27:10,178 autoreload 19 140013299223424 Watching for file changes with StatReloader
+INFO 2025-05-30 08:39:19,296 autoreload 19 140013299223424 /app/user_app/services/user_login_service.py changed, reloading.
+INFO 2025-05-30 08:39:19,799 autoreload 21 139711576378240 Watching for file changes with StatReloader
+INFO 2025-05-30 08:46:34,932 autoreload 21 139711576378240 /app/user_app/services/__init__.py changed, reloading.
+INFO 2025-05-30 08:46:35,425 autoreload 23 139793797127040 Watching for file changes with StatReloader
+INFO 2025-05-30 08:49:41,189 autoreload 23 139793797127040 /app/user_app/services/__init__.py changed, reloading.
+INFO 2025-05-30 08:49:41,681 autoreload 25 140511780948864 Watching for file changes with StatReloader
+INFO 2025-05-30 08:49:50,310 basehttp 25 140511681656512 "POST /auth/login/ HTTP/1.1" 200 89
+INFO 2025-05-30 08:49:55,943 basehttp 25 140511681656512 "POST /auth/resend-otp-login/ HTTP/1.1" 200 18
+WARNING 2025-05-30 08:49:57,427 log 25 140511681656512 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-30 08:49:57,427 basehttp 25 140511681656512 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+WARNING 2025-05-30 08:50:02,144 log 25 140511681656512 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-30 08:50:02,148 basehttp 25 140511681656512 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+WARNING 2025-05-30 08:50:03,129 log 25 140511681656512 Too Many Requests: /auth/resend-otp-login/
+WARNING 2025-05-30 08:50:03,130 basehttp 25 140511681656512 "POST /auth/resend-otp-login/ HTTP/1.1" 429 147
+INFO 2025-05-30 08:50:27,233 basehttp 25 140511681656512 "POST /auth/verify-otp-login/ HTTP/1.1" 200 504
+WARNING 2025-05-30 08:50:28,992 log 25 140511681656512 Bad Request: /auth/verify-otp-login/
+WARNING 2025-05-30 08:50:28,993 basehttp 25 140511681656512 "POST /auth/verify-otp-login/ HTTP/1.1" 400 107
+INFO 2025-05-30 08:50:41,685 basehttp 25 140511681656512 "GET /auth/me/ HTTP/1.1" 200 504
+INFO 2025-05-30 08:50:43,058 basehttp 25 140511681656512 "GET /auth/me/ HTTP/1.1" 200 504
+INFO 2025-05-30 08:50:43,952 basehttp 25 140511681656512 "GET /auth/me/ HTTP/1.1" 200 504
+INFO 2025-05-30 09:29:39,132 autoreload 25 140511780948864 /app/user_app/services/authentication_service.py changed, reloading.
+INFO 2025-05-30 09:29:39,764 autoreload 29 139641167379328 Watching for file changes with StatReloader
+INFO 2025-05-30 09:30:55,242 autoreload 29 139641167379328 /app/backend/settings.py changed, reloading.
+INFO 2025-05-30 09:30:55,757 autoreload 31 140361943026560 Watching for file changes with StatReloader
+INFO 2025-05-30 09:36:59,228 autoreload 31 140361943026560 /app/user_app/cache_key.py changed, reloading.
+INFO 2025-05-30 09:36:59,905 autoreload 33 139742828518272 Watching for file changes with StatReloader
+INFO 2025-05-30 19:46:50,682 autoreload 9 140098784811904 Watching for file changes with StatReloader

@@ -1,0 +1,120 @@
+INFO 2025-05-27 03:48:38,330 send_mail_login_failed_deactivate 25 140088214649728 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 04:05:47,075 send_mail_login_failed_deactivate 25 140088214649728 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 04:06:38,623 send_mail_login_failed_deactivate 25 140088214649728 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 04:08:41,468 send_mail_login_failed_deactivate 25 140088214649728 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 04:11:18,588 send_mail_login_failed_deactivate 25 140576966110080 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 04:12:16,924 send_mail_login_failed_deactivate 25 140316244962176 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 04:15:39,107 send_mail_login_failed_deactivate 25 140077240552320 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 04:17:41,334 send_mail_login_failed_deactivate 25 139761336298368 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 04:23:40,081 send_mail_login_failed_deactivate 25 139865699531648 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 04:27:35,579 send_mail_login_failed_deactivate 25 140354084461440 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 04:40:31,659 send_mail_login_failed_deactivate 25 139851006409600 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 17:21:49,061 send_mail_login_failed_deactivate 25 139938873637760 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+ERROR 2025-05-27 17:36:58,217 send_mail_login_failed_deactivate 25 139931521465216 Failed to send deactivation email for User ID 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4. Error: type object 'datetime.timezone' has no attribute 'now'
+Traceback (most recent call last):
+  File "/app/user_app/tasks/send_mail_login_failed_deactivate.py", line 60, in send_mail_login_failed_deactivate
+    user.deactivate_reason.email_send_at = timezone.now()
+                                           ^^^^^^^^^^^^
+AttributeError: type object 'datetime.timezone' has no attribute 'now'
+INFO 2025-05-27 17:36:58,245 send_mail_login_failed_deactivate 25 139931521465216 Retrying deactivation email task for User ID 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4 (attempt 1/5)...
+ERROR 2025-05-27 17:39:14,732 send_mail_login_failed_deactivate 25 139931521465216 Failed to send deactivation email for User ID 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4. Error: type object 'datetime.timezone' has no attribute 'now'
+Traceback (most recent call last):
+  File "/app/user_app/tasks/send_mail_login_failed_deactivate.py", line 60, in send_mail_login_failed_deactivate
+    user.deactivate_reason.email_send_at = timezone.now()
+                                           ^^^^^^^^^^^^
+AttributeError: type object 'datetime.timezone' has no attribute 'now'
+INFO 2025-05-27 17:39:14,746 send_mail_login_failed_deactivate 25 139931521465216 Retrying deactivation email task for User ID 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4 (attempt 1/5)...
+INFO 2025-05-27 17:40:05,139 send_mail_login_failed_deactivate 25 140486919334784 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+ERROR 2025-05-27 17:41:58,257 send_mail_login_failed_deactivate 25 140486919334784 Failed to send deactivation email for User ID 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4. Error: 'UserDeactivateReason' object has no attribute 'email_sent_at'
+Traceback (most recent call last):
+  File "/app/user_app/tasks/send_mail_login_failed_deactivate.py", line 33, in send_mail_login_failed_deactivate
+    f"Deactivation email for user {user.email} (ID: {user_id}) already sent at {user.deactivate_reason.email_sent_at}. Skipping duplicate send.")
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UserDeactivateReason' object has no attribute 'email_sent_at'. Did you mean: 'email_send_at'?
+INFO 2025-05-27 17:41:58,262 send_mail_login_failed_deactivate 25 140486919334784 Retrying deactivation email task for User ID 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4 (attempt 2/5)...
+INFO 2025-05-27 17:44:01,475 send_mail_login_failed_deactivate 25 139852902157184 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 17:44:18,490 send_mail_login_failed_deactivate 25 139852902157184 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 17:47:02,048 send_mail_login_failed_deactivate 25 139852902157184 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-27 19:37:43,422 send_mail_login_failed_deactivate 25 139852902157184 Successfully sent deactivation email to toanhvt2005@gmail.com (User ID: 4fc449f7-e3dc-44d1-a72f-4759d9b1cab4).
+INFO 2025-05-29 02:31:56,697 send_email_otp_login 25 139913467591552 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 02:33:30,033 send_email_otp_login 25 139745967790976 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 02:34:10,347 send_email_otp_login 25 139745967790976 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 02:35:35,286 send_email_otp_login 25 139745967790976 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 02:36:20,771 send_email_otp_login 25 139745967790976 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 03:58:22,560 send_email_otp_login 25 139745967790976 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+ERROR 2025-05-29 03:59:02,794 send_email_otp_login 25 140513586609024 Failed to send otp login to email for User ID 64268586-a533-4796-91ea-4425e7e50c4b. Error: 'ReturnDict' object has no attribute 'data'
+Traceback (most recent call last):
+  File "/app/user_app/tasks/send_email_otp_login.py", line 31, in send_email_otp_login
+    'user':user_serializer.data,
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'data'
+INFO 2025-05-29 03:59:02,798 send_email_otp_login 25 140513586609024 Retrying send otp login to email task for User ID 64268586-a533-4796-91ea-4425e7e50c4b (attempt 1/5)...
+ERROR 2025-05-29 03:59:32,823 send_email_otp_login 25 140513586609024 Failed to send otp login to email for User ID 64268586-a533-4796-91ea-4425e7e50c4b. Error: 'ReturnDict' object has no attribute 'data'
+Traceback (most recent call last):
+  File "/app/user_app/tasks/send_email_otp_login.py", line 31, in send_email_otp_login
+    'user':user_serializer.data,
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'data'
+INFO 2025-05-29 03:59:32,831 send_email_otp_login 25 140513586609024 Retrying send otp login to email task for User ID 64268586-a533-4796-91ea-4425e7e50c4b (attempt 2/5)...
+ERROR 2025-05-29 04:00:02,848 send_email_otp_login 25 140513586609024 Failed to send otp login to email for User ID 64268586-a533-4796-91ea-4425e7e50c4b. Error: 'ReturnDict' object has no attribute 'data'
+Traceback (most recent call last):
+  File "/app/user_app/tasks/send_email_otp_login.py", line 31, in send_email_otp_login
+    'user':user_serializer.data,
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'data'
+INFO 2025-05-29 04:00:02,851 send_email_otp_login 25 140513586609024 Retrying send otp login to email task for User ID 64268586-a533-4796-91ea-4425e7e50c4b (attempt 3/5)...
+ERROR 2025-05-29 04:00:32,861 send_email_otp_login 25 140513586609024 Failed to send otp login to email for User ID 64268586-a533-4796-91ea-4425e7e50c4b. Error: 'ReturnDict' object has no attribute 'data'
+Traceback (most recent call last):
+  File "/app/user_app/tasks/send_email_otp_login.py", line 31, in send_email_otp_login
+    'user':user,
+           ^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'data'
+INFO 2025-05-29 04:00:32,868 send_email_otp_login 25 140513586609024 Retrying send otp login to email task for User ID 64268586-a533-4796-91ea-4425e7e50c4b (attempt 4/5)...
+INFO 2025-05-29 04:00:55,686 send_email_otp_login 25 140317713456000 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 04:01:07,120 send_email_otp_login 25 140317713456000 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 04:27:35,572 send_email_otp_login 25 139735338654592 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 04:29:18,360 send_email_otp_login 25 140668057774976 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 04:34:58,554 send_email_otp_login 25 140668057774976 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 04:40:13,231 send_email_otp_login 25 140668057774976 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 04:44:18,437 send_email_otp_login 25 140668057774976 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 04:44:29,894 send_email_otp_login 25 140668057774976 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 04:46:41,502 send_email_otp_login 25 140245704489856 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 04:51:09,248 send_email_otp_login 25 140245704489856 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 04:52:52,871 send_email_otp_login 25 140245704489856 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 04:53:29,215 send_email_otp_login 25 139722095770496 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 04:56:48,318 send_email_otp_login 26 140266769156992 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 05:13:50,180 send_email_otp_login 26 140266769156992 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 05:20:43,335 send_email_otp_login 26 140266769156992 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 05:21:43,761 send_email_otp_login 26 140266769156992 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 05:22:18,234 send_email_otp_login 26 140266769156992 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 05:25:08,127 send_email_otp_login 26 140266769156992 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 05:28:17,895 send_email_otp_login 26 140266769156992 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 05:32:53,414 send_email_otp_login 26 140266769156992 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 05:34:16,646 send_mail_login_failed_deactivate 26 140266769156992 Successfully sent deactivation email to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 05:38:58,181 send_mail_login_failed_deactivate 26 140266769156992 Successfully sent deactivation email to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-05-29 06:51:24,582 send_email_otp_login 25 139798488083328 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 06:51:27,061 send_email_otp_login 10 139798488083328 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 06:51:28,423 send_email_otp_login 25 139798488083328 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 07:07:16,875 send_email_otp_login 25 139798488083328 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 07:07:19,256 send_email_otp_login 10 139798488083328 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 07:08:22,106 send_email_otp_login 25 139798488083328 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 07:08:23,185 send_email_otp_login 10 139798488083328 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:08:58,411 send_email_otp_login 25 139798488083328 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:35:25,815 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:38:07,365 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:38:08,738 send_email_otp_login 10 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:41:33,715 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:44:56,082 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:45:43,436 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:45:55,799 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:46:00,009 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:46:29,400 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:46:32,208 send_email_otp_login 10 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:50:43,163 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:50:48,373 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:55:19,761 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:55:28,296 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:58:25,509 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-29 08:58:28,151 send_email_otp_login 25 140615585618816 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-30 08:49:54,263 send_email_otp_login 25 140390954240896 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-05-30 08:49:59,771 send_email_otp_login 25 140390954240896 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)

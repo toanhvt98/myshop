@@ -1,0 +1,92 @@
+services:
+  gunicorn-instance-1: # https
+    build:
+      context: ./backend
+      dockerfile: Dockerfile-gunicorn
+    volumes:
+      - ./backend:/app
+      - ./logs:/app/logs
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    depends_on:
+      - postgres
+    networks:
+      - backend-network
+    restart: always
+
+  worker: # celery
+    build:
+      context: ./backend
+      dockerfile: Dockerfile-celery
+    volumes:
+      - ./backend:/app
+    env_file:
+      - ./backend/.env
+    depends_on:
+      - gunicorn-instance-1
+      - redis
+      - rabbitmq
+    networks:
+      - backend-network
+    restart: always
+
+  postgres:
+    image: postgres:17.5
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=imagineyouaresuperuser
+      - POSTGRES_PASSWORD=imagineyouhaveanpoweredpassword
+      - POSTGRES_DB=shop-db
+      - PGPORT=5432
+    ports:
+      - "5432:5432"
+    networks:
+      - backend-network
+    restart: always
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    environment:
+      PGADMIN_DEFAULT_EMAIL: imagineyouaresuperuser@omg.com
+      PGADMIN_DEFAULT_PASSWORD: imagineyouhaveanpoweredpassword
+      PGADMIN_SERVER_JSON: '[{"ServerName": "shop-db", "Host": "postgres", "Port": 5432, "MaintenanceDB": "shop-db", "Username": "imagineyouaresuperuser", "Password": "imagineyouhaveanpoweredpassword"}]'
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - backend-network
+    restart: always
+
+  redis:
+    image: redis:8.0.1-alpine
+    ports:
+      - "6379:6379"
+    networks:
+      - backend-network
+    volumes:
+      - redis_clothes_data:/data
+    restart: always
+
+  rabbitmq:
+    image: rabbitmq:3.13-management-alpine
+    ports:
+      - '5672:5672'
+      - "15672:15672"
+    env_file:
+      - ./backend/.env
+    networks:
+      - backend-network
+    restart: always
+
+volumes:
+  postgres_data:
+  redis_clothes_data:
+  pgadmin-data:
+networks:
+  backend-network:

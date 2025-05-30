@@ -1,0 +1,27 @@
+# Dockerfile-celery cho Development
+FROM python:3.12
+
+# Thiết lập thư mục làm việc trong container
+WORKDIR /app
+
+# Copy các file cần thiết (ví dụ requirements.txt)
+COPY requirements.txt .
+
+# Cài đặt tất cả các thư viện cần thiết
+RUN pip install -r requirements.txt
+
+# Copy toàn bộ mã nguồn vào container
+COPY . .
+
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+RUN chmod a+w logs
+
+# Expose port để truy cập vào ứng dụng phát triển
+EXPOSE 8000
+
+ENTRYPOINT ["/entrypoint.sh"]
+# Lệnh để chạy Django Dev Server (hoặc ứng dụng web khác)
+
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]

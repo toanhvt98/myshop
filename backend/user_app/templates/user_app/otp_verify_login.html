@@ -1,0 +1,134 @@
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="{{ language }}">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% blocktrans %}OTP - {{ site_name }}{% endblocktrans %}</title>
+    <style>
+            body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333333;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .header{
+      color: #ffffff;
+      padding: 10px;
+      border-radius: 8px;
+      text-align:center;
+    }
+    .header-success {
+      background-color: #228B22;
+    }
+
+    .header-warning{
+      background-color: #e74c3c;
+    }
+
+    .header h1 {
+      font-size: 24px;
+      margin: 0 auto;
+    }
+    .content {
+      padding: 10px;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    .otp-code {
+      font-size: 32px;
+      font-weight: bold;
+      color: #007bff;
+      margin: 20px 0;
+      padding: 10px 20px;
+      background-color: #e9f5ff;
+      border-radius: 5px;
+      letter-spacing: 3px;
+      text-align: center;
+    }
+    .instructions {
+            font-size: 16px;
+            margin-top: 15px;
+        }
+    .footer {
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 20px;
+            border-top: 1px solid #eeeeee;
+            font-size: 12px;
+            color: #777777;
+        }
+    .warning {
+      color: #dc3545;
+      font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header header-success">
+            <h1>{% blocktrans %}Here is your OTP code{% endblocktrans %}</h1>
+        </div>
+        <div class="content">
+            {% with first_name=user.profile.first_name last_name=user.profile.last_name %}
+
+                <p>
+                    {% blocktrans trimmed %}
+                        Hello {{first_name }} {{last_name }},
+                    {% endblocktrans %}
+                </p>
+            {% endwith %}
+
+            <p>
+                {% blocktrans trimmed %}
+                    You recently requested to reset your password for your <strong>{{ site_name }}</strong> account. Please use the following one-time password (OTP) to complete the process:
+                {% endblocktrans %}
+            </p>
+            <p class='otp-code'>
+                {{ otp_code }}
+            </p>
+            <p>
+                {% blocktrans trimmed %}
+                    This code is valid for **{{ otp_expiry_minutes }} minutes**.
+                {% endblocktrans %}
+            </p>
+
+            <p class="warning">
+                {% blocktrans trimmed %}
+                    For your security, <strong>do not share</strong> this code with anyone, even if they claim to be from {{ site_name }}.
+                {% endblocktrans %}
+            </p>
+
+            <p>
+                {% blocktrans trimmed %}
+                    If you did not request a password reset, please ignore this email.
+                {% endblocktrans %}
+            </p>
+
+            <p>
+                {% blocktrans %}
+                Dear,
+                {{ site_name }} support team.
+                {% endblocktrans %}
+            </p>
+        </div>
+        <div class="footer">
+            {% blocktrans %}
+            <p>&copy; {{ current_year }} {{ site_name }}. All rights reserved.</p>
+            {% endblocktrans %}
+            <p>{% blocktrans %}This is an automated email; please do not reply.{% endblocktrans %}</p>
+        </div>
+    </div>
+</body>
+</html>

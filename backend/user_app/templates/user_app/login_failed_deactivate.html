@@ -1,0 +1,154 @@
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="{{ language }}">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% blocktrans %}Your account has been deactivated - {{ site_name }}{% endblocktrans %}</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333333;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            border: 1px solid #e0e0e0;
+        }
+        .im {
+            color: #333333;
+        }
+        .header {
+            background-color: #e74c3c; /* Màu đỏ nổi bật cho cảnh báo */
+            padding: 30px 20px;
+            color: #ffffff;
+            text-align: center;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            line-height: 1.2;
+        }
+        .header img {
+            max-width: 150px;
+            margin-bottom: 15px;
+            filter: brightness(0) invert(1); /* Biến logo thành màu trắng nếu nó có màu */
+        }
+        .content {
+            padding: 30px;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        .content p {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .content strong {
+            color: #e74c3c;
+        }
+        .action-button-container {
+            text-align: center;
+            padding: 20px 30px;
+        }
+        .action-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #2ecc71; /* Màu xanh lá cây cho hành động tích cực */
+            color: #ffffff !important; /* !important để ghi đè các style khác */
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .action-button:hover {
+            background-color: #27ae60;
+        }
+        .footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #777777;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            border-top: 1px solid #e0e0e0;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .footer a {
+            color: #777777;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            {# Nếu bạn có logo, hãy nhúng nó ở đây. CID sẽ được thay thế bằng URL ảnh #}
+            {% comment %}
+            <img src="cid:your_company_logo" alt="{{ site_name }} Logo" />
+            {% endcomment %}
+            <h1>{% blocktrans %}Your account has been deactivated!{% endblocktrans %}</h1>
+        </div>
+        <div class="content">
+            <p>
+                Hello
+                {% if user.first_name %}{{ user.first_name }} {% endif %}
+                {% if user.last_name %}{{ user.last_name }}{% else %}{% trans "You" %}{% endif %},
+            </p>
+
+            <p>
+                {% blocktrans trimmed %}
+                We are sending this email to inform you that your account at
+                <strong><a href="{{ frontend_url }}" target="_blank">{{ site_name }}</a></strong>
+                has been temporarily deactivated.
+                This usually happens when there are too many failed login attempts,
+                and is intended to protect your account from unauthorized access.
+                {% endblocktrans %}
+            </p>
+
+            <p>
+                {% blocktrans trimmed %}
+                To restore access to your account, please click the button below to reset your password.
+                {% endblocktrans %}
+            </p>
+
+            <div class="action-button-container">
+                <a href="{{ reset_password_url }}" class="action-button">{% trans "Reset your password" %}</a>
+            </div>
+
+            <p>
+                {% blocktrans trimmed %}
+                If you have not made any recent login attempts, please contact our support team immediately for assistance.
+                {% endblocktrans %}
+            </p>
+
+            <p>
+                {% blocktrans %}
+                Dear,
+                {{ site_name }} support team.
+                {% endblocktrans %}
+            </p>
+        </div>
+        <div class="footer">
+            <p>{% blocktrans %}You received this email because your account at {{ site_name }} has been deactivated.{% endblocktrans %}</p>
+            <p>{% trans "If you have any questions, please contact us at" %} <a href="mailto:{{ contact_email }}">{{ contact_email }}</a></p>
+        </div>
+    </div>
+    <div>{% trans "Your account has been blocked" %}</div>
+</body>
+</html>

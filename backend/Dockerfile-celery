@@ -1,0 +1,23 @@
+# Dockerfile-celery cho Development
+FROM python:3.12
+
+# Thiết lập thư mục làm việc trong container
+WORKDIR /app
+
+# Copy các file cần thiết (ví dụ requirements.txt)
+COPY requirements.txt .
+
+# Cài đặt tất cả các thư viện cần thiết
+RUN pip install -r requirements.txt
+
+# Copy toàn bộ mã nguồn vào container
+COPY . .
+
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+RUN chmod a+w logs
+
+ENTRYPOINT ["/entrypoint.sh"]
+
+CMD ["celery", "-A", "backend", "worker", "-l", "debug"]
