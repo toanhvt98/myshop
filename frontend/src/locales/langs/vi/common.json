@@ -1,0 +1,22 @@
+{
+  "sign_in_page_title_form_head": "Đăng nhập vào tài khoản của bạn",
+  "sign_in_page_description_form_head":"Bạn chưa có tài khoản sao?",
+  "sign_in": "Đăng nhập",
+  "sign_up": "Đăng ký",
+  "label_email_input": "Địa chỉ email",
+  "placeholder_email_input": "Địa chỉ email. VD: example@gmail.com",
+  "label_password_input": "Mật khẩu",
+  "placeholder_password_input": "Mật khẩu của bạn.",
+  "remember_me_label": "Ghi nhớ thông tin",
+  "remember_me_tooltip": "Chúng tôi chỉ lưu trữ email của bạn vì mục đích bảo mật.",
+  "sign_in_button_label": "Đăng nhập",
+  "sign_in_button_loading_indicator": "Đang xử lý...",
+  "forgot_password": "Quên mật khẩu ?",
+  "or": "HOẶC",
+  "dialog_verify_sign_in_code_title": "Xác thực mã đăng nhập",
+  "description_enter_the_code_you_received_in_your_email": "Nhập mã bạn nhận được trong email. Nhấn vào đây nếu bạn không thấy bất kỳ tin nhắn OTP nào.",
+  "description_enter_your_2fa_app_code": "Nhập mã xác thực từ ứng dụng 2FA của bạn (Two-Factor Authentication)",
+  "resend-sign-in-otp": "Gửi lại mã xác thực OTP",
+  "verify": "Xác thực",
+  "cancel": "Hủy bỏ"
+}

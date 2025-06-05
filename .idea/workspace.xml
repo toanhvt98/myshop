@@ -5,40 +5,359 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ddfd3e1-a91c-4705-9ce9-39b5abe920b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/base/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user_app/serializers/authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user_app/serializers/recovery_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user_app/serializers/registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user_app/services/unlock_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user_app/views/recovery_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/user_app/views/registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/assets/background/background-3-blur.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/(home)/layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/(home)/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/forgot-password/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/sign-in/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/sign-up/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/data/countries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/data/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/email-inbox-icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/new-password-icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/password-icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/plan-free-icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/plan-premium-icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/plan-starter-icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/sent-icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/avatar-shape.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/background-shape.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/booking-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/check-in-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/check-out-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/coming-soon-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/forbidden-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/maintenance-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/motivation-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/order-complete-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/page-not-found-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/seo-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/server-error-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/illustrations/upload-illustration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/components/form-divider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/components/form-head.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/components/form-resend-code.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/components/form-return-link.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/components/form-socials.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/components/sign-up-terms.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/context/auth-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/context/auth-provider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/context/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/guard/auth-guard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/guard/guest-guard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/guard/permission-guard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/hooks/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/hooks/use-auth-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/utils/error-message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/view/sign-in/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/view/sign-in/schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/view/sign-in/verify-otp.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/view/sign-in/view/sign-in-view.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/view/sign-in/view/verify-dialog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/auth/view/sign-up/schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/animate-border.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/animate-count-up.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/animate-logo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/animate-text.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/back-to-top-button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/features.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/motion-container.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/motion-lazy.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/motion-viewport.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/scroll-progress/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/scroll-progress/scroll-progress.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/scroll-progress/use-scroll-progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/bounce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/fade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/flip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/rotate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/animate/variants/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/chart/chart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/chart/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/chart/components/chart-legends.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/chart/components/chart-loading.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/chart/components/chart-select.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/chart/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/chart/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/chart/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/chart/use-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/custom-popover/custom-popover.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/custom-popover/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/custom-popover/styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/custom-popover/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/file-thumbnail/action-buttons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/file-thumbnail/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/file-thumbnail/file-thumbnail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/file-thumbnail/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/file-thumbnail/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/flag-icon/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/flag-icon/flag-icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/flag-icon/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/iconify/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/iconify/icon-sets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/iconify/iconify.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/iconify/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/iconify/register-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/image/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/image/image.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/image/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/image/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/label/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/label/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/label/label.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/label/styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/language-popover/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/language-popover/language-popover.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/lightbox/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/lightbox/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/lightbox/lightbox.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/lightbox/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/lightbox/use-light-box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/lightbox/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/logo/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/logo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/logo/logo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/map/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/map/map-controls.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/map/map-marker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/map/map-popup.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/map/map.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/map/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/components/nav-collapse.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/components/nav-dropdown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/components/nav-elements.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/components/nav-subheader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/horizontal/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/horizontal/nav-item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/horizontal/nav-list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/horizontal/nav-section-horizontal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/mini/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/mini/nav-item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/mini/nav-list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/mini/nav-section-mini.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/styles/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/styles/css-vars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/styles/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/styles/nav-item-styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/utils/create-nav-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/vertical/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/vertical/nav-item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/vertical/nav-list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/nav-section/vertical/nav-section-vertical.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/number-input/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/number-input/number-input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/number-input/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/phone-input/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/phone-input/list-popover.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/phone-input/phone-input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/progress-bar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/progress-bar/progress-bar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/progress-bar/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/scrollbar/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/scrollbar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/scrollbar/scrollbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/scrollbar/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/search-not-found/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/search-not-found/search-not-found.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/context/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/context/settings-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/context/settings-provider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/context/use-settings-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/drawer/base-option.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/drawer/font-options.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/drawer/fullscreen-button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/drawer/icons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/drawer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/drawer/nav-layout-option.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/drawer/presets-options.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/drawer/settings-drawer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/drawer/styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/settings/settings-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/snackbar/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/snackbar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/snackbar/snackbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/snackbar/styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/global-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/use-boolean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/auth/content.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/auth/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/auth/layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/account-button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/account-drawer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/account-popover.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/contacts-popover.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/menu-button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/nav-toggle-button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/nav-upgrade.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/notifications-drawer/icons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/notifications-drawer/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/notifications-drawer/notification-item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/searchbar/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/searchbar/result-item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/searchbar/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/settings-button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/sign-in-button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/sign-out-button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/components/workspaces-popover.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/core/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/core/css-vars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/core/header-section.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/core/layout-section.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/core/main-section.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/components/nav-dropdown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/components/nav-elements.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/desktop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/desktop/nav-desktop-item-dashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/desktop/nav-desktop-item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/desktop/nav-desktop-list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/desktop/nav-desktop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/mobile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/mobile/nav-mobile-item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/mobile/nav-mobile-list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/main/nav/mobile/nav-mobile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/nav-config-main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/libs/axiosClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/libs/endpoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/libs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/i18n-provider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/langs/en/common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/langs/en/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/langs/en/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/langs/en/navbar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/langs/en/zod_fields_error.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/langs/vi/common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/langs/vi/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/langs/vi/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/langs/vi/navbar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/langs/vi/zod_fields_error.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/locales-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/localization-provider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/use-locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/locales/utils/number-format-locale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/components/router-link.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/hooks/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/hooks/use-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/hooks/use-pathname.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/hooks/use-router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/hooks/use-search-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/accordion.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/alert.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/appbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/autocomplete.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/avatar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/backdrop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/badge.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/breadcrumbs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/button-fab.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/button-group.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/button-toggle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/checkbox.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/chip.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/dialog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/drawer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/form.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/link.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/menu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/mui-x-data-grid.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/mui-x-date-picker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/mui-x-tree-view.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/pagination.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/paper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/popover.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/progress.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/radio.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/rating.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/select.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/skeleton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/slider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/stack.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/stepper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/svg-icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/switch.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/table.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/tabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/text-field.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/timeline.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/components/tooltip.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/custom-shadows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/mixins/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/mixins/border.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/mixins/global-styles-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/mixins/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/mixins/mixins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/mixins/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/palette.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/shadows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/core/typography.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/create-classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/create-theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/theme-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/theme-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/theme-provider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/with-settings/color-presets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/with-settings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/with-settings/right-to-left.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/with-settings/update-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme/with-settings/update-core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/format-number.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/format-time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env-dev" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env-dev" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/base/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/base/hashers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/hashers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/base/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/logs/celery.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/logs/celery.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/logs/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/logs/django.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/static/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user_app/serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/serializers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user_app/serializers/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/serializers/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/serializers/authentication.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user_app/serializers/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/serializers/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user_app/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/services/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/serializers/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/serializers/registration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user_app/services/authentication_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/services/authentication_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user_app/services/user_forgot_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/services/recovery_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user_app/services/user_registration_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/services/registration_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user_app/tasks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/tasks/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user_app/tasks/send_email_otp_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/tasks/authentication_otp_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user_app/tasks/send_mail_login_failed_deactivate.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/tasks/account_deactivated.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/services/registration_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/services/registration_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/services/unlock_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/tasks/account_deactivated.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/tasks/account_deactivated.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/tasks/authentication_otp_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/tasks/authentication_otp_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user_app/tasks/send_mail_otp_forgot_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/tasks/send_mail_otp_forgot_password.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user_app/templates/user_app/otp_verify_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/templates/user_app/authentication_otp_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/templates/user_app/email_verification.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/templates/user_app/email_verification.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user_app/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/validators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user_app/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user_app/views/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/views/authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/views/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/views/authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_app/views/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_app/views/registration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/celery.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/celery.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/django.log" afterDir="false" />
     </list>
@@ -71,28 +390,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Docker.docker-compose-dev.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
-    &quot;SHELLCHECK.PATH&quot;: &quot;I do mind&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tohie/Desktop/myshop/backend/user_app/management/commands&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Docker.docker-compose-dev.yml: Compose Deployment.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "SHELLCHECK.PATH": "I do mind",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/tohie/Desktop/myshop/backend/user_app/management/commands",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tohie\Desktop\myshop\backend\user_app\management\commands" />
@@ -174,6 +495,15 @@
       <workItem from="1748432119849" duration="25186000" />
       <workItem from="1748567076416" duration="5010000" />
       <workItem from="1748610941037" duration="21277000" />
+      <workItem from="1748693655449" duration="1395000" />
+      <workItem from="1748720294723" duration="12580000" />
+      <workItem from="1748786394456" duration="4000" />
+      <workItem from="1748788217976" duration="8009000" />
+      <workItem from="1748842747763" duration="1404000" />
+      <workItem from="1748869656318" duration="14253000" />
+      <workItem from="1748958151057" duration="17537000" />
+      <workItem from="1748981834081" duration="1106000" />
+      <workItem from="1749040855165" duration="13200000" />
     </task>
     <servers />
   </component>

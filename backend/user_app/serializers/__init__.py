@@ -1,4 +1,4 @@
 from .model import UserSerializer
-from .registration import RegisterSerializer
+from .registration import SignUpSerializer
 from .recovery_account import RecoveryAccountSerializer,ConfirmPasswordRecoveryAccountSerializer
-from .authentication import AuthenticationSerializer,OtpAuthenticationSerializer,TotpAuthenticationSerializer
+from .authentication import AuthenticationSerializer,OtpAuthenticationSerializer

@@ -5,11 +5,11 @@ from base.serializers import SerializerMixin,serializers
 from base.exceptions import ValidationError
 
 from ..validators import only_characters_regex_validator,phone_regex_validator,password_regex_validator
-from ..models import LanguageChoices,GenderChoices
+from ..models import GenderChoices
 
 User = get_user_model()
 
-class RegisterSerializer(SerializerMixin):
+class SignUpSerializer(SerializerMixin):
     email = serializers.EmailField(error_messages={
         'required': _('Email is required.'),
         'invalid': _('Please enter a valid email address.')}
@@ -38,12 +38,6 @@ class RegisterSerializer(SerializerMixin):
     )
 
     birth_date = serializers.DateField(required=False,default=None,error_messages={'invalid': _('Please enter a valid date.')})
-    language = serializers.ChoiceField(
-        required=False,
-        choices=LanguageChoices.choices,
-        default=LanguageChoices.VI,
-        error_messages={'invalid': _('Please enter a valid language.')}
-    )
     gender = serializers.ChoiceField(
         required=False,
         choices=GenderChoices.choices,

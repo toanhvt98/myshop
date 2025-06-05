@@ -28,7 +28,6 @@ class UserSerializer(serializers.ModelSerializer):
     last_name = serializers.CharField(source='profile.last_name',required=False)
     birth_day = serializers.CharField(source='profile.birth_day',required=False)
     gender = serializers.SerializerMethodField(required=False)
-    language = serializers.CharField(source='profile.language',required=False)
     address = AddressSerializer(many=True,required=False)
     enabled_2fa = serializers.SerializerMethodField(required=False)
     password = serializers.CharField(write_only=True)
@@ -52,4 +51,14 @@ class UserSerializer(serializers.ModelSerializer):
     def get_enabled_2fa(self,obj) -> list:
         if not hasattr(obj,'two_factor_auth_setting'):
             return
-        return obj.two_factor_auth_setting.filter(is_enable=True).values('type','is_priority')
+        enabled_2fa_objects = obj.two_factor_auth_setting.filter(is_enable=True)
+
+        result = []
+        for setting_obj in enabled_2fa_objects:
+            result.append({
+                'type': setting_obj.type,
+                'is_priority': setting_obj.is_priority,
+                'display': setting_obj.get_type_display()
+            })
+
+        return result

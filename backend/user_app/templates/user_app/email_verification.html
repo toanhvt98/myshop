@@ -73,11 +73,14 @@
             <h1>{{ site_name }}</h1>
         </div>
         <div class="content">
-            <p>
-                {% trans "Hello" %}
-                {% if user.first_name %}{{ user.first_name }} {% endif %}
-                {% if user.last_name %}{{ user.last_name }}{% else %}{% trans "You" %}{% endif %},
-            </p>
+            {% with first_name=user.profile.first_name last_name=user.profile.last_name %}
+
+                <p>
+                    {% blocktrans trimmed %}
+                        Hello {{first_name }} {{last_name }},
+                    {% endblocktrans %}
+                </p>
+            {% endwith %}
 
             {% blocktrans with site_name=site_name %}
             <p>Thank you for registering with {{ site_name }}. To complete your registration and verify your email address, please use the one-time password (OTP) below:</p>

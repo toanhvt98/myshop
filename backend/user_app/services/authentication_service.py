@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 email_config = EmailConfig().get_email_service_config()
 
 auth_config = AuthConfig().get_auth_config()
-DEACTIVATE_ACCOUNT_ON_OTP_LIMIT = auth_config['DEACTIVATE_ACCOUNT_ON_OTP_LIMIT']
+LOCKING_ACCOUNT_ON_OTP_LIMIT = auth_config['LOCKING_ACCOUNT_ON_OTP_LIMIT']
 IS_DEACTIVATE = auth_config['IS_DEACTIVATE']
 MAX_OTP_ATTEMPTS_THRESHOLD = auth_config['MAX_OTP_ATTEMPTS_THRESHOLD']
 MAX_TOTP_ATTEMPTS_THRESHOLD = auth_config['MAX_TOTP_ATTEMPTS_THRESHOLD']
@@ -83,7 +83,8 @@ class AuthenticationService:
     @staticmethod
     def retrieve_otp_code(hashed_email):
         key = f'{REDIS_OTP_CODE_PREFIX}:{hashed_email}'
-        return str(con.get(key).decode('utf-8')) if con.exists(key) else None
+        otp_bytes = con.get(key)
+        return str(otp_bytes.decode('utf-8')) if otp_bytes else None
 
     @staticmethod
     def get_otp_expiry_time(hashed_email):
@@ -141,7 +142,7 @@ class AuthenticationService:
         con.delete(key)
 
     @staticmethod
-    def generate_and_send_otp(email,user_id):
+    def generate_and_send_otp(email,user_id,language_code):
         hashed_email = AuthenticationService.verify_account_status(email)
         AuthenticationService.is_exceeded_otp_limit(hashed_email)
         otp = generate_code()
@@ -150,7 +151,7 @@ class AuthenticationService:
             transaction.on_commit(
                 lambda :authentication_otp_login.delay(
                     subject=_("Your login code"),
-                    user_id=user_id,
+                    user_id=user_id,language_code=language_code,
                     otp_code=otp,
                     otp_expiry_minutes=convert_seconds_to_minutes(OTP_EXPIRES_LIFETIME),
                 )
@@ -161,7 +162,7 @@ class AuthenticationService:
 
 
     @staticmethod
-    def verify_otp(email, otp_code):
+    def verify_otp(email, otp_code,language_code):
         hashed_email = AuthenticationService.verify_account_status(email)
         try:
             user = User.objects.get(email=email)
@@ -169,66 +170,58 @@ class AuthenticationService:
             raise AuthenticationFailed(_('Invalid credentials'))
 
         if not user.is_active:
-            if hasattr(user, 'deactivate_reason'):
-                type, detail = user.deactivation_reason_code
-                if type == DeactivateUserReasonTypeChoices.TOO_MANY_FAILED_LOGINS:
-                    raise AuthenticationFailed(detail=_(f'Your account has been deactivated. Reason: {detail}'),code='account_locked_too_many_failed_logins')
-                else:
-                    raise AuthenticationFailed(detail=_(f'Your account has been deactivated. Reason: {detail}'),code='account_locked_general')
             raise AuthenticationFailed(_('Your account has already been deactivated. Please contact support.'))
 
         if AuthenticationService.get_otp_expiry_time(hashed_email) is None:
             raise AuthenticationFailed(_('OTP was expired. Please try again.'))
         is_valid_otp = AuthenticationService.retrieve_otp_code(hashed_email) == otp_code
         if not is_valid_otp:
-            try:
-                current_attempts = AuthenticationService.increment_otp_attempts(hashed_email)
-                if DEACTIVATE_ACCOUNT_ON_OTP_LIMIT:
-                    if current_attempts >= MAX_OTP_ATTEMPTS_THRESHOLD:
-                        AuthenticationService.clear_otp_attempts(hashed_email)
-                        if IS_DEACTIVATE:
-                            try:
-                                with transaction.atomic():
-                                    user_to_deactive = User.objects.select_for_update().get(email=email)
-                                    if not user.is_active:
-                                        logger.info(f"User {user_to_deactive.email} was already deactivated by another process.")
-                                        raise AuthenticationFailed(
-                                            _('Your account has already been deactivated. Please contact support.'))
-                                    if UserDeactivateReason.objects.filter(user=user_to_deactive).exists():
-                                        raise AuthenticationFailed(
-                                            _('Your account has already been deactivated. Please contact support.'))
+            current_attempts = AuthenticationService.increment_otp_attempts(hashed_email)
+            if LOCKING_ACCOUNT_ON_OTP_LIMIT:
+                if current_attempts >= MAX_OTP_ATTEMPTS_THRESHOLD:
+                    AuthenticationService.clear_otp_attempts(hashed_email)
+                    if IS_DEACTIVATE:
+                        with transaction.atomic():
+                            user_to_deactive = User.objects.select_for_update().get(email=email)
+                            # if not user.is_active:
+                            #     logger.info(f"User {user_to_deactive.email} was already deactivated by another process.")
+                            #     raise AuthenticationFailed(
+                            #         _('Your account has already been deactivated. Please contact support.'))
+                            # if UserDeactivateReason.objects.filter(user=user_to_deactive).exists():
+                            #     raise AuthenticationFailed(
+                            #         _('Your account has already been deactivated. Please contact support.'))
 
-                                    UserDeactivateReason.objects.create(
-                                        user=user_to_deactive,
-                                        reason_type=DeactivateUserReasonTypeChoices.TOO_MANY_FAILED_LOGINS,
-                                        reason_actor_detail=DeactivateUserReasonActorDetailChoices.SYSTEM,
-                                        reason_detail=_('Exceeded the number of allowed logins')
-                                    )
+                            UserDeactivateReason.objects.update_or_create(
+                                user=user_to_deactive,
+                                reason_type=DeactivateUserReasonTypeChoices.TOO_MANY_FAILED_LOGINS,
+                                reason_actor_detail=DeactivateUserReasonActorDetailChoices.SYSTEM,
+                                reason_detail=_('Exceeded the number of allowed logins')
+                            )
+                            print(1,flush=True)
+                            AuthenticationService.lock_user_account(hashed_email, None)
+                            print(2,flush=True)
+                            user_to_deactive.is_active = False
+                            user_to_deactive.save()
+                            transaction.on_commit(
+                                lambda: account_deactivated.delay(
+                                    subject=_(
+                                        'Your account has been deactivated!'),
+                                    user_id=user_to_deactive.pk,
+                                    language_code = language_code
+                                )
+                            )
 
-                                    user_to_deactive.is_active = False
-                                    user_to_deactive.save()
-                                    transaction.on_commit(
-                                        lambda: account_deactivated.delay(
-                                            subject=_(
-                                                'Your account has been deactivated!'),
-                                            user_id=user_to_deactive.pk)
-                                    )
-                            except Exception as e:
-                                logger.error(f"An error occurred while deactivating user: {e}")
-                                raise AuthenticationFailed(_('An error occurred, please try again'))
-                            raise AuthenticationFailed(_('Your account has been deactivated. Please contact support.'))
-                        else:
-                            AuthenticationService.lock_user_account(hashed_email)
-                            raise AuthenticationFailed(
-                                _(f'Your account is locked. Please try again after * seconds. <{LOCKING_ACCOUNT_LIFETIME}>'))
+                        raise AuthenticationFailed(detail=_('Your account has been deactivated. Please contact support.'),code='account_locked')
                     else:
-                        attempts_left = MAX_OTP_ATTEMPTS_THRESHOLD - current_attempts
+                        AuthenticationService.lock_user_account(hashed_email)
                         raise AuthenticationFailed(
-                            _(f'Invalid credentials. Your account will be locked after {attempts_left} more attempts.'))
-                raise AuthenticationFailed(_('Invalid credentials.'))
-            except Exception as e:
-                logger.error(f"An error occurred while verifying OTP: {e}")
-                raise AuthenticationFailed(_('An error occurred, please try again'))
+                            _('Your account is locked. Please try again after * seconds. <{times}>').format(times=LOCKING_ACCOUNT_LIFETIME))
+                else:
+                    attempts_left = MAX_OTP_ATTEMPTS_THRESHOLD - current_attempts
+                    raise AuthenticationFailed(
+                        _('Invalid credentials. Your account will be locked after {attempts_left} more attempts.').format(attempts_left=attempts_left),)
+            raise AuthenticationFailed(_('Invalid credentials.'))
+
         AuthenticationService.clear_otp_attempts(hashed_email)
         user.update_last_login()
         return user
@@ -242,12 +235,6 @@ class AuthenticationService:
             raise AuthenticationFailed(_('Invalid credentials'))
 
         if not user.is_active:
-            if hasattr(user, 'deactivate_reason'):
-                type, detail = user.deactivation_reason_code
-                if type == DeactivateUserReasonTypeChoices.TOO_MANY_FAILED_LOGINS:
-                    raise AuthenticationFailed(detail=_(f'Your account has been deactivated. Reason: {detail}'),code='account_locked_too_many_failed_logins')
-                else:
-                    raise AuthenticationFailed(detail=_(f'Your account has been deactivated. Reason: {detail}'),code='account_locked_general')
             raise AuthenticationFailed(detail=_('Your account has already been deactivated. Please contact support.'))
 
         authenticated_user = authenticate(username=email, password=password)
@@ -257,95 +244,82 @@ class AuthenticationService:
         return authenticated_user
 
     @staticmethod
-    def verify_totp(email, totp_code,digits=auth_config['TOTP_DIGITS']):
+    def verify_totp(email, otp_code,language_code,digits=auth_config['TOTP_DIGITS']):
         hashed_email = AuthenticationService.verify_account_status(email)
         try:
             user = User.objects.get(email=email)
         except User.DoesNotExist:
             raise AuthenticationFailed(_('Invalid credentials'))
         if not user.is_active:
-            if hasattr(user, 'deactivate_reason'):
-                type,detail = user.deactivation_reason_code
-                if type == DeactivateUserReasonTypeChoices.TOO_MANY_FAILED_LOGINS:
-                    raise AuthenticationFailed(detail=_(f'Your account has been deactivated. Reason: {detail}'),code='account_locked_too_many_failed_logins')
-                else:
-                    raise AuthenticationFailed(detail=_(f'Your account has been deactivated. Reason: {detail}'),code='account_locked_general')
             raise AuthenticationFailed(_('Your account has already been deactivated. Please contact support.'))
 
-        if not hasattr(user, 'two_factor_auth'):
-            raise AuthenticationFailed(_('Two factor authentication is not enabled. Please contact support.'))
         secret_key = user.two_factor_auth.secret_key
-        if not secret_key:
+
+        if not hasattr(user, 'two_factor_auth') or secret_key is None or not secret_key:
             raise AuthenticationFailed(_('Two factor authentication is not enabled. Please contact support.'))
-        check_code = user.two_factor_auth.check_otp(totp_code,digits)
+
+        check_code = user.two_factor_auth.check_otp(otp_code,digits)
         if not check_code:
-            try:
-                current_attempts = AuthenticationService.increment_totp_attempts(hashed_email)
-                if DEACTIVATE_ACCOUNT_ON_OTP_LIMIT:
-                    if current_attempts >= MAX_TOTP_ATTEMPTS_THRESHOLD:
-                        AuthenticationService.clear_totp_attempts(hashed_email)
-                        if IS_DEACTIVATE:
-                            try:
-                                with transaction.atomic():
-                                    user_to_deactive = User.objects.select_for_update().get(email=email)
-                                    if not user.is_active:
-                                        logger.info(
-                                            f"User {user_to_deactive.email} was already deactivated by another process.")
-                                        raise AuthenticationFailed(
-                                            _('Your account has already been deactivated. Please contact support.'))
-                                    if UserDeactivateReason.objects.filter(user=user_to_deactive).exists():
-                                        raise AuthenticationFailed(
-                                            _('Your account has already been deactivated. Please contact support.'))
+            current_attempts = AuthenticationService.increment_totp_attempts(hashed_email)
+            if LOCKING_ACCOUNT_ON_OTP_LIMIT:
+                if current_attempts >= MAX_TOTP_ATTEMPTS_THRESHOLD:
+                    AuthenticationService.clear_totp_attempts(hashed_email)
+                    if IS_DEACTIVATE:
+                        with transaction.atomic():
+                            user_to_deactive = User.objects.select_for_update().get(email=email)
+                            # if not user.is_active:
+                            #     logger.info(
+                            #         f"User {user_to_deactive.email} was already deactivated by another process.")
+                            #     raise AuthenticationFailed(
+                            #         _('Your account has already been deactivated. Please contact support.'))
+                            # if UserDeactivateReason.objects.filter(user=user_to_deactive).exists():
+                            #     raise AuthenticationFailed(
+                            #         _('Your account has already been deactivated. Please contact support.'))
 
-                                    UserDeactivateReason.objects.create(
-                                        user=user_to_deactive,
-                                        reason_type=DeactivateUserReasonTypeChoices.TOO_MANY_FAILED_LOGINS,
-                                        reason_actor_detail=DeactivateUserReasonActorDetailChoices.SYSTEM,
-                                        reason_detail=_('Exceeded the number of allowed logins')
-                                    )
-
-                                    user_to_deactive.is_active = False
-                                    user_to_deactive.save()
-                                    transaction.on_commit(
-                                        lambda: account_deactivated.delay(
-                                            subject=_(
-                                                'Your account has been deactivated!'),
-                                            user_id=user_to_deactive.pk)
-                                    )
-                            except Exception as e:
-                                logger.error(f"An error occurred while deactivating user: {e}")
-                                raise AuthenticationFailed(_('An error occurred, please try again'))
-                            raise AuthenticationFailed(_('Your account has been deactivated. Please contact support.'))
-                        else:
-                            AuthenticationService.lock_user_account(hashed_email)
-                            raise Throttled(
-                                detail=_(f'Your account is locked. Please try again after * seconds. <{LOCKING_ACCOUNT_LIFETIME}>'))
+                            UserDeactivateReason.objects.update_or_create(
+                                user=user_to_deactive,
+                                reason_type=DeactivateUserReasonTypeChoices.TOO_MANY_FAILED_LOGINS,
+                                reason_actor_detail=DeactivateUserReasonActorDetailChoices.SYSTEM,
+                                reason_detail=_('Exceeded the number of allowed logins')
+                            )
+                            AuthenticationService.lock_user_account(hashed_email, None)
+                            user_to_deactive.is_active = False
+                            user_to_deactive.save()
+                            transaction.on_commit(
+                                lambda: account_deactivated.delay(
+                                    subject=_(
+                                        'Your account has been deactivated!'),
+                                    user_id=user_to_deactive.pk,
+                                    language_code = language_code,
+                                )
+                            )
+                        raise AuthenticationFailed(detail=_('Your account has been deactivated. Please contact support.'),code='account_locked')
                     else:
-                        attempts_left = MAX_TOTP_ATTEMPTS_THRESHOLD - current_attempts
-                        raise AuthenticationFailed(
-                            _(f'Invalid credentials. Your account will be locked after {attempts_left} more attempts.'))
-                raise AuthenticationFailed(_('Invalid credentials.'))
-            except Exception as e:
-                logger.error(f"An error occurred while verifying TOTP: {e}")
-                raise AuthenticationFailed(_('An error occurred, please try again'))
+                        AuthenticationService.lock_user_account(hashed_email)
+                        raise Throttled(
+                            detail=_('Your account is locked. Please try again after * seconds. <{times}>').format(times=LOCKING_ACCOUNT_LIFETIME))
+                else:
+                    attempts_left = MAX_TOTP_ATTEMPTS_THRESHOLD - current_attempts
+                    raise AuthenticationFailed(
+                        _('Invalid credentials. Your account will be locked after {attempts_left} more attempts.').format(attempts_left=attempts_left))
+            raise AuthenticationFailed(_('Invalid credentials.'))
+
         AuthenticationService.clear_totp_attempts(hashed_email)
         user.update_last_login()
         return user
-
 
     @staticmethod
     def verify_account_status(email):
         hashed_email = hash_email(email)
         if AuthenticationService.is_account_locked(hashed_email):
             if IS_DEACTIVATE:
-                raise AuthenticationFailed(_('Your account has been deactivated. Please contact support.'))
+                raise AuthenticationFailed(detail=_('Your account has been deactivated. Please contact support.'),code='account_locked')
             else:
                 raise Throttled(
-                    detail=_(f'Your account is locked. Please try again after * seconds. <{AuthenticationService.get_account_lock_remaining_time(hashed_email)}>'))
+                    detail=_('Your account is locked. Please try again after * seconds. <{times}>').format(times=AuthenticationService.get_account_lock_remaining_time(hashed_email)))
         return hashed_email
-
     @staticmethod
     def is_exceeded_otp_limit(hashed_email):
         if AuthenticationService.is_otp_rate_limited(hashed_email) and AuthenticationService.get_otp_request_count(hashed_email) > 2:
-            raise Throttled(detail=_(f'Cannot receive OTP at this time. Please try again after {AuthenticationService.get_otp_rate_limit_remaining_time(hashed_email)} seconds.'))
+            raise Throttled(detail=_('Cannot request OTP at this time. Please try again after * seconds. <{times}>').format(times=AuthenticationService.get_otp_rate_limit_remaining_time(hashed_email)))
 

@@ -18,13 +18,13 @@ language_config = LanguageConfig().get_language_config()
 site_config = SiteConfig().get_site_config()
 
 @shared_task(bind=True,default_retry_delay=300, max_retries=5)
-def send_mail_otp_forgot_password(self,subject,user_id,otp_code,otp_expiry_minutes):
+def send_mail_otp_forgot_password(self,subject,user_id,otp_code,otp_expiry_minutes,language_code):
     try:
-        user_serializer = UserSerializer(instance=User.objects.get(pk=user_id)).data
+        user  = User.objects.select_for_update().get(email=user_id)
         context = {
             'subject': subject,
-            'user':user_serializer,
-            'language': user_serializer['language']  or language_config['LANGUAGE_CODE'],
+            'user':user,
+            'language': language_code  or language_config['LANGUAGE_CODE'],
             'site_name':site_config['SITE_NAME'],
             'otp_code':otp_code,
             'otp_expiry_minutes': otp_expiry_minutes,
@@ -40,12 +40,12 @@ def send_mail_otp_forgot_password(self,subject,user_id,otp_code,otp_expiry_minut
                 subject=subject,
                 body=plain_content,
                 from_email=settings.DEFAULT_FROM_EMAIL,
-                to=[user_serializer['email'], ],
+                to=[user.email, ],
                 connection=connection,
             )
             email.attach_alternative(html_content, 'text/html')
             email.send(fail_silently=False)
-            logger.info(f"Successfully sent otp to {user_serializer['email']} (User ID: {user_id}).")
+            logger.info(f"Successfully sent otp to {user.email} (User ID: {user_id}).")
     except User.DoesNotExist:
         logger.error(f"User ID {user_id} not found for otp email. Aborting task.", exc_info=True)
     except Exception as e:

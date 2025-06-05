@@ -1,0 +1,13 @@
+{
+  "home_page_title": "Home Page - {{appName}}",
+
+  "sign_in_page_title": "Sign In - {{appName}}",
+  "sign_in_page_description": "Log in to your account on {{appName}} to unlock exclusive member-only deals, track your orders, and enjoy special discounts on your favorite products.",
+
+  "sign_up_page_title": "Sign Up - {{appName}}",
+  "sign_up_page_description": "Join {{appName}} today to unlock exclusive member-only discounts, track your orders, save your favorites, and get personalized shopping recommendations. Sign up now and don't miss out!",
+
+  "forgot_password_page_title": "Forgot Password - {{appName}}",
+  "forgot_password_page_description": "Reset your password for {{appName}}. Enter your email to receive instructions and regain access to your account quickly and securely."
+
+}

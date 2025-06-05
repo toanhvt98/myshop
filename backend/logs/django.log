@@ -152,3 +152,14 @@ INFO 2025-05-31 01:21:38,978 authentication_otp_login 25 140084600695680 Success
 INFO 2025-05-31 02:17:36,563 authentication_otp_login 25 140084600695680 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
 INFO 2025-05-31 03:29:17,923 account_deactivated 25 139668989438848 Successfully sent deactivation email to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
 INFO 2025-05-31 03:44:18,423 account_deactivated 25 140274649750400 Successfully sent deactivation email to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-06-01 03:37:55,948 account_deactivated 25 139626761513856 Successfully sent deactivation email to toanhvt2003@gmail.com (User ID: ed17d010-7389-4e4b-8135-d8ceb9cf266e).
+INFO 2025-06-02 03:44:24,597 authentication_otp_login 26 139901765966720 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-06-04 21:14:29,427 account_deactivated 25 140560691870592 Successfully sent deactivation email to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-06-05 03:09:36,174 account_deactivated 25 140225340857216 Successfully sent deactivation email to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b).
+INFO 2025-06-05 03:16:37,612 authentication_otp_login 25 140083835681664 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-06-05 03:21:02,018 authentication_otp_login 25 140083835681664 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-06-05 03:21:03,064 authentication_otp_login 10 140083835681664 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-06-05 03:23:19,253 authentication_otp_login 25 140083835681664 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-06-05 03:23:20,468 authentication_otp_login 10 140083835681664 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-06-05 03:26:17,306 authentication_otp_login 25 140083835681664 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)
+INFO 2025-06-05 03:26:18,502 authentication_otp_login 10 140083835681664 Successfully sent otp login to toanhvt2002@gmail.com (User ID: 64268586-a533-4796-91ea-4425e7e50c4b). (Name: abc def)

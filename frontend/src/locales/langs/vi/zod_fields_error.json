@@ -1,0 +1,11 @@
+{
+  "please_enter_a_valid_email_address": "Vui lòng điền một địa chỉ email hợp lệ.",
+  "email_is_required": "Địa chỉ email không được để trống.",
+
+  "password_is_required": "Mật khẩu không được để trống.",
+  "password_must_be_at_least_characters": "Độ dài tối thiểu của mật khẩu là {{length}} ký tự.",
+
+  "invalid_otp_type" : "Loại OTP không hợp lệ",
+  "invalid_totp_code": "Mã không hợp lệ. Mã phải chứa {{length}} chữ số.",
+  "invalid_otp_code": "Mã không hợp lệ. Mã phải chứa {{length}} ký tự."
+}

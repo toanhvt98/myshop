@@ -16,13 +16,9 @@ class GenderChoices(models.IntegerChoices):
     OTHER = 3
     NOT_SAY = 0
 
-class LanguageChoices(models.TextChoices):
-    EN = 'en', _('English')
-    VI = 'vi', _('Vietnamese')
-
 class TwoFactorAuthTypeChoices(models.TextChoices):
-    TOPT = 'totp', 'TOTP'
-    EMAIL = 'email', 'EMAIL'
+    TOPT = 'totp', _('2FA App')
+    EMAIL = 'email', _('Email OTP')
 
 class DeactivateUserReasonTypeChoices(models.TextChoices):
     SPAM = 'SPAM', _('Suspicious Spam Activity')
@@ -35,7 +31,7 @@ class DeactivateUserReasonTypeChoices(models.TextChoices):
 class DeactivateUserReasonActorDetailChoices(models.TextChoices):
     SYSTEM = 'system', _('System')
     ADMIN = 'admin', _('Admin')
-    CUSTOMER = 'staff', _('Staff')
+    STAFF = 'staff', _('Staff')
     OTHER = 'other', _('Other')
 
 class UserManage(BaseUserManager):
@@ -81,12 +77,6 @@ class User(AbstractBaseUser, PermissionsMixin, BaseModelMixin):
         self.last_login = timezone.now()
         self.save(update_fields=['last_login'])
 
-    @property
-    def deactivation_reason_code(self):
-        lastest = self.deactivate_reason.first()
-        if lastest:
-            return lastest.reason_type,lastest.reason_detail
-        return None,None
 
 
 class UserTwoFactorAuthSetting(BaseModelMixin):
@@ -120,7 +110,6 @@ class Profile(BaseModelMixin):
     first_name = models.CharField(max_length=50,verbose_name='First name')
     last_name = models.CharField(max_length=50,verbose_name='Last name')
     birth_date = models.DateField(null=True,blank=True,verbose_name='Birth date')
-    language = models.CharField(max_length=5,choices=LanguageChoices.choices,default=LanguageChoices.VI,verbose_name='Language')
     gender = models.IntegerField(choices=GenderChoices.choices, default=GenderChoices.NOT_SAY,verbose_name='Gender')
 
     class Meta:

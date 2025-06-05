@@ -1,0 +1,12 @@
+{
+  "home_page_title": "Trang chủ - {{appName}}",
+
+  "sign_in_page_title": "Đăng nhập - {{appName}}",
+  "sign_in_page_description": "Đăng nhập vào tài khoản của bạn tại {{appName}} để mở khóa các ưu đãi độc quyền dành riêng cho thành viên, theo dõi đơn hàng và tận hưởng giảm giá đặc biệt cho sản phẩm yêu thích của bạn.",
+
+  "sign_up_page_title": "Đăng ký - {{appName}}",
+  "sign_up_page_description": "Đăng ký ngay tại {{appName}} để mở khóa các ưu đãi độc quyền dành riêng cho thành viên, theo dõi đơn hàng, lưu sản phẩm yêu thích và nhận gợi ý mua sắm cá nhân hóa. Đăng ký ngay để không bỏ lỡ!",
+
+  "forgot_password_page_title": "Quên mật khẩu - {{appName}}",
+  "forgot_password_page_description": "Đặt lại mật khẩu của bạn cho {{appName}}. Nhập email để nhận hướng dẫn và truy cập lại tài khoản một cách nhanh chóng và an toàn."
+}

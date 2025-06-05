@@ -1,0 +1,11 @@
+{
+  "please_enter_a_valid_email_address": "Please enter a valid email address.",
+  "email_is_required": "Email address is required.",
+
+  "password_is_required": "Password is required.",
+  "password_must_be_at_least_characters": "Minimum password length is {{length}} characters.",
+
+  "invalid_otp_type" : "Invalid OTP type",
+  "invalid_totp_code": "Invalid code. It must contain {{length}} digits.",
+  "invalid_otp_code": "Invalid code. It must contain {{length}} characters."
+}

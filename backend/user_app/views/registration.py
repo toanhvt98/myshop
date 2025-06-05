@@ -1,13 +1,13 @@
 from base.views import AuthBaseView
-from ..serializers import  RegisterSerializer,UserSerializer
+from ..serializers import  SignUpSerializer,UserSerializer
 from ..services import RegistrationService
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.response import Response
 
-class RegisterApiView(AuthBaseView):
+class SignUpApiView(AuthBaseView):
     def post(self, request, *args, **kwargs):
         data = request.data
-        serializer = RegisterSerializer(data=data)
+        serializer = SignUpSerializer(data=data)
         serializer.is_valid(raise_exception=True)
         validated_data_copy = serializer.validated_data.copy()
         if 'password_confirmation' in validated_data_copy:

@@ -1,3 +1,4 @@
+from random import choices
 
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth import get_user_model
@@ -27,13 +28,24 @@ class OtpAuthenticationSerializer(SerializerMixin):
         error_messages={
             'required': _('OTP code is required.'),
         },
-        validators=[otp_regex_validator]
+    )
+    otp_type = serializers.ChoiceField(
+        error_messages={
+            'required': _('Type is required.'),
+            'invalid_choice': _('Please enter a valid type.'),
+        },
+        choices=(('totp', _('TOTP')), ('email', _('Email OTP'))),
     )
 
-class TotpAuthenticationSerializer(SerializerMixin):
-    totp_code = serializers.CharField(
-        error_messages={
-            'required': _('TOTP code is required.'),
-        },
-        validators=[totp_regex_validator]
-    )
+    def validate(self, data):
+        otp_type = data.get('otp_type')
+        otp_code = data.get('otp_code')
+        if not otp_type:
+            raise serializers.ValidationError({"otp_type": _("OTP type is missing.")})
+        if not otp_code:
+            raise serializers.ValidationError({"otp_code": _("OTP code is missing.")})
+        if otp_type == 'totp':
+            totp_regex_validator(otp_code)
+        elif otp_type == 'email':
+            otp_regex_validator(otp_code)
+        return data

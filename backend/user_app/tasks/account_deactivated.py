@@ -20,15 +20,14 @@ language_config = LanguageConfig().get_language_config()
 site_config = SiteConfig().get_site_config()
 
 @shared_task(bind=True,default_retry_delay=300, max_retries=5)
-def account_deactivated(self,subject, user_id):
+def account_deactivated(self,subject, user_id,language_code):
     try:
         with transaction.atomic():
             user = User.objects.select_for_update().get(pk=user_id)
-            user_serializer = UserSerializer(instance=user).data
             context = {
                 'subject': subject,
-                'user':user_serializer,
-                'language': user_serializer['language'] or language_config['LANGUAGE_CODE'],
+                'user':user,
+                'language': language_code or language_config['LANGUAGE_CODE'],
                 'frontend_url':site_config['FRONTEND_URL'],
                 'site_name':site_config['SITE_NAME'],
                 'reset_password_url':site_config['RESET_PASSWORD_URL']
@@ -44,12 +43,12 @@ def account_deactivated(self,subject, user_id):
                     subject=subject,
                     body=plain_content,
                     from_email=settings.DEFAULT_FROM_EMAIL,
-                    to=[user_serializer['email'],],
+                    to=[user.email,],
                     connection=connection,
                 )
                 email.attach_alternative(html_content,'text/html')
                 email.send(fail_silently=False)
-            logger.info(f"Successfully sent deactivation email to {user_serializer['email']} (User ID: {user_id}).")
+            logger.info(f"Successfully sent deactivation email to {user.email} (User ID: {user_id}).")
     except User.DoesNotExist:
         logger.error(f"User ID {user_id} not found for deactivation email. Aborting task.", exc_info=True)
     except Exception as e:

@@ -3050,3 +3050,387 @@ DEBUG 2025-05-31 03:44:15,303 functional 9 140558945171136
 def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
     return 1
 
+DEBUG 2025-06-01 03:37:52,510 functional 37 140202040309440 
+def account_deactivated(self, subject, user_id):
+    return 1
+
+DEBUG 2025-06-01 03:37:52,512 functional 37 140202040309440 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+DEBUG 2025-06-01 03:37:52,513 functional 37 140202040309440 
+def xmap(task, it):
+    return 1
+
+DEBUG 2025-06-01 03:37:52,513 functional 37 140202040309440 
+def backend_cleanup():
+    return 1
+
+DEBUG 2025-06-01 03:37:52,513 functional 37 140202040309440 
+def send_mail_otp_forgot_password(self, subject, user_id, otp_code, otp_expiry_minutes):
+    return 1
+
+DEBUG 2025-06-01 03:37:52,514 functional 37 140202040309440 
+def chain(*args, **kwargs):
+    return 1
+
+DEBUG 2025-06-01 03:37:52,514 functional 37 140202040309440 
+def xstarmap(task, it):
+    return 1
+
+DEBUG 2025-06-01 03:37:52,514 functional 37 140202040309440 
+def authentication_otp_login(self, subject, user_id, otp_code, otp_expiry_minutes):
+    return 1
+
+DEBUG 2025-06-01 03:37:52,515 functional 37 140202040309440 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+DEBUG 2025-06-01 03:37:52,515 functional 37 140202040309440 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+DEBUG 2025-06-01 03:37:52,516 functional 37 140202040309440 
+def chunks(task, it, n):
+    return 1
+
+DEBUG 2025-06-01 03:37:52,516 functional 37 140202040309440 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+DEBUG 2025-06-02 03:44:20,122 functional 45 140326572385984 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+DEBUG 2025-06-02 03:44:20,123 functional 45 140326572385984 
+def xmap(task, it):
+    return 1
+
+DEBUG 2025-06-02 03:44:20,124 functional 45 140326572385984 
+def backend_cleanup():
+    return 1
+
+DEBUG 2025-06-02 03:44:20,124 functional 45 140326572385984 
+def account_deactivated(self, subject, user_id):
+    return 1
+
+DEBUG 2025-06-02 03:44:20,125 functional 45 140326572385984 
+def authentication_otp_login(self, subject, user_id, otp_code, otp_expiry_minutes):
+    return 1
+
+DEBUG 2025-06-02 03:44:20,125 functional 45 140326572385984 
+def chain(*args, **kwargs):
+    return 1
+
+DEBUG 2025-06-02 03:44:20,125 functional 45 140326572385984 
+def xstarmap(task, it):
+    return 1
+
+DEBUG 2025-06-02 03:44:20,126 functional 45 140326572385984 
+def send_mail_otp_forgot_password(self, subject, user_id, otp_code, otp_expiry_minutes):
+    return 1
+
+DEBUG 2025-06-02 03:44:20,126 functional 45 140326572385984 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+DEBUG 2025-06-02 03:44:20,127 functional 45 140326572385984 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+DEBUG 2025-06-02 03:44:20,127 functional 45 140326572385984 
+def chunks(task, it, n):
+    return 1
+
+DEBUG 2025-06-02 03:44:20,128 functional 45 140326572385984 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+DEBUG 2025-06-04 21:14:26,323 functional 49 140296328263360 
+def send_mail_otp_forgot_password(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-04 21:14:26,325 functional 49 140296328263360 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+DEBUG 2025-06-04 21:14:26,326 functional 49 140296328263360 
+def authentication_otp_login(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-04 21:14:26,327 functional 49 140296328263360 
+def xmap(task, it):
+    return 1
+
+DEBUG 2025-06-04 21:14:26,328 functional 49 140296328263360 
+def backend_cleanup():
+    return 1
+
+DEBUG 2025-06-04 21:14:26,328 functional 49 140296328263360 
+def chain(*args, **kwargs):
+    return 1
+
+DEBUG 2025-06-04 21:14:26,329 functional 49 140296328263360 
+def xstarmap(task, it):
+    return 1
+
+DEBUG 2025-06-04 21:14:26,329 functional 49 140296328263360 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+DEBUG 2025-06-04 21:14:26,330 functional 49 140296328263360 
+def account_deactivated(self, subject, user_id, language_code):
+    return 1
+
+DEBUG 2025-06-04 21:14:26,331 functional 49 140296328263360 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+DEBUG 2025-06-04 21:14:26,332 functional 49 140296328263360 
+def chunks(task, it, n):
+    return 1
+
+DEBUG 2025-06-04 21:14:26,332 functional 49 140296328263360 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:09:28,361 functional 9 140360754865856 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+DEBUG 2025-06-05 03:09:28,363 functional 9 140360754865856 
+def account_deactivated(self, subject, user_id, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:09:28,364 functional 9 140360754865856 
+def xmap(task, it):
+    return 1
+
+DEBUG 2025-06-05 03:09:28,365 functional 9 140360754865856 
+def backend_cleanup():
+    return 1
+
+DEBUG 2025-06-05 03:09:28,366 functional 9 140360754865856 
+def send_mail_otp_forgot_password(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:09:28,366 functional 9 140360754865856 
+def chain(*args, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:09:28,367 functional 9 140360754865856 
+def xstarmap(task, it):
+    return 1
+
+DEBUG 2025-06-05 03:09:28,367 functional 9 140360754865856 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:09:28,368 functional 9 140360754865856 
+def authentication_otp_login(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:09:28,369 functional 9 140360754865856 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:09:28,370 functional 9 140360754865856 
+def chunks(task, it, n):
+    return 1
+
+DEBUG 2025-06-05 03:09:28,371 functional 9 140360754865856 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:16:34,687 functional 9 140645922449088 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+DEBUG 2025-06-05 03:16:34,689 functional 9 140645922449088 
+def account_deactivated(self, subject, user_id, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:16:34,689 functional 9 140645922449088 
+def xmap(task, it):
+    return 1
+
+DEBUG 2025-06-05 03:16:34,689 functional 9 140645922449088 
+def backend_cleanup():
+    return 1
+
+DEBUG 2025-06-05 03:16:34,690 functional 9 140645922449088 
+def send_mail_otp_forgot_password(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:16:34,690 functional 9 140645922449088 
+def chain(*args, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:16:34,691 functional 9 140645922449088 
+def xstarmap(task, it):
+    return 1
+
+DEBUG 2025-06-05 03:16:34,691 functional 9 140645922449088 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:16:34,691 functional 9 140645922449088 
+def authentication_otp_login(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:16:34,692 functional 9 140645922449088 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:16:34,692 functional 9 140645922449088 
+def chunks(task, it, n):
+    return 1
+
+DEBUG 2025-06-05 03:16:34,692 functional 9 140645922449088 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:20:59,053 functional 15 140457995613888 
+def account_deactivated(self, subject, user_id, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:20:59,054 functional 15 140457995613888 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+DEBUG 2025-06-05 03:20:59,055 functional 15 140457995613888 
+def xmap(task, it):
+    return 1
+
+DEBUG 2025-06-05 03:20:59,055 functional 15 140457995613888 
+def backend_cleanup():
+    return 1
+
+DEBUG 2025-06-05 03:20:59,055 functional 15 140457995613888 
+def send_mail_otp_forgot_password(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:20:59,056 functional 15 140457995613888 
+def chain(*args, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:20:59,056 functional 15 140457995613888 
+def xstarmap(task, it):
+    return 1
+
+DEBUG 2025-06-05 03:20:59,056 functional 15 140457995613888 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:20:59,057 functional 15 140457995613888 
+def authentication_otp_login(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:20:59,057 functional 15 140457995613888 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:20:59,057 functional 15 140457995613888 
+def chunks(task, it, n):
+    return 1
+
+DEBUG 2025-06-05 03:20:59,058 functional 15 140457995613888 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:23:16,275 functional 23 139792238978752 
+def account_deactivated(self, subject, user_id, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:23:16,277 functional 23 139792238978752 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+DEBUG 2025-06-05 03:23:16,277 functional 23 139792238978752 
+def xmap(task, it):
+    return 1
+
+DEBUG 2025-06-05 03:23:16,278 functional 23 139792238978752 
+def backend_cleanup():
+    return 1
+
+DEBUG 2025-06-05 03:23:16,278 functional 23 139792238978752 
+def send_mail_otp_forgot_password(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:23:16,278 functional 23 139792238978752 
+def chain(*args, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:23:16,279 functional 23 139792238978752 
+def xstarmap(task, it):
+    return 1
+
+DEBUG 2025-06-05 03:23:16,279 functional 23 139792238978752 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:23:16,279 functional 23 139792238978752 
+def authentication_otp_login(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:23:16,280 functional 23 139792238978752 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:23:16,280 functional 23 139792238978752 
+def chunks(task, it, n):
+    return 1
+
+DEBUG 2025-06-05 03:23:16,280 functional 23 139792238978752 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:26:14,640 functional 9 140322318264000 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+DEBUG 2025-06-05 03:26:14,642 functional 9 140322318264000 
+def account_deactivated(self, subject, user_id, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:26:14,642 functional 9 140322318264000 
+def xmap(task, it):
+    return 1
+
+DEBUG 2025-06-05 03:26:14,642 functional 9 140322318264000 
+def backend_cleanup():
+    return 1
+
+DEBUG 2025-06-05 03:26:14,643 functional 9 140322318264000 
+def send_mail_otp_forgot_password(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:26:14,643 functional 9 140322318264000 
+def chain(*args, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:26:14,643 functional 9 140322318264000 
+def xstarmap(task, it):
+    return 1
+
+DEBUG 2025-06-05 03:26:14,645 functional 9 140322318264000 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:26:14,645 functional 9 140322318264000 
+def authentication_otp_login(self, subject, user_id, otp_code, otp_expiry_minutes, language_code):
+    return 1
+
+DEBUG 2025-06-05 03:26:14,645 functional 9 140322318264000 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+DEBUG 2025-06-05 03:26:14,646 functional 9 140322318264000 
+def chunks(task, it, n):
+    return 1
+
+DEBUG 2025-06-05 03:26:14,646 functional 9 140322318264000 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+

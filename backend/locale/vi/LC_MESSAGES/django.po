@@ -1,0 +1,512 @@
+# TIÊU ĐỀ MÔ TẢ NÀO ĐÓ.
+# Bản quyền (C) NĂM CỦA CHỦ SỞ HỮU BẢN QUYỀN GÓI
+# Tệp này được phân phối theo cùng giấy phép với gói PACKAGE.
+# TÊN TÁC GIẢ ĐẦU TIÊN <EMAIL@ADDRESS>, NĂM.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-05 03:23+0700\n"
+"PO-Revision-Date: 2025-06-05 03:24+0700\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\base\authentication.py:26
+msgid "Token is missing."
+msgstr "Thiếu mã thông báo."
+
+#: .\base\authentication.py:57 .\base\authentication.py:78
+msgid "An error occurred while authenticating your request. Please try again later or contact support."
+msgstr "Đã xảy ra lỗi khi xác thực yêu cầu của bạn. Vui lòng thử lại sau hoặc liên hệ hỗ trợ."
+
+#: .\base\authentication.py:79
+msgid "Invalid token."
+msgstr "Mã thông báo không hợp lệ."
+
+#: .\base\exceptions.py:6
+msgid "Incorrect authentication credentials."
+msgstr "Thông tin xác thực không chính xác."
+
+#: .\base\exceptions.py:11
+msgid "Request was throttled."
+msgstr "Yêu cầu đã bị giới hạn."
+
+#: .\base\exceptions.py:16
+msgid "Invalid input."
+msgstr "Đầu vào không hợp lệ."
+
+#: .\user_app\models.py:20
+msgid "2FA App"
+msgstr "Ứng dụng 2FA"
+
+#: .\user_app\models.py:21 .\user_app\serializers\authentication.py:37
+msgid "Email OTP"
+msgstr "OTP qua Email"
+
+#: .\user_app\models.py:24
+msgid "Suspicious Spam Activity"
+msgstr "Hoạt động Spam đáng ngờ"
+
+#: .\user_app\models.py:25
+msgid "Violation of Terms of Service"
+msgstr "Vi phạm Điều khoản dịch vụ"
+
+#: .\user_app\models.py:26
+msgid "Frozen by Administrator"
+msgstr "Bị quản trị viên đóng băng"
+
+#: .\user_app\models.py:27
+msgid "Too many failed login attempts"
+msgstr "Quá nhiều lần đăng nhập thất bại"
+
+#: .\user_app\models.py:28
+msgid "User Inactive for too long"
+msgstr "Người dùng không hoạt động quá lâu"
+
+#: .\user_app\models.py:29 .\user_app\models.py:35
+#: .\user_app\serializers\model.py:46
+msgid "Other"
+msgstr "Khác"
+
+#: .\user_app\models.py:32
+msgid "System"
+msgstr "Hệ thống"
+
+#: .\user_app\models.py:33
+msgid "Admin"
+msgstr "Quản trị viên"
+
+#: .\user_app\models.py:34
+msgid "Staff"
+msgstr "Nhân viên"
+
+#: .\user_app\serializers\authentication.py:16
+#: .\user_app\serializers\recovery_account.py:12
+#: .\user_app\serializers\registration.py:14
+msgid "Email is required."
+msgstr "Email là bắt buộc."
+
+#: .\user_app\serializers\authentication.py:17
+#: .\user_app\serializers\recovery_account.py:13
+#: .\user_app\serializers\registration.py:15
+msgid "Please enter a valid email address."
+msgstr "Vui lòng nhập địa chỉ email hợp lệ."
+
+#: .\user_app\serializers\authentication.py:21
+#: .\user_app\serializers\recovery_account.py:50
+#: .\user_app\serializers\registration.py:56
+msgid "Password is required."
+msgstr "Mật khẩu là bắt buộc."
+
+#: .\user_app\serializers\authentication.py:29
+#: .\user_app\serializers\recovery_account.py:24
+msgid "OTP code is required."
+msgstr "Mã OTP là bắt buộc."
+
+#: .\user_app\serializers\authentication.py:34
+msgid "Type is required."
+msgstr "Kiểu là bắt buộc."
+
+#: .\user_app\serializers\authentication.py:35
+#: .\user_app\serializers\recovery_account.py:19
+#: .\user_app\views\authentication.py:98
+msgid "Please enter a valid type."
+msgstr "Vui lòng nhập kiểu hợp lệ."
+
+#: .\user_app\serializers\authentication.py:37
+msgid "TOTP"
+msgstr "TOTP"
+
+#: .\user_app\serializers\authentication.py:44
+msgid "OTP type is missing."
+msgstr "Thiếu loại OTP."
+
+#: .\user_app\serializers\authentication.py:46
+msgid "OTP code is missing."
+msgstr "Thiếu mã OTP."
+
+#: .\user_app\serializers\model.py:42
+msgid "Male"
+msgstr "Nam"
+
+#: .\user_app\serializers\model.py:44
+msgid "Female"
+msgstr "Nữ"
+
+#: .\user_app\serializers\model.py:48
+msgid "Not Say"
+msgstr "Không muốn nói"
+
+#: .\user_app\serializers\model.py:49
+msgid "Unknown gender"
+msgstr "Giới tính không xác định"
+
+#: .\user_app\serializers\recovery_account.py:29
+msgid "New password is required."
+msgstr "Mật khẩu mới là bắt buộc."
+
+#: .\user_app\serializers\recovery_account.py:36
+msgid "New password confirmation is required."
+msgstr "Xác nhận mật khẩu mới là bắt buộc."
+
+#: .\user_app\serializers\recovery_account.py:43
+#: .\user_app\serializers\recovery_account.py:63
+#: .\user_app\serializers\registration.py:69
+msgid "Passwords do not match."
+msgstr "Mật khẩu không khớp."
+
+#: .\user_app\serializers\recovery_account.py:57
+#: .\user_app\serializers\registration.py:63
+msgid "Password confirmation is required."
+msgstr "Xác nhận mật khẩu là bắt buộc."
+
+#: .\user_app\serializers\registration.py:22
+msgid "First name is required."
+msgstr "Tên là bắt buộc."
+
+#: .\user_app\serializers\registration.py:23
+msgid "First name must be at least 2 characters long."
+msgstr "Tên phải dài ít nhất 2 ký tự."
+
+#: .\user_app\serializers\registration.py:24
+msgid "First name must be at most 30 characters long."
+msgstr "Tên phải dài tối đa 30 ký tự."
+
+#: .\user_app\serializers\registration.py:33
+msgid "Last name is required."
+msgstr "Họ là bắt buộc."
+
+#: .\user_app\serializers\registration.py:34
+msgid "Last name must be at least 2 characters long."
+msgstr "Họ phải dài ít nhất 2 ký tự."
+
+#: .\user_app\serializers\registration.py:35
+msgid "Last name must be at most 30 characters long."
+msgstr "Họ phải dài tối đa 30 ký tự."
+
+#: .\user_app\serializers\registration.py:40
+msgid "Please enter a valid date."
+msgstr "Vui lòng nhập ngày hợp lệ."
+
+#: .\user_app\serializers\registration.py:45
+msgid "Please enter a valid gender."
+msgstr "Vui lòng nhập giới tính hợp lệ."
+
+#: .\user_app\serializers\registration.py:71
+msgid "This email is already registered."
+msgstr "Email này đã được đăng ký."
+
+#: .\user_app\services\authentication_service.py:153
+msgid "Your login code"
+msgstr "Mã đăng nhập của bạn"
+
+#: .\user_app\services\authentication_service.py:170
+#: .\user_app\services\authentication_service.py:235
+#: .\user_app\services\authentication_service.py:242
+#: .\user_app\services\authentication_service.py:252
+msgid "Invalid credentials"
+msgstr "Thông tin đăng nhập không hợp lệ"
+
+#: .\user_app\services\authentication_service.py:173
+#: .\user_app\services\authentication_service.py:238
+#: .\user_app\services\authentication_service.py:254
+msgid "Your account has already been deactivated. Please contact support."
+msgstr "Tài khoản của bạn đã bị vô hiệu hóa. Vui lòng liên hệ hỗ trợ."
+
+#: .\user_app\services\authentication_service.py:176
+msgid "OTP was expired. Please try again."
+msgstr "OTP đã hết hạn. Vui lòng thử lại."
+
+#: .\user_app\services\authentication_service.py:198
+#: .\user_app\services\authentication_service.py:283
+msgid "Exceeded the number of allowed logins"
+msgstr "Vượt quá số lần đăng nhập cho phép"
+
+#: .\user_app\services\authentication_service.py:208
+#: .\user_app\services\authentication_service.py:291
+#: .\user_app\templates\user_app\login_failed_deactivate.html:106
+msgid "Your account has been deactivated!"
+msgstr "Tài khoản của bạn đã bị vô hiệu hóa!"
+
+#: .\user_app\services\authentication_service.py:214
+#: .\user_app\services\authentication_service.py:296
+#: .\user_app\services\authentication_service.py:316
+msgid "Your account has been deactivated. Please contact support."
+msgstr "Tài khoản của bạn đã bị vô hiệu hóa. Vui lòng liên hệ hỗ trợ."
+
+#: .\user_app\services\authentication_service.py:218
+#: .\user_app\services\authentication_service.py:300
+#: .\user_app\services\authentication_service.py:319
+#, python-brace-format
+msgid "Your account is locked. Please try again after * seconds. <{times}>"
+msgstr "Tài khoản của bạn đã bị khóa. Vui lòng thử lại sau * giây. <{times}>"
+
+#: .\user_app\services\authentication_service.py:222
+#: .\user_app\services\authentication_service.py:304
+#, python-brace-format
+msgid "Invalid credentials. Your account will be locked after {attempts_left} more attempts."
+msgstr "Thông tin đăng nhập không hợp lệ. Tài khoản của bạn sẽ bị khóa sau {attempts_left} lần thử nữa."
+
+#: .\user_app\services\authentication_service.py:223
+#: .\user_app\services\authentication_service.py:305
+msgid "Invalid credentials."
+msgstr "Thông tin đăng nhập không hợp lệ."
+
+#: .\user_app\services\authentication_service.py:259
+msgid "Two factor authentication is not enabled. Please contact support."
+msgstr "Xác thực hai yếu tố chưa được bật. Vui lòng liên hệ hỗ trợ."
+
+#: .\user_app\services\authentication_service.py:324
+#, python-brace-format
+msgid "Cannot request OTP at this time. Please try again after * seconds. <{times}>"
+msgstr "Không thể yêu cầu OTP vào lúc này. Vui lòng thử lại sau * giây. <{times}>"
+
+#: .\user_app\services\recovery_account.py:42
+#: .\user_app\services\registration_service.py:21
+msgid "Email is already registered."
+msgstr "Email đã được đăng ký."
+
+#: .\user_app\services\recovery_account.py:45
+msgid "An error occurred, please try again."
+msgstr "Đã xảy ra lỗi, vui lòng thử lại."
+
+#: .\user_app\services\recovery_account.py:91
+#: .\user_app\services\recovery_account.py:100
+msgid "Two factor authentication is not enabled. Please contact support for assistance."
+msgstr "Xác thực hai yếu tố chưa được bật. Vui lòng liên hệ hỗ trợ để được trợ giúp."
+
+#: .\user_app\services\recovery_account.py:136
+msgid "Your Password Reset Code"
+msgstr "Mã đặt lại mật khẩu của bạn"
+
+#: .\user_app\services\registration_service.py:24
+msgid "Could not create user at this time."
+msgstr "Không thể tạo người dùng vào lúc này."
+
+#: .\user_app\services\registration_service.py:31
+#: .\user_app\services\registration_service.py:40
+msgid "An error occurred, please register again."
+msgstr "Đã xảy ra lỗi, vui lòng đăng ký lại."
+
+#: .\user_app\templates\user_app\authentication_otp_login.html:8
+#, python-format
+msgid "OTP - %(site_name)s"
+msgstr "OTP - %(site_name)s"
+
+#: .\user_app\templates\user_app\authentication_otp_login.html:81
+msgid "Here is your OTP code"
+msgstr "Đây là mã OTP của bạn"
+
+#: .\user_app\templates\user_app\authentication_otp_login.html:87
+#: .\user_app\templates\user_app\email_verification.html:79
+#, python-format
+msgid "Hello %(first_name)s %(last_name)s,"
+msgstr "Xin chào %(first_name)s %(last_name)s,"
+
+#: .\user_app\templates\user_app\authentication_otp_login.html:94
+#, python-format
+msgid "You recently requested to reset your password for your <strong>%(site_name)s</strong> account. Please use the following one-time password (OTP) to complete the process:"
+msgstr "Bạn gần đây đã yêu cầu đặt lại mật khẩu cho tài khoản <strong>%(site_name)s</strong> của mình. Vui lòng sử dụng mật khẩu một lần (OTP) sau để hoàn tất quá trình:"
+
+#: .\user_app\templates\user_app\authentication_otp_login.html:102
+#, python-format
+msgid "This code is valid for **%(otp_expiry_minutes)s minutes**."
+msgstr "Mã này có hiệu lực trong **%(otp_expiry_minutes)s phút**."
+
+#: .\user_app\templates\user_app\authentication_otp_login.html:108
+#, python-format
+msgid "For your security, <strong>do not share</strong> this code with anyone, even if they claim to be from %(site_name)s."
+msgstr "Vì sự an toàn của bạn, <strong>đừng chia sẻ</strong> mã này với bất kỳ ai, ngay cả khi họ tự xưng đến từ %(site_name)s."
+
+#: .\user_app\templates\user_app\authentication_otp_login.html:114
+#: .\user_app\templates\user_app\otp_forgot_password.html:94
+msgid "If you did not request a password reset, please ignore this email."
+msgstr "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này."
+
+#: .\user_app\templates\user_app\authentication_otp_login.html:120
+#: .\user_app\templates\user_app\login_failed_deactivate.html:142
+#, python-format
+msgid ""
+"\n"
+"                Dear,\n"
+"                %(site_name)s support team.\n"
+"                "
+msgstr ""
+"\n"
+"                Kính gửi,\n"
+"                Đội ngũ hỗ trợ %(site_name)s.\n"
+"                "
+
+#: .\user_app\templates\user_app\authentication_otp_login.html:127
+#: .\user_app\templates\user_app\email_verification.html:100
+#: .\user_app\templates\user_app\otp_forgot_password.html:97
+#, python-format
+msgid ""
+"\n"
+"            <p>&copy; %(current_year)s %(site_name)s. All rights reserved.</p>\n"
+"            "
+msgstr ""
+"\n"
+"            <p>&copy; %(current_year)s %(site_name)s. Mọi quyền được bảo lưu.</p>\n"
+"            "
+
+#: .\user_app\templates\user_app\authentication_otp_login.html:130
+#: .\user_app\templates\user_app\otp_forgot_password.html:100
+msgid "This is an automated email; please do not reply."
+msgstr "Đây là một email tự động; vui lòng không trả lời."
+
+#: .\user_app\templates\user_app\email_verification.html:8
+#, python-format
+msgid "%(site_name)s - Your Email Verification Code"
+msgstr "%(site_name)s - Mã xác minh Email của bạn"
+
+#: .\user_app\templates\user_app\email_verification.html:85
+#, python-format
+msgid ""
+"\n"
+"            <p>Thank you for registering with %(site_name)s. To complete your registration and verify your email address, please use the one-time password (OTP) below:</p>\n"
+"            "
+msgstr ""
+"\n"
+"            <p>Cảm ơn bạn đã đăng ký với %(site_name)s. Để hoàn tất đăng ký và xác minh địa chỉ email của bạn, vui lòng sử dụng mật khẩu một lần (OTP) dưới đây:</p>\n"
+"            "
+
+#: .\user_app\templates\user_app\email_verification.html:91
+#, python-format
+msgid ""
+"\n"
+"            <p class=\"instructions\">This code will expire in **%(otp_expiry_minutes)s minutes**.</p>\n"
+"            "
+msgstr ""
+"\n"
+"            <p class=\"instructions\">Mã này sẽ hết hạn trong **%(otp_expiry_minutes)s phút**.</p>\n"
+"            "
+
+#: .\user_app\templates\user_app\email_verification.html:95
+#, python-format
+msgid "Do not share this code with anyone, even if they claim to be from %(site_name)s."
+msgstr "Không chia sẻ mã này với bất kỳ ai, ngay cả khi họ tự xưng đến từ %(site_name)s."
+
+#: .\user_app\templates\user_app\email_verification.html:97
+msgid "If you did not create an account with us, please ignore this email."
+msgstr "Nếu bạn không tạo tài khoản với chúng tôi, vui lòng bỏ qua email này."
+
+#: .\user_app\templates\user_app\email_verification.html:103
+#, python-format
+msgid ""
+"\n"
+"            <p>You received this email because you recently registered at %(site_name)s.</p>\n"
+"            "
+msgstr ""
+"\n"
+"            <p>Bạn nhận được email này vì bạn gần đây đã đăng ký tại %(site_name)s.</p>\n"
+"            "
+
+#: .\user_app\templates\user_app\login_failed_deactivate.html:8
+#, python-format
+msgid "Your account has been deactivated - %(site_name)s"
+msgstr "Tài khoản của bạn đã bị vô hiệu hóa - %(site_name)s"
+
+#: .\user_app\templates\user_app\login_failed_deactivate.html:112
+#: .\user_app\templates\user_app\otp_forgot_password.html:79
+msgid "You"
+msgstr "Bạn"
+
+#: .\user_app\templates\user_app\login_failed_deactivate.html:116
+#, python-format
+msgid "We are sending this email to inform you that your account at <strong><a href=\"%(frontend_url)s\" target=\"_blank\">%(site_name)s</a></strong> has been temporarily deactivated. This usually happens when there are too many failed login attempts, and is intended to protect your account from unauthorized access."
+msgstr "Chúng tôi gửi email này để thông báo rằng tài khoản của bạn tại <strong><a href=\"%(frontend_url)s\" target=\"_blank\">%(site_name)s</a></strong> đã bị vô hiệu hóa tạm thời. Điều này thường xảy ra khi có quá nhiều lần đăng nhập thất bại, và nhằm mục đích bảo vệ tài khoản của bạn khỏi truy cập trái phép."
+
+#: .\user_app\templates\user_app\login_failed_deactivate.html:126
+msgid "To restore access to your account, please click the button below to reset your password."
+msgstr "Để khôi phục quyền truy cập vào tài khoản của bạn, vui lòng nhấp vào nút dưới đây để đặt lại mật khẩu của bạn."
+
+#: .\user_app\templates\user_app\login_failed_deactivate.html:132
+msgid "Reset your password"
+msgstr "Đặt lại mật khẩu của bạn"
+
+#: .\user_app\templates\user_app\login_failed_deactivate.html:136
+msgid "If you have not made any recent login attempts, please contact our support team immediately for assistance."
+msgstr "Nếu bạn không thực hiện bất kỳ lần đăng nhập gần đây nào, vui lòng liên hệ ngay đội ngũ hỗ trợ của chúng tôi để được trợ giúp."
+
+#: .\user_app\templates\user_app\login_failed_deactivate.html:149
+#, python-format
+msgid "You received this email because your account at %(site_name)s has been deactivated."
+msgstr "Bạn nhận được email này vì tài khoản của bạn tại %(site_name)s đã bị vô hiệu hóa."
+
+#: .\user_app\templates\user_app\login_failed_deactivate.html:150
+msgid "If you have any questions, please contact us at"
+msgstr "Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với chúng tôi tại"
+
+#: .\user_app\templates\user_app\login_failed_deactivate.html:153
+msgid "Your account has been blocked"
+msgstr "Tài khoản của bạn đã bị chặn"
+
+#: .\user_app\templates\user_app\otp_forgot_password.html:8
+#, python-format
+msgid "%(site_name)s - Your Password Reset Code"
+msgstr "%(site_name)s - Mã đặt lại mật khẩu của bạn"
+
+#: .\user_app\templates\user_app\otp_forgot_password.html:77
+msgid "Hello"
+msgstr "Xin chào"
+
+#: .\user_app\templates\user_app\otp_forgot_password.html:82
+#, python-format
+msgid ""
+"\n"
+"            <p>You recently requested to reset your password for your %(site_name)s account. Please use the following one-time password (OTP) to complete the process:</p>\n"
+"            "
+msgstr ""
+"\n"
+"            <p>Bạn gần đây đã yêu cầu đặt lại mật khẩu cho tài khoản %(site_name)s của mình. Vui lòng sử dụng mật khẩu một lần (OTP) sau để hoàn tất quá trình:</p>\n"
+"            "
+
+#: .\user_app\templates\user_app\otp_forgot_password.html:88
+#, python-format
+msgid ""
+"\n"
+"            <p class=\"instructions\">This code is valid for **%(otp_expiry_minutes)s minutes**.</p>\n"
+"            "
+msgstr ""
+"\n"
+"            <p class=\"instructions\">Mã này có hiệu lực trong **%(otp_expiry_minutes)s phút**.</p>\n"
+"            "
+
+#: .\user_app\templates\user_app\otp_forgot_password.html:92
+#, python-format
+msgid "For your security, do not share this code with anyone, even if they claim to be from %(site_name)s."
+msgstr "Vì sự an toàn của bạn, đừng chia sẻ mã này với bất kỳ ai, ngay cả khi họ tự xưng đến từ %(site_name)s."
+
+#: .\user_app\validators.py:13
+msgid "Password must contain at least 8 characters, one uppercase letter, one lowercase letter, one number and one special character (@, $, !, %, *, #, ?, &.)."
+msgstr "Mật khẩu phải chứa ít nhất 8 ký tự, một chữ cái viết hoa, một chữ cái viết thường, một số và một ký tự đặc biệt (@, $, !, %, *, #, ?, &.)."
+
+#: .\user_app\validators.py:24
+msgid "Only characters and spaces are allowed."
+msgstr "Chỉ cho phép ký tự và khoảng trắng."
+
+#: .\user_app\validators.py:35
+msgid "Phone number must start with '+', followed by country code (1-4 digits), an optional space, and then 7-15 digits."
+msgstr "Số điện thoại phải bắt đầu bằng '+', theo sau là mã quốc gia (1-4 chữ số), một khoảng trắng tùy chọn, và sau đó là 7-15 chữ số."
+
+#: .\user_app\views\authentication.py:78 .\user_app\views\authentication.py:81
+#: .\user_app\views\authentication.py:122
+#: .\user_app\views\authentication.py:125
+msgid "Required cookie is missing"
+msgstr "Thiếu cookie bắt buộc"
+
+#: .\user_app\views\authentication.py:86 .\user_app\views\authentication.py:129
+msgid "Cookie data is invalid."
+msgstr "Dữ liệu cookie không hợp lệ."
+
+#: .\user_app\views\authentication.py:88
+msgid "Cookie data has expired. Please request a new one."
+msgstr "Dữ liệu cookie đã hết hạn. Vui lòng yêu cầu một cái mới."

@@ -1,0 +1,22 @@
+{
+  "sign_in_page_title_form_head": "Sign in to your account",
+  "sign_in_page_description_form_head":"Don't you have an account?",
+  "sign_in": "Sign in",
+  "sign_up": "Sign up",
+  "label_email_input": "Email Address",
+  "placeholder_email_input": "Your email address. EX: example@gmail.com",
+  "label_password_input": "Password",
+  "placeholder_password_input": "Your password.",
+  "remember_me_label": "Remember Me",
+  "remember_me_tooltip": "We only store your email for security purposes.",
+  "sign_in_button_label": "Sign in",
+  "sign_in_button_loading_indicator": "Processing...",
+  "forgot_password": "Forgot password ?",
+  "or": "OR",
+  "dialog_verify_sign_in_code_title": "Verify code to login",
+  "description_enter_the_code_you_received_in_your_email": "Enter the code you received in your email inbox. Click here if you did not receive any otp.",
+  "description_enter_your_2fa_app_code": "Enter your 2FA (Two-Factor Authentication) app code",
+  "resend-sign-in-otp": "Re-send OTP code",
+  "verify": "Verify",
+  "cancel": "Cancel"
+}

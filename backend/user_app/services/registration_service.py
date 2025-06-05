@@ -23,7 +23,7 @@ class RegistrationService:
             logger.error(f"An error occurred while creating user: {e}")
             raise AuthenticationFailed(_('Could not create user at this time.'))
         try:
-            profile = Profile.objects.create(user=user, first_name=first_name, last_name=last_name, language=language,
+            profile = Profile.objects.create(user=user, first_name=first_name, last_name=last_name,
                                              phone_number=phone_number, gender=gender, birth_date=birth_date)
             logger.info(f"Profile for user {user.email} created successfully.")
         except Exception as e:

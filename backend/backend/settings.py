@@ -31,7 +31,7 @@ DEBUG = config('DEBUG', cast=bool, default=True)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv(), default=['localhost'])
 
-ALLOWED_ORIGINS = config('ALLOWED_ORIGINS', cast=Csv(), default=['http://localhost:3031'])
+ALLOWED_ORIGINS = config('ALLOWED_ORIGINS', cast=Csv(), default=['http://localhost:3000'])
 
 CORS_ALLOWED_ORIGINS = ALLOWED_ORIGINS
 CORS_ALLOW_CREDENTIALS = True
@@ -198,6 +198,8 @@ LOCALE_PATHS = [
     os.path.join(BASE_DIR, 'locale'),
 ]
 
+LANGUAGE_COOKIE_NAME = config('LANGUAGE_COOKIE_NAME',cast=str, default='i18next')
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
@@ -340,7 +342,7 @@ EMAIL_HOST_PASSWORD=os.environ.get('EMAIL_HOST_PASSWORD')
 DEFAULT_FROM_EMAIL=f'{SITE_NAME} <{EMAIL_HOST_USER}>'
 
 # AUTH CONFIG
-DEACTIVATE_ACCOUNT_ON_OTP_LIMIT=config('DEACTIVATE_ACCOUNT_ON_OTP_LIMIT', cast=bool, default=False)
+LOCKING_ACCOUNT_ON_OTP_LIMIT=config('LOCKING_ACCOUNT_ON_OTP_LIMIT', cast=bool, default=False)
 OTP_LIMIT_EXCEEDED_ACTION = config('OTP_LIMIT_EXCEEDED_ACTION', cast=str, default='DEACTIVATE')
 
 MAX_OTP_ATTEMPTS_THRESHOLD = config('MAX_OTP_ATTEMPTS_THRESHOLD', cast=int, default=5)

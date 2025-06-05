@@ -21,14 +21,14 @@ language_config = LanguageConfig().get_language_config()
 site_config = SiteConfig().get_site_config()
 
 @shared_task(bind=True,default_retry_delay=30, max_retries=5)
-def authentication_otp_login(self,subject,user_id,otp_code,otp_expiry_minutes):
+def authentication_otp_login(self,subject,user_id,otp_code,otp_expiry_minutes,language_code):
     try:
         with transaction.atomic():
             user = User.objects.select_related('profile').get(pk=user_id)
             context = {
                 'subject': subject,
                 'user':user,
-                'language': user.profile.language  or language_config['LANGUAGE_CODE'],
+                'language': language_code  or language_config['LANGUAGE_CODE'],
                 'site_name':site_config['SITE_NAME'],
                 'otp_code':otp_code,
                 'otp_expiry_minutes': int(math.floor(otp_expiry_minutes)),
