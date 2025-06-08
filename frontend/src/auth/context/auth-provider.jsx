@@ -19,6 +19,10 @@ export function AuthProvider({ children }) {
     rememberMe: false,
   });
 
+  const simulateSignin = useCallback(() => {
+    setState({ user: { firstName: "a", lastName: "b" }, isLoading: false });
+  }, []);
+
   const signIn = useCallback(async (data) => {
     try {
       const response = await axiosClient.post(ENDPOINTS.auth.signIn, data);
@@ -40,10 +44,7 @@ export function AuthProvider({ children }) {
 
   const verifySignInOtp = useCallback(async (data) => {
     try {
-      const response = await axiosClient.post(
-        ENDPOINTS.auth.verifySignInOtp,
-        data,
-      );
+      const response = await axiosClient.post(ENDPOINTS.auth.verifySignInOtp, data);
       setState({
         ...state,
         user: response.data,
@@ -88,21 +89,14 @@ export function AuthProvider({ children }) {
       checkUserSession,
       signIn,
       verifySignInOtp,
-      signUp,
+      setState,
       loading: status === "loading",
       authenticated: status === "authenticated",
       unauthenticated: status === "unauthenticated",
+
+      simulateSignin,
     }),
-    [
-      state,
-      state.user,
-      setState,
-      status,
-      checkUserSession,
-      signIn,
-      verifySignInOtp,
-      signUp,
-    ],
+    [state, state.user, setState, status, checkUserSession, signIn, verifySignInOtp, signUp]
   );
   return <AuthContext value={memoizedValue}>{children}</AuthContext>;
 }

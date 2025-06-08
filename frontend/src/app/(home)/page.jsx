@@ -10,5 +10,5 @@ export async function generateMetadata() {
 }
 
 export default function Home() {
-  return <MainSection>abc</MainSection>;
+  return <MainSection>abc </MainSection>;
 }

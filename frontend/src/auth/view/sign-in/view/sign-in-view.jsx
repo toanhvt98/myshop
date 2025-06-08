@@ -19,20 +19,14 @@ import Tooltip from "@mui/material/Tooltip";
 import Button from "@mui/material/Button";
 import { FormDivider } from "@/auth/components/form-divider";
 import { VerifyDialog } from "@/auth/view/sign-in/view/verify-dialog";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 export function SignInView() {
-  const { t: translateErrorZod, currentLang } =
-    useTranslate("zod_fields_error");
+  const { t: translateErrorZod, currentLang } = useTranslate("zod_fields_error");
   const { t: translateCommon } = useTranslate("common");
-  const { value: isShowPassword, onToggle: toggleShowPassword } =
-    useBoolean(false);
+  const { value: isShowPassword, onToggle: toggleShowPassword } = useBoolean(false);
 
-  const {
-    value: isOpenDialogVerify,
-    onTrue: onOpenDialogVerify,
-    onFalse: onCloseDialogVerify,
-  } = useBoolean(false);
+  const { value: isOpenDialogVerify, onTrue: onOpenDialogVerify, onFalse: onCloseDialogVerify } = useBoolean(false);
 
   const {
     state: AuthUserData,
@@ -42,7 +36,7 @@ export function SignInView() {
 
   const [methodOtp, setMethodOtp] = useState([]);
 
-  const { signIn, verifySignInOtp, verifyEnabled } = useAuthContext();
+  const { signIn, verifySignInOtp, verifyEnabled, simulateSignin } = useAuthContext();
 
   let defaultValues = {
     email: AuthUserData.rememberMe ? AuthUserData?.email || "" : "",
@@ -66,15 +60,16 @@ export function SignInView() {
   } = methods;
   const { email: emailValue, password: passwordValue, rememberMe } = watch();
   const onSubmit = handleSubmit(async (data) => {
-    try {
-      const response = await signIn(data);
-      if (response.enabled_2fa && response.enabled_2fa.length > 0) {
-        onOpenDialogVerify();
-        setMethodOtp(response.enabled_2fa);
-      }
-    } catch (e) {
-      console.log(e);
-    }
+    // try {
+    //   const response = await signIn(data);
+    //   if (response.enabled_2fa && response.enabled_2fa.length > 0) {
+    //     onOpenDialogVerify();
+    //     setMethodOtp(response.enabled_2fa);
+    //   }
+    // } catch (e) {
+    //   console.log(e);
+    // }
+    simulateSignin();
   });
 
   useEffect(() => {
@@ -121,11 +116,7 @@ export function SignInView() {
               endAdornment: (
                 <InputAdornment position="end">
                   <IconButton onClick={toggleShowPassword} edge="end">
-                    <Iconify
-                      icon={
-                        isShowPassword ? "eva:eye-off-fill" : "eva:eye-fill"
-                      }
-                    />
+                    <Iconify icon={isShowPassword ? "eva:eye-off-fill" : "eva:eye-fill"} />
                   </IconButton>
                 </InputAdornment>
               ),
@@ -141,21 +132,10 @@ export function SignInView() {
             alignItems: "center",
           }}
         >
-          <Tooltip
-            title={translateCommon("remember_me_tooltip")}
-            placement="left"
-          >
-            <Field.Checkbox
-              name={"rememberMe"}
-              label={translateCommon("remember_me_label")}
-            />
+          <Tooltip title={translateCommon("remember_me_tooltip")} placement="left">
+            <Field.Checkbox name={"rememberMe"} label={translateCommon("remember_me_label")} />
           </Tooltip>
-          <Link
-            component={RouterLink}
-            href={paths.auth.forgotPassword}
-            variant="subtitle2"
-            color="text.secondary"
-          >
+          <Link component={RouterLink} href={paths.auth.forgotPassword} variant="subtitle2" color="text.secondary">
             {translateCommon("forgot_password")}
           </Link>
         </Box>
@@ -181,12 +161,7 @@ export function SignInView() {
         description={
           <>
             {translateCommon("sign_in_page_description_form_head")}
-            <Link
-              component={RouterLink}
-              href={paths.auth.signUp}
-              variant="subtitle2"
-              sx={{ pl: 1 }}
-            >
+            <Link component={RouterLink} href={paths.auth.signUp} variant="subtitle2" sx={{ pl: 1 }}>
               {translateCommon("sign_up")}
             </Link>
           </>
@@ -206,18 +181,8 @@ export function SignInView() {
           alignItems: "center",
         }}
       >
-        <Iconify
-          width={40}
-          icon={"socials:google"}
-          sx={{ cursor: "pointer" }}
-          onClick={() => console.log("google")}
-        />
-        <Iconify
-          width={40}
-          icon={"socials:facebook"}
-          sx={{ cursor: "pointer" }}
-          onClick={() => console.log("facebook")}
-        />
+        <Iconify width={40} icon={"socials:google"} sx={{ cursor: "pointer" }} onClick={() => console.log("google")} />
+        <Iconify width={40} icon={"socials:facebook"} sx={{ cursor: "pointer" }} onClick={() => console.log("facebook")} />
         {/*<Iconify*/}
         {/*  width={40}*/}
         {/*  icon={"socials:github"}*/}
@@ -231,11 +196,7 @@ export function SignInView() {
         {/*  onClick={() => console.log("google")}*/}
         {/*/>*/}
       </Box>
-      <VerifyDialog
-        open={isOpenDialogVerify}
-        onClose={onCloseDialogVerify}
-        methodOtp={methodOtp}
-      />
+      <VerifyDialog open={isOpenDialogVerify} onClose={onCloseDialogVerify} methodOtp={methodOtp} />
     </>
   );
 }

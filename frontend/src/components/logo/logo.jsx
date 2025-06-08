@@ -1,18 +1,18 @@
-'use client';
+"use client";
 
-import { useId } from 'react';
-import { mergeClasses } from 'minimal-shared/utils';
+import { useId } from "react";
+import { mergeClasses } from "minimal-shared/utils";
 
-import Link from '@mui/material/Link';
-import { styled, useTheme } from '@mui/material/styles';
+import Link from "@mui/material/Link";
+import { styled, useTheme } from "@mui/material/styles";
 
-import { RouterLink } from '@/routes/components';
+import { RouterLink } from "@/routes/components";
 
-import { logoClasses } from './classes';
+import { logoClasses } from "./classes";
 
 // ----------------------------------------------------------------------
 
-export function Logo({ sx, disabled, className, href = '/', isSingle = true, ...other }) {
+export function Logo({ sx, disabled, className, href = "/", isSingle = true, ...other }) {
   const theme = useTheme();
 
   const uniqueId = useId();
@@ -46,44 +46,17 @@ export function Logo({ sx, disabled, className, href = '/', isSingle = true, ...
     */
 
   const singleLogo = (
-    <svg
-      width="100%"
-      height="100%"
-      viewBox="0 0 512 512"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg width="100%" height="100%" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient
-          id={`${uniqueId}-1`}
-          x1="152"
-          y1="167.79"
-          x2="65.523"
-          y2="259.624"
-          gradientUnits="userSpaceOnUse"
-        >
+        <linearGradient id={`${uniqueId}-1`} x1="152" y1="167.79" x2="65.523" y2="259.624" gradientUnits="userSpaceOnUse">
           <stop stopColor={PRIMARY_DARKER} />
           <stop offset="1" stopColor={PRIMARY_MAIN} />
         </linearGradient>
-        <linearGradient
-          id={`${uniqueId}-2`}
-          x1="86"
-          y1="128"
-          x2="86"
-          y2="384"
-          gradientUnits="userSpaceOnUse"
-        >
+        <linearGradient id={`${uniqueId}-2`} x1="86" y1="128" x2="86" y2="384" gradientUnits="userSpaceOnUse">
           <stop stopColor={PRIMARY_LIGHT} />
           <stop offset="1" stopColor={PRIMARY_MAIN} />
         </linearGradient>
-        <linearGradient
-          id={`${uniqueId}-3`}
-          x1="402"
-          y1="288"
-          x2="402"
-          y2="384"
-          gradientUnits="userSpaceOnUse"
-        >
+        <linearGradient id={`${uniqueId}-3`} x1="402" y1="288" x2="402" y2="384" gradientUnits="userSpaceOnUse">
           <stop stopColor={PRIMARY_LIGHT} />
           <stop offset="1" stopColor={PRIMARY_MAIN} />
         </linearGradient>
@@ -108,44 +81,17 @@ export function Logo({ sx, disabled, className, href = '/', isSingle = true, ...
   );
 
   const fullLogo = (
-    <svg
-      width="100%"
-      height="100%"
-      viewBox="0 0 360 128"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg width="100%" height="100%" viewBox="0 0 360 128" fill="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient
-          id={`${uniqueId}-1`}
-          x1="38"
-          y1="41.9469"
-          x2="16.381"
-          y2="64.906"
-          gradientUnits="userSpaceOnUse"
-        >
+        <linearGradient id={`${uniqueId}-1`} x1="38" y1="41.9469" x2="16.381" y2="64.906" gradientUnits="userSpaceOnUse">
           <stop stopColor={PRIMARY_DARKER} />
           <stop offset="1" stopColor={PRIMARY_MAIN} />
         </linearGradient>
-        <linearGradient
-          id={`${uniqueId}-2`}
-          x1="21.5"
-          y1="32"
-          x2="21.5"
-          y2="96"
-          gradientUnits="userSpaceOnUse"
-        >
+        <linearGradient id={`${uniqueId}-2`} x1="21.5" y1="32" x2="21.5" y2="96" gradientUnits="userSpaceOnUse">
           <stop stopColor={PRIMARY_LIGHT} />
           <stop offset="1" stopColor={PRIMARY_MAIN} />
         </linearGradient>
-        <linearGradient
-          id={`${uniqueId}-3`}
-          x1="100.5"
-          y1="72"
-          x2="100.5"
-          y2="96"
-          gradientUnits="userSpaceOnUse"
-        >
+        <linearGradient id={`${uniqueId}-3`} x1="100.5" y1="72" x2="100.5" y2="96" gradientUnits="userSpaceOnUse">
           <stop stopColor={PRIMARY_LIGHT} />
           <stop offset="1" stopColor={PRIMARY_MAIN} />
         </linearGradient>
@@ -187,7 +133,7 @@ export function Logo({ sx, disabled, className, href = '/', isSingle = true, ...
           width: 40,
           height: 40,
           ...(!isSingle && { width: 102, height: 36 }),
-          ...(disabled && { pointerEvents: 'none' }),
+          ...(disabled && { pointerEvents: "none" }),
         },
         ...(Array.isArray(sx) ? sx : [sx]),
       ]}
@@ -202,7 +148,7 @@ export function Logo({ sx, disabled, className, href = '/', isSingle = true, ...
 
 const LogoRoot = styled(Link)(() => ({
   flexShrink: 0,
-  color: 'transparent',
-  display: 'inline-flex',
-  verticalAlign: 'middle',
+  color: "transparent",
+  display: "inline-flex",
+  verticalAlign: "middle",
 }));

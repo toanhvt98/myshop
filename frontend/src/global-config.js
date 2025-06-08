@@ -13,12 +13,11 @@ export const CONFIG = {
    * @method jwt | amplify | firebase | supabase | auth0
    */
   auth: {
-    method: "jwt",
-    redirectPath: "auth/sign-in",
-    skip: false,
+    redirectPath: "/",
+    signInPath:'/auth/sign-in/'
   },
   minLengthPassword: process.env.NEXT_PUBLIC_MIN_LENGTH_PASSWORD,
-  otpLength: parseInt(process.env.NEXT_PUBLIC_OTP_LENGTH, 10),
-  totpLength: parseInt(process.env.NEXT_PUBLIC_TOTP_DIGITS, 10),
+  otpLength: process.env.NEXT_PUBLIC_OTP_LENGTH,
+  totpLength: process.env.NEXT_PUBLIC_TOTP_DIGITS,
   i18nextCookieName: process.env.NEXT_PUBLIC_I18NEXT_COOKIE_NAME,
 };
